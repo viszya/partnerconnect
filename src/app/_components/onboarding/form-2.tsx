@@ -37,9 +37,9 @@ export function Form2({ onNextClick }: FormProps) {
 
 	return (
 		<section>
-			<div className="flex flex-col justify-center m-auto">
+			<div className="flex flex-col mt-5 p-5 border border-secondary rounded-xl">
 				<div className="flex flex-col justify-center text-center md:flex-row md:text-left">
-					<div className="flex flex-col justify-center max-w-2xl p-10 space-y-12">
+					<div className="flex flex-col justify-center max-w-5xl w-full  space-y-12">
 						<article>
 							<span className="inline-flex items-center text-primary rounded-xl">
 								<span className="font-mono text-sm" aria-hidden="true">

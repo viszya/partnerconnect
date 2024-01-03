@@ -5,18 +5,26 @@ import { TableHead, TableRow, TableHeader, TableCell, TableBody, Table } from "@
 import { AvatarImage, AvatarFallback, Avatar } from "@/app/_components/ui/avatar"
 import { Badge } from "@/app/_components/ui/badge"
 import { Button } from "@/app/_components/ui/button"
+import TaskPage from "@/app/tasks/page";
 
 const data = {
 	val: 23,
 }
 
 export default async function Dashboard() {
-	const session = await getServerAuthSession()
-	if (!session) {
-		redirect("/unauthorized")
-	}
+	// const session = await getServerAuthSession()
+	// if (!session) {
+	// 	redirect("/unauthorized")
+	// }
 	return (
-		<div className="w-full overflow-x-auto">
+		<div className="flex flex-col px-8">
+			<div>
+                <h2 className="text-3xl font-bold tracking-tight">Company Database</h2>
+                <p className="text-muted-foreground">
+                    View and filter the company database
+                </p>
+            </div>
+			<TaskPage />
 			<Table>
 				<TableHeader>
 					<TableRow>
@@ -34,7 +42,7 @@ export default async function Dashboard() {
 					<TableRow>
 						<TableCell className="font-medium">Acme Inc</TableCell>
 						<TableCell>
-							<Avatar>
+							<Avatar className="">
 								<AvatarImage alt="Acme Inc" src="/placeholder-avatar.jpg" />
 								<AvatarFallback>AI</AvatarFallback>
 							</Avatar>

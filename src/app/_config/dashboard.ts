@@ -3,7 +3,7 @@ import { DashboardConfig } from "@/server/types"
 export const dashboardConfig: DashboardConfig = {
   mainNav: [
     {
-      title: "Documentation",
+      title: "FAQ",
       href: "/docs",
     },
     {
@@ -14,20 +14,40 @@ export const dashboardConfig: DashboardConfig = {
   ],
   sidebarNav: [
     {
-      title: "Companies",
+      title: "Database",
       href: "/dashboard",
-      icon: "post",
+      icon: "database",
     },
     {
       title: "Add Company",
       href: "/dashboard/addcompany",
-      icon: "billing",
+      icon: "copyplus",
     },
-    {
-        title: "Reports",
-        href: "/dashboard/reports",
-        icon: "post",
-      },
+    // {
+    //   title: "Reports",
+    //   href: "/dashboard/reports",
+    //   icon: "post",
+    // },
+    // {
+    //   title: "Upcoming",
+    //   href: "/dashboard/upcoming",
+    //   icon: "calendarclock",
+    // },
+    // {
+    //   title: "Calendar",
+    //   href: "/dashboard/calendar",
+    //   icon: "calendar",
+    // },
+    // {
+    //   title: "Tasks",
+    //   href: "/dashboard/tasks",
+    //   icon: "alarm",
+    // },
+    // {
+    //   title: "Emails",
+    //   href: "/dashboard/emails",
+    //   icon: "Mail",
+    // },
     {
       title: "Settings",
       href: "/dashboard/settings",

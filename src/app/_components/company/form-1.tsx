@@ -6,10 +6,14 @@ import { Icons } from "@/app/_components/icons";
 import { buttonVariants } from "@/app/_components/ui/button";
 import { cn, formatDate } from "@/server/utils";
 import { Input } from "@/app/_components/ui/input";
-import { useToast } from "@/app/_components/ui/use-toast";
+import { toast } from "@/app/_components/ui/sonner";
 
-export function Form1() {
-    const { toast } = useToast();
+interface FormProps {
+    onNextClick: () => void;
+}
+
+export function Form1({ onNextClick }: FormProps) {
+    const [submitted, setSubmitted] = useState(false);
     const [name, setName] = useState("");
     const [image, setImage] = useState("");
     const [industry, setIndustry] = useState("");
@@ -21,7 +25,7 @@ export function Form1() {
         onSuccess: () => {
             setIsLoading(false);
             toast({
-                title: "Success",
+                title: "Success (Click the next button to continue)",
                 description: "Company profile created at " + formatDate(Date()),
             });
         },
@@ -29,6 +33,7 @@ export function Form1() {
 
     function onSubmit() {
         setIsLoading(true);
+        setSubmitted(true);
         createCompany.mutate({
             name,
             image,
@@ -40,9 +45,25 @@ export function Form1() {
 
     return (
         <section>
-            <div className="flex flex-col justify-center m-auto">
+            <div className="flex flex-col mt-5 p-5 border border-secondary rounded-xl">
                 <div className="flex flex-col justify-center text-center md:flex-row md:text-left">
-                    <div className="flex flex-col justify-center max-w-5xl w-full p-10 space-y-12">
+                    <div className="flex flex-col justify-center max-w-5xl w-full  space-y-12">
+                        <article>
+                            <span className="inline-flex items-center text-primary rounded-xl">
+                                <span className="font-mono text-sm" aria-hidden="true">
+                                    01
+                                </span>
+                            </span>
+                            <div className="mt-3 text-3xl tracking-tighter text-primary">
+                                Welcome! Let&apos;s get started.
+                            </div>
+                            <div className="mt-4 text-primary/80">
+                                Let&apos;s get started! Please fill out the following
+                                form to the best of your ability. All this information will be
+                                used to create your profile. You can always edit your profile
+                                later.
+                            </div>
+                        </article>
                         <form
                             className="flex flex-col gap-y-9"
                             onSubmit={(e) => {
@@ -130,6 +151,18 @@ export function Form1() {
                     </div>
                 </div>
             </div>
+            {submitted ? (
+                <div className="flex justify-center items-center">
+                    <div className="border border-dashed border-primary/60 p-2 flex justify-center items-center rounded-xl mt-2">
+                        {/* Next Button */}
+
+                        <button onClick={onNextClick} className={cn(buttonVariants({ variant: "default" }), " rounded-xl w-26")}>
+                            Next
+                            <Icons.chevronRight className="h-5 w-5 ml-2" />
+                        </button>
+                    </div>
+                </div>
+            ) : (<></>)}
         </section>
     );
 }

@@ -1,6 +1,7 @@
 import { Footer } from "@/app/_components/footer";
 import { twp } from "@/server/utils";
 import Nav from "@/app/_components/main-nav";
+import { Toaster } from "@/app/_components/ui/sonner";
 
 interface MarketingLayoutProps {
   children: React.ReactNode
@@ -14,6 +15,7 @@ export default function MarketingLayout({
         <Nav />
         {children}
         <Footer className={twp().wrapper} />
+        <Toaster />
     </div>
   )
 }

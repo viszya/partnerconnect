@@ -7,7 +7,9 @@ import {
   Command,
   CreditCard,
   File,
+  DatabaseIcon,
   FileText,
+  CopyPlus,
   HelpCircle,
   Image,
   Laptop,
@@ -55,6 +57,8 @@ import {
   BookOpen,
   Network,
   MessageCircle,
+  CalendarClock,
+  AlarmCheck,
 } from "lucide-react"
 import type { LucideProps } from "lucide-react";
 
@@ -62,9 +66,12 @@ export type Icon = typeof LucideIcon;
 
 export const Icons = {
   logo: Command,
+  alarm: AlarmCheck,
   export: ArrowUpRightFromCircle,
   close: X,
+  calendarclock: CalendarClock,
   pin: MapPin,
+  copyplus: CopyPlus,
   hourglass: Hourglass,
   users: Users,
   contact: Contact,
@@ -90,6 +97,7 @@ export const Icons = {
   calendar: CalendarDays,
   sun: SunMedium,
   moon: Moon,
+  database: DatabaseIcon,
   laptop: Laptop,
   badgeCheck: BadgeCheck,
   party: PartyPopper,

@@ -1,10 +1,12 @@
 import { notFound } from "next/navigation"
 
 import { dashboardConfig } from "@/app/_config/dashboard"
-// import { MainNav } from "@/components/main-nav"
+import { MainNav } from "@/app/_components/nav2"
 import { DashboardNav } from "@/app/_components/nav"
 import { Footer } from "@/app/_components/footer"
 import { UserAccountNav } from "@/app/_components/user-account-nav"
+import { Icon } from "@radix-ui/react-select"
+import { Icons } from "@/app/_components/icons"
 
 interface DashboardLayoutProps {
   children?: React.ReactNode
@@ -19,7 +21,8 @@ export default function DashboardLayout({
     <div className="flex min-h-screen flex-col space-y-6">
       <header className="sticky top-0 z-40 border-b bg-background">
         <div className="container flex h-16 items-center justify-between py-4">
-          {/* <MainNav items={dashboardConfig.mainNav} /> */}
+          <MainNav items={dashboardConfig.mainNav} />
+          <Icons.help className="w-5 h-5 text-black bg-black" />
           <UserAccountNav
             user={{
               name: "hi",//user.name,
@@ -29,7 +32,8 @@ export default function DashboardLayout({
           />
         </div>
       </header>
-      <div className="container grid flex-1 gap-12 md:grid-cols-[200px_1fr]">
+      
+      <div className="container grid flex-1 gap-12 md:grid-cols-[150px_1fr]">
         <aside className="hidden w-[200px] flex-col md:flex">
           <DashboardNav items={dashboardConfig.sidebarNav} />
         </aside>

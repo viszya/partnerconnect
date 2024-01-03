@@ -41,11 +41,9 @@ export function SettingsForm() {
 
 	return (
 		<section>
-			<div className="flex flex-col justify-center m-auto">
+			<div className="flex flex-col mt-5 p-5 border border-secondary rounded-xl">
 				<div className="flex flex-col justify-center text-center md:flex-row md:text-left">
-					<div className="flex flex-col justify-center max-w-5xl w-full p-10 space-y-12">
-
-
+					<div className="flex flex-col justify-center max-w-5xl w-full  space-y-12">
 						<form
 							className="flex flex-col gap-y-9"
 							onSubmit={(e) => {
@@ -55,7 +53,7 @@ export function SettingsForm() {
 						>
 							<div className="col-span-full">
 								<label className="block mb-3 text-sm font-medium text-primary/90">
-									Full name (first / last)?
+									Full name (first / last)
 								</label>
 								<Input placeholder="John Carter"
 									className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
@@ -113,7 +111,7 @@ export function SettingsForm() {
 							<div className="col-span-full">
 								<button
 									type="submit"
-									className={cn(buttonVariants({ variant: "outline" }), "items-center justify-center w-full px-6 py-2.5 text-center text-secondary duration-200 bg-primary border-2 border-primary rounded-xl inline-flex hover:bg-transparent hover:border-primary hover:text-primary focus:outline-none focus-visible:outline-primary text-sm focus-visible:ring-primary")}
+									className={cn(buttonVariants({ variant: "outline" }), "max-w-40 w-40 items-center justify-center px-6 py-2.5 text-center text-secondary duration-200 bg-primary border-2 border-primary rounded-xl inline-flex hover:bg-transparent hover:border-primary hover:text-primary focus:outline-none focus-visible:outline-primary text-sm focus-visible:ring-primary")}
 									disabled={isLoading || isNextLoading}
 								>
 									{isNextLoading ? (

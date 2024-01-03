@@ -44,7 +44,7 @@ export default function Onboarding() {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center mt-5">
       <Tabs value={activeTab} className="flex flex-col justify-center items-center">
         <TabsList className="gap-x-6 px-4">
           <TabsTrigger value="profile">Profile</TabsTrigger>
