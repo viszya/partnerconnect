@@ -11,6 +11,7 @@ import {
   FileText,
   CopyPlus,
   HelpCircle,
+  Menu,
   Image,
   Laptop,
   Loader2,
@@ -67,6 +68,7 @@ export type Icon = typeof LucideIcon;
 export const Icons = {
   logo: Command,
   alarm: AlarmCheck,
+  menu: Menu,
   export: ArrowUpRightFromCircle,
   close: X,
   calendarclock: CalendarClock,
