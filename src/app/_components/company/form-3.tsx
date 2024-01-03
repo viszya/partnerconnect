@@ -14,8 +14,9 @@ export function Form3() {
     const [logo, setLogo] = useState("");
     const [link, setLink] = useState("");
     const [isLoading, setIsLoading] = useState(false);
+    const id = api.company.getLatestProfile.useQuery().data?.id;
 
-    const createSocialMedia = api.socialMedia.createSocialMedia.useMutation({
+    const createSocialMedia = api.company.addSocialMedia.useMutation({
         onSuccess: () => {
             setIsLoading(false);
             toast({
@@ -31,6 +32,7 @@ export function Form3() {
             name,
             logo,
             link,
+            id,
         });
     }
 

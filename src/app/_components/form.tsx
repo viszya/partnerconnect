@@ -7,6 +7,7 @@ import { buttonVariants } from "@/app/_components/ui/button";
 import { cn, formatDate } from "@/server/utils";
 import { Input } from "@/app/_components/ui/input";
 import { useToast } from "@/app/_components/ui/use-toast";
+import { UploadButton } from "@/utils/uploadthing";
 
 export function SettingsForm() {
 	const { toast } = useToast();
@@ -43,7 +44,7 @@ export function SettingsForm() {
 			<div className="flex flex-col justify-center m-auto">
 				<div className="flex flex-col justify-center text-center md:flex-row md:text-left">
 					<div className="flex flex-col justify-center max-w-5xl w-full p-10 space-y-12">
-						
+
 
 						<form
 							className="flex flex-col gap-y-9"
@@ -60,7 +61,6 @@ export function SettingsForm() {
 									className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
 									type="text"
 									value={name}
-									required
 									onChange={(e) => setName(e.target.value)}
 								/>
 							</div>
@@ -72,10 +72,20 @@ export function SettingsForm() {
 									className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
 									type="text"
 									value={image}
-									required
 									onChange={(e) => setImage(e.target.value)}
 								/>
 							</div>
+							{/* <UploadButton
+								className="bg-primary/5 rounded-2xl border-2 border-dashed border-primary text-primary w-32 h-32 upload"
+								endpoint="imageUploader"
+								onClientUploadComplete={(res) => {
+									console.log("Files: ", res);
+									alert("Upload Completed");
+								}}
+								onUploadError={(error: Error) => {
+									alert(`ERROR! ${error.message}`);
+								}}
+							/> */}
 							<div className="col-span-full">
 								<label className="block mb-3 text-sm font-medium text-primary/90">
 									Where would like you like your reports to be sent?
@@ -85,7 +95,6 @@ export function SettingsForm() {
 									className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
 									type="email"
 									value={sendToEmail}
-									required
 									onChange={(e) => setSendToEmail(e.target.value)}
 								/>
 							</div>
@@ -98,7 +107,6 @@ export function SettingsForm() {
 									className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
 									type="text"
 									value={department}
-									required
 									onChange={(e) => setDepartment(e.target.value)}
 								/>
 							</div>

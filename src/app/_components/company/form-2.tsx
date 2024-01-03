@@ -16,7 +16,9 @@ export function Form2() {
     const [link, setLink] = useState("");
     const [isLoading, setIsLoading] = useState(false);
 
-    const createContact = api.contact.createContact.useMutation({
+    const id = api.company.getLatestProfile.useQuery().data?.id;
+
+    const createContact = api.company.addContact.useMutation({
         onSuccess: () => {
             setIsLoading(false);
             toast({
@@ -33,6 +35,7 @@ export function Form2() {
             email,
             address,
             link,
+            id,
         });
     }
 

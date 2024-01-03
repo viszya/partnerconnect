@@ -18,7 +18,9 @@ export function Form4() {
     const [image, setImage] = useState("");
     const [isLoading, setIsLoading] = useState(false);
 
-    const createTeamMember = api.teamMembers.createTeamMember.useMutation({
+    const id = api.company.getLatestProfile.useQuery().data?.id;
+
+    const createTeamMember = api.company.addTeamMember.useMutation({
         onSuccess: () => {
             setIsLoading(false);
             toast({
@@ -37,6 +39,7 @@ export function Form4() {
             address,
             position,
             image,
+            id,
         });
     }
 

@@ -12,13 +12,12 @@ export function Form1() {
     const { toast } = useToast();
     const [name, setName] = useState("");
     const [image, setImage] = useState("");
-    const [progress, setProgress] = useState(0);
     const [industry, setIndustry] = useState("");
     const [description, setDescription] = useState("");
     const [partner, setPartner] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
 
-    const createCompany = api.company.createCompany.useMutation({
+    const createCompany = api.company.createProfile.useMutation({
         onSuccess: () => {
             setIsLoading(false);
             toast({
@@ -33,7 +32,6 @@ export function Form1() {
         createCompany.mutate({
             name,
             image,
-            progress,
             industry,
             description,
             partner,

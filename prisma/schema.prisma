@@ -1,128 +1,129 @@
 generator client {
-    provider = "prisma-client-js"
+  provider = "prisma-client-js"
 }
 
 datasource db {
-    provider     = "mysql"
-    relationMode = "prisma"
-    url          = env("DATABASE_URL")
+  provider     = "mysql"
+  relationMode = "prisma"
+  url          = env("DATABASE_URL")
 }
 
 model Account {
-    id                String   @id @default(cuid())
-    userId            String
-    type              String
-    provider          String
-    providerAccountId String
-    refresh_token     String?  @db.Text
-    access_token      String?  @db.Text
-    expires_at        Int?
-    token_type        String?
-    scope             String?
-    id_token          String?  @db.Text
-    session_state     String?
-    createdAt         DateTime @default(now()) @map(name: "created_at")
-    updatedAt         DateTime @default(now()) @map(name: "updated_at")
-    user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  id                String   @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?  @db.Text
+  access_token      String?  @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?  @db.Text
+  session_state     String?
+  createdAt         DateTime @default(now()) @map(name: "created_at")
+  updatedAt         DateTime @default(now()) @map(name: "updated_at")
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
-    @@unique([provider, providerAccountId])
-    @@map(name: "accounts")
+  @@unique([provider, providerAccountId])
+  @@map(name: "accounts")
 }
 
 model Session {
-    id           String   @id @default(cuid())
-    sessionToken String   @unique
-    userId       String
-    expires      DateTime
-    user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
-    @@map(name: "sessions")
+  @@map(name: "sessions")
 }
 
 model VerificationToken {
-    identifier String
-    token      String   @unique
-    expires    DateTime
+  identifier String
+  token      String   @unique
+  expires    DateTime
 
-    @@unique([identifier, token])
-    @@map(name: "verification_tokens")
+  @@unique([identifier, token])
+  @@map(name: "verification_tokens")
 }
 
 model User {
-    id            String    @id @default(cuid())
-    name          String?
-    email         String?   @unique
-    emailVerified DateTime?
-    image         String?
-    sendToEmail   String?
-    department    String?
-    accounts      Account[]
-    sessions      Session[]
-    companies     Company[]
-    createdAt     DateTime  @default(now()) @map(name: "created_at")
-    updatedAt     DateTime  @default(now()) @map(name: "updated_at")
+  id            String    @id @default(cuid())
+  name          String?
+  email         String?   @unique
+  emailVerified DateTime?
+  image         String?
+  sendToEmail   String?
+  department    String?
+  accounts      Account[]
+  sessions      Session[]
+  companies     Company[]
+  createdAt     DateTime  @default(now()) @map(name: "created_at")
+  updatedAt     DateTime  @default(now()) @map(name: "updated_at")
 
-    @@map(name: "users")
+  @@map(name: "users")
 }
 
 model Company {
-    id          String        @id @default(cuid())
-    name        String
-    image       String?
-    progress    Int           @default(0)
-    industry    String?
-    description String?
-    partner     Boolean       @default(false)
-    Contact     Contact[]
-    SocialMedia SocialMedia[]
-    Finance     Finance[]
-    Reports     Report[]
-    TeamMembers TeamMembers[]
-    User        User?         @relation(fields: [userId], references: [id])
-    userId      String?
+  id          String        @id @default(cuid())
+  name        String
+  image       String?
+  progress    Int           @default(0)
+  industry    String?
+  description String?
+  partner     Boolean       @default(false)
+  contact     Contact[]
+  socialmedia SocialMedia[]
+  finance     Finance[]
+  reports     Report[]
+  teammembers TeamMembers[]
+  createdAt   DateTime      @default(now()) @map(name: "created_at")
+  User        User?         @relation(fields: [userId], references: [id])
+  userId      String?
 }
 
 model Contact {
-    id        String   @id @default(cuid())
-    phone     String?
-    email     String?
-    address   String?
-    link      String?
-    Company   Company? @relation(fields: [companyId], references: [id])
-    companyId String?
+  id        String   @id @default(cuid())
+  phone     String?
+  email     String?
+  address   String?
+  link      String?
+  Company   Company? @relation(fields: [companyId], references: [id])
+  companyId String?
 }
 
 model TeamMembers {
-    id        String   @id @default(cuid())
-    name      String
-    phone     String?
-    email     String?
-    address   String?
-    position  String?
-    image     String?
-    Company   Company? @relation(fields: [companyId], references: [id])
-    companyId String?
+  id        String   @id @default(cuid())
+  name      String
+  phone     String?
+  email     String?
+  address   String?
+  position  String?
+  image     String?
+  Company   Company? @relation(fields: [companyId], references: [id])
+  companyId String?
 }
 
 model SocialMedia {
-    id        String   @id @default(cuid())
-    name      String
-    logo      String?
-    link      String
-    Company   Company? @relation(fields: [companyId], references: [id])
-    companyId String?
+  id        String   @id @default(cuid())
+  name      String
+  logo      String?
+  link      String
+  Company   Company? @relation(fields: [companyId], references: [id])
+  companyId String?
 }
 
 model Finance {
-    id        String   @id @default(cuid())
-    Company   Company? @relation(fields: [companyId], references: [id])
-    companyId String?
+  id        String   @id @default(cuid())
+  Company   Company? @relation(fields: [companyId], references: [id])
+  companyId String?
 }
 
 model Report {
-    id        String   @id @default(cuid())
-    name      String
-    link      String
-    Company   Company? @relation(fields: [companyId], references: [id])
-    companyId String?
+  id        String   @id @default(cuid())
+  name      String
+  link      String
+  Company   Company? @relation(fields: [companyId], references: [id])
+  companyId String?
 }
