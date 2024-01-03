@@ -92,7 +92,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
             </form>
             <div className="relative">
                 <div className="absolute inset-0 flex items-center">
-                    <span className="w-full border-t" />
+                    <span className="w-full border-t border-primary" />
                 </div>
                 <div className="relative flex justify-center text-xs uppercase">
                     <span className="bg-background px-2 text-muted-foreground">
@@ -102,7 +102,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
             </div>
             <button
                 type="button"
-                className={cn(buttonVariants({ variant: "outline" }), "rounded-2xl")}
+                className={cn(buttonVariants({ variant: "outline" }), "rounded-2xl bg-teal-300/20")}
                 onClick={async () => {
                     setIsGitHubLoading(true)
                     await signIn("google")

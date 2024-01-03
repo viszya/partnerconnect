@@ -12,6 +12,14 @@ export function twp() {
     wrapper: "mx-auto w-full max-w-screen-xl px-2.5 md:px-20"
   }
 }
+
+export function formatDate(input: string | number): string {
+  const date = new Date(input)
+  return date.toLocaleDateString("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  })
+}
  
-export const { UploadButton, UploadDropzone, Uploader } =
-  generateComponents<OurFileRouter>();
+// export const { UploadButton, UploadDropzone, Uploader } = generateComponents<OurFileRouter>();

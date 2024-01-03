@@ -5,6 +5,7 @@ import { api } from "@/trpc/react";
 import { Icons } from "@/app/_components/icons";
 import { buttonVariants } from "@/app/_components/ui/button";
 import { cn } from "@/server/utils";
+import { Input } from "@/app/_components/ui/input";
 
 interface FormProps {
 	onNextClick: () => void; // Define the type of onNextClick prop
@@ -40,15 +41,15 @@ export function Form2({ onNextClick }: FormProps) {
 				<div className="flex flex-col justify-center text-center md:flex-row md:text-left">
 					<div className="flex flex-col justify-center max-w-2xl p-10 space-y-12">
 						<article>
-							<span className="inline-flex items-center text-black rounded-xl">
+							<span className="inline-flex items-center text-primary rounded-xl">
 								<span className="font-mono text-sm" aria-hidden="true">
 									02
 								</span>
 							</span>
-							<div className="mt-3 text-3xl tracking-tighter text-black">
-								Lets create a demo company profile.
+							<div className="mt-3 text-3xl tracking-tighter text-primary">
+								Let&apos;s create a demo company profile.
 							</div>
-							<div className="mt-4 text-gray-500">
+							<div className="mt-4 text-primary/80">
 								Please fill out the following form to the best of your ability. This info will be used to create a demo company profile for you to view and edit.
 							</div>
 						</article>
@@ -57,59 +58,60 @@ export function Form2({ onNextClick }: FormProps) {
 							onSubmit={(e) => { e.preventDefault(); onSubmit(); }}
 						>
 							<div className="col-span-full">
-								<label className="block mb-3 text-sm font-medium text-gray-600">
-									Is this company a business partner you organization engages with? <em className="text-gray-400">Leave Un-Checked if don&apos;t have a job</em>
+								<label className="block mb-3 text-sm font-medium text-primary/90">
+									Is this company a business partner your organization engages with?  <br />
+									<em className="text-primary/80">Leave Un-Checked if they are not a partner </em>
 								</label>
 								<input
-									className="mr-2"
+									className="rounded-xl placeholder:text-primary/40 border-primary/20 mr-2"
 									type="checkbox"
 									checked={partner}
 									onChange={() => setPartner(!partner)}
 								/>
-								<span className="text-gray-600">Yes, I have a job</span>
+								<span className="text-primary/80 text-sm">Yes, this company is a partner</span>
 							</div>
+
 							<div className="col-span-full">
-								<label className="block mb-3 text-sm font-medium text-gray-600">
-									What is the name of the company or orgnanization <span className="text-red-400">*optional</span>
+								<label className="block mb-3 text-sm font-medium text-primary/90">
+									What is the name of the company or orgnanization
+
 								</label>
-								<input
-									className="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-red-300 focus:outline-none focus:ring-red-300 sm:text-sm"
-									placeholder="Full Stack Developer, etc."
+								<Input placeholder="OpenAI"
+									className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
 									type="text"
 									value={name}
+									required
 									onChange={(e) => setName(e.target.value)}
 								/>
 							</div>
 							<div className="col-span-full">
-								<label className="block mb-3 text-sm font-medium text-gray-600">
-									What is the industry of the company or orgnanization <span className="text-red-400">*optional</span>
+								<label className="block mb-3 text-sm font-medium text-primary/90">
+									What is the industry of the company or orgnanization
 								</label>
-								<input
-									className="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-red-300 focus:outline-none focus:ring-red-300 sm:text-sm"
-									placeholder="10+"
-									required
+								<Input placeholder="AI Tech"
+									className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
 									type="text"
 									value={industry}
+									required
 									onChange={(e) => setIndustry(e.target.value)}
 								/>
 							</div>
 							<div className="col-span-full">
-								<label className="block mb-3 text-sm font-medium text-gray-600">
-									What is the description of the company or orgnanization <span className="text-red-400">*optional</span>
+								<label className="block mb-3 text-sm font-medium text-primary/90">
+									What is the description of the company or orgnanization
 								</label>
-								<input
-									className="block w-full px-6 py-3 text-black bg-white border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-red-300 focus:outline-none focus:ring-red-300 sm:text-sm"
-									placeholder="10+"
-									required
+								<Input placeholder=" Company X is a leading provider of Y services."
+									className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
 									type="text"
 									value={description}
+									required
 									onChange={(e) => setDescription(e.target.value)}
 								/>
 							</div>
 							<div className="col-span-full">
 								<button
 									type="submit"
-									className={cn(buttonVariants({ variant: "outline" }), "items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none focus-visible:outline-black text-sm focus-visible:ring-black")}
+									className={cn(buttonVariants({ variant: "outline" }), "items-center justify-center w-full px-6 py-2.5 text-center text-secondary duration-200 bg-primary border-2 border-primary rounded-xl inline-flex hover:bg-transparent hover:border-primary hover:text-primary focus:outline-none focus-visible:outline-primary text-sm focus-visible:ring-primary")}
 									disabled={isLoading || isNextLoading}
 								>
 									{isNextLoading ? (

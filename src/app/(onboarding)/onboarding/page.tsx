@@ -4,7 +4,6 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/app/_components/ui/t
 import { Icons } from "@/app/_components/icons";
 import { Form1 } from "@/app/_components/onboarding/form-1";
 import { Form2 } from "@/app/_components/onboarding/form-2";
-import { Form3 } from "@/app/_components/onboarding/form-3";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { buttonVariants } from "@/app/_components/ui/button";
@@ -12,11 +11,11 @@ import { cn } from "@/server/utils";
 import { getServerAuthSession } from "@/server/auth"
 import { redirect } from "next/navigation"
 
-export default async function Onboarding() {
-  const session = await getServerAuthSession()
-    if (!session) {
-        redirect("/unauthorized")
-    }
+export default function Onboarding() {
+  // const session = await getServerAuthSession()
+  // if (!session) {
+  //   redirect("/unauthorized")
+  // }
   const [activeTab, setActiveTab] = useState("profile"); // Initial active tab
   const router = useRouter();
 
@@ -51,8 +50,6 @@ export default async function Onboarding() {
           <TabsTrigger value="profile">Profile</TabsTrigger>
           <Icons.chevronRight className="text-gray-300 h-5 w-5" />
           <TabsTrigger value="work">Work</TabsTrigger>
-          <Icons.chevronRight className="text-gray-300 h-5 w-5" />
-          <TabsTrigger value="tags">Setup</TabsTrigger>
         </TabsList>
         <TabsContent value="profile">
           <Form1 onNextClick={handleNextButtonClick} />
@@ -60,14 +57,11 @@ export default async function Onboarding() {
         <TabsContent value="work">
           <Form2 onNextClick={handleNextButtonClick} />
         </TabsContent>
-        <TabsContent value="tags">
-          <Form3 onNextClick={handleNextButtonClick} />
-        </TabsContent>
       </Tabs>
 
       {/* Back Button */}
       {activeTab !== "profile" && (
-        <button onClick={handleBackButtonClick} className={cn(buttonVariants({variant: "outline"}), "rounded-full")}>
+        <button onClick={handleBackButtonClick} className={cn(buttonVariants({ variant: "outline" }), "rounded-xl")}>
           Back
         </button>
       )}

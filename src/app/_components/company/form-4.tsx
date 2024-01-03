@@ -1,0 +1,147 @@
+"use client"
+
+import { useState } from "react";
+import { api } from "@/trpc/react";
+import { Icons } from "@/app/_components/icons";
+import { buttonVariants } from "@/app/_components/ui/button";
+import { cn, formatDate } from "@/server/utils";
+import { Input } from "@/app/_components/ui/input";
+import { useToast } from "@/app/_components/ui/use-toast";
+
+export function Form4() {
+    const { toast } = useToast();
+    const [name, setName] = useState("");
+    const [phone, setPhone] = useState("");
+    const [email, setEmail] = useState("");
+    const [address, setAddress] = useState("");
+    const [position, setPosition] = useState("");
+    const [image, setImage] = useState("");
+    const [isLoading, setIsLoading] = useState(false);
+
+    const createTeamMember = api.teamMembers.createTeamMember.useMutation({
+        onSuccess: () => {
+            setIsLoading(false);
+            toast({
+                title: "Success",
+                description: "Team member created at " + formatDate(Date()),
+            });
+        },
+    });
+
+    function onSubmit() {
+        setIsLoading(true);
+        createTeamMember.mutate({
+            name,
+            phone,
+            email,
+            address,
+            position,
+            image,
+        });
+    }
+
+    return (
+        <section>
+            <div className="flex flex-col justify-center m-auto">
+                <div className="flex flex-col justify-center text-center md:flex-row md:text-left">
+                    <div className="flex flex-col justify-center max-w-5xl w-full p-10 space-y-12">
+                        <form
+                            className="flex flex-col gap-y-9"
+                            onSubmit={(e) => {
+                                e.preventDefault();
+                                onSubmit();
+                            }}
+                        >
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                    Team Member Name
+                                </label>
+                                <Input
+                                    placeholder="John Doe"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={name}
+                                    onChange={(e) => setName(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                    Phone Number
+                                </label>
+                                <Input
+                                    placeholder="123-456-7890"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={phone}
+                                    onChange={(e) => setPhone(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                    Email
+                                </label>
+                                <Input
+                                    placeholder="example@example.com"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="email"
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                    Address
+                                </label>
+                                <Input
+                                    placeholder="123 Main St, City, Country"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={address}
+                                    onChange={(e) => setAddress(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                    Position
+                                </label>
+                                <Input
+                                    placeholder="Software Engineer"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={position}
+                                    onChange={(e) => setPosition(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                    Team Member Image (Image URL)
+                                </label>
+                                <Input
+                                    placeholder="https://example.com/image.png"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={image}
+                                    onChange={(e) => setImage(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <button
+                                    type="submit"
+                                    className={cn(buttonVariants({ variant: "outline" }), "items-center justify-center w-full px-6 py-2.5 text-center text-secondary duration-200 bg-primary border-2 border-primary rounded-xl inline-flex hover:bg-transparent hover:border-primary hover:text-primary focus:outline-none focus-visible:outline-primary text-sm focus-visible:ring-primary")}
+                                    disabled={isLoading}
+                                >
+                                    {isLoading ? (
+                                        <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+                                    ) : (
+                                        <></>
+                                    )}{" "}
+                                    Create Team Member
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}
