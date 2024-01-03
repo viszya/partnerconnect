@@ -22,7 +22,7 @@ export default function DashboardLayout({
       <header className="sticky top-0 z-40 border-b bg-background">
         <div className="container flex h-16 items-center justify-between py-4">
           <MainNav items={dashboardConfig.mainNav} />
-          <Icons.help className="w-5 h-5 text-black bg-black" />
+          {/* <Icons.help className="w-5 h-5 text-primary " /> */}
           <UserAccountNav
             user={{
               name: "hi",//user.name,

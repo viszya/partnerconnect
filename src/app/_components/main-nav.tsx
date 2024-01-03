@@ -35,9 +35,9 @@ const Nav = async () => {
               About
             </Link>
             <Link
-              href='/contact'
+              href='/support'
               className="px-2 py-2 text-sm text-primary/80 lg:px-6 transition-colors delay-75 rounded-2xl hover:bg-teal-400/10 md:px-3 hover:text-teal-400 ">
-              Contact
+              Support
             </Link>
             <Link
               href='/faq'

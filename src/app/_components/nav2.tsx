@@ -23,13 +23,12 @@ export function MainNav({ items, children }: MainNavProps) {
     <div className="flex gap-6 md:gap-10">
       <Link href="/" className="hidden items-center space-x-2 md:flex">
         <Icons.logo />
-        <span className="hidden font-bold sm:inline-block">
-          {siteConfig.name}
+        <span className="lg:text-lg uppecase font-semibold tracking-widest">
+          PARTNER-INSIGHT
         </span>
       </Link>
-      {items?.length ? (
-        <nav className="hidden gap-6 md:flex">
-          {items?.map((item, index) => (
+      <nav className="hidden md:flex -ml-2">
+        {/* {items?.map((item, index) => (
             <Link
               key={index}
               href={item.disabled ? "#" : item.href}
@@ -43,9 +42,25 @@ export function MainNav({ items, children }: MainNavProps) {
             >
               {item.title}
             </Link>
-          ))}
-        </nav>
-      ) : null}
+          ))} */}
+        <div className='flex-1'>
+          <Link
+            href='/about'
+            className="px-2 py-2 text-sm text-primary/80 lg:px-6 transition-colors delay-75 rounded-2xl hover:bg-teal-400/10 md:px-3 hover:text-teal-400 ">
+            About
+          </Link>
+          <Link
+            href='/support'
+            className="px-2 py-2 text-sm text-primary/80 lg:px-6 transition-colors delay-75 rounded-2xl hover:bg-teal-400/10 md:px-3 hover:text-teal-400 ">
+            Support
+          </Link>
+          <Link
+            href='/faq'
+            className="px-2 py-2 text-sm text-primary/80 lg:px-6 md:px-3 hover:text-teal-400 transition-colors delay-75 rounded-2xl hover:bg-teal-400/10">
+            FAQ
+          </Link>
+        </div>
+      </nav>
       <button
         className="flex items-center space-x-2 md:hidden"
         onClick={() => setShowMobileMenu(!showMobileMenu)}
