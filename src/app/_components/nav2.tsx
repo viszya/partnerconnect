@@ -45,17 +45,17 @@ export function MainNav({ items, children }: MainNavProps) {
           ))} */}
         <div className='flex-1'>
           <Link
-            href='/about'
+            href='/dashboard/about'
             className="px-2 py-2 text-sm text-primary/80 lg:px-6 transition-colors delay-75 rounded-2xl hover:bg-teal-400/10 md:px-3 hover:text-teal-400 ">
             About
           </Link>
           <Link
-            href='/support'
+            href='/dashboard/support'
             className="px-2 py-2 text-sm text-primary/80 lg:px-6 transition-colors delay-75 rounded-2xl hover:bg-teal-400/10 md:px-3 hover:text-teal-400 ">
             Support
           </Link>
           <Link
-            href='/faq'
+            href='/dashboard/faq'
             className="px-2 py-2 text-sm text-primary/80 lg:px-6 md:px-3 hover:text-teal-400 transition-colors delay-75 rounded-2xl hover:bg-teal-400/10">
             FAQ
           </Link>
