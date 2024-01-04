@@ -6,7 +6,7 @@ import { z } from "zod"
 
 import { columns } from "./components/columns"
 import { DataTable } from "./components/data-table"
-import { UserNav } from "./components/user-nav"
+import { UserNav } from "../_components/user-nav"
 import { taskSchema } from "./data/schema"
 import { generateData } from "./data/seed"
 
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 // Simulate a database read for tasks.
 async function getTasks() {
-  await generateData();
+  //await generateData();
   const data = await fs.readFile(
     path.join(process.cwd(), "src/app/tasks/data/tasks.json")
   )
@@ -48,7 +48,7 @@ export default async function TaskPage() {
           className="hidden dark:block"
         />
       </div>
-      <div className="hidden h-full flex-1 flex-col space-y-8 p-8 md:flex">
+      <div className="hidden h-full flex-1 flex-col space-y-8 py-8 md:flex">
         <DataTable data={tasks} columns={columns} />
       </div>
     </>

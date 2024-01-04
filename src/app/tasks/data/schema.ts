@@ -6,14 +6,12 @@ export const taskSchema = z.object({
   id: z.string(),
   avatar: z.string(),
   name: z.string(),
-  status: z.string(),
-  label: z.string(),
-  priority: z.string(),
   industry: z.string(),
+  tags: z.array(z.string()),
+  status: z.string(),
+  partner: z.string(),
   size: z.string(),
   product: z.string(),
 })
-//src/app/tasks
-// name, avatar, progress, industry, partner, tags, contact, social media
 
 export type Task = z.infer<typeof taskSchema>

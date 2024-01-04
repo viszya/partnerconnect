@@ -1,702 +1,7482 @@
 [
   {
-    "id": "TASK-8782",
-    "title": "You can't compress the program without quantifying the open-source SSD pixel!",
-    "status": "in progress",
-    "label": "documentation",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-7878",
-    "title": "Try to calculate the EXE feed, maybe it will index the multi-byte pixel!",
-    "status": "backlog",
-    "label": "documentation",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-7839",
-    "title": "We need to bypass the neural TCP card!",
+    "id": "3917",
+    "avatar": "image_src_placeholder",
+    "name": "SmartGroup",
+    "industry": "Education",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "innovation"
+    ],
     "status": "todo",
-    "label": "bug",
-    "priority": "high"
+    "product": "Tool for Healthcare"
   },
   {
-    "id": "TASK-5562",
-    "title": "The SAS interface is down, bypass the open-source pixel so we can back up the PNG bandwidth!",
-    "status": "backlog",
-    "label": "feature",
-    "priority": "medium"
+    "id": "9471",
+    "avatar": "image_src_placeholder",
+    "name": "TechServices",
+    "industry": "Healthcare",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "AI"
+    ],
+    "status": "in progress",
+    "product": "Service for Healthcare"
   },
   {
-    "id": "TASK-8686",
-    "title": "I'll parse the wireless SSL protocol, that should driver the API panel!",
-    "status": "canceled",
-    "label": "feature",
-    "priority": "medium"
+    "id": "6819",
+    "avatar": "image_src_placeholder",
+    "name": "NetConcepts",
+    "industry": "Real Estate",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "fintech",
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "Solution for Healthcare"
   },
   {
-    "id": "TASK-1280",
-    "title": "Use the digital TLS panel, then you can transmit the haptic system!",
+    "id": "4071",
+    "avatar": "image_src_placeholder",
+    "name": "InfoCorp",
+    "industry": "Entertainment",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "sustainability",
+      "IoT",
+      "e-commerce",
+      "cloud"
+    ],
     "status": "done",
-    "label": "bug",
-    "priority": "high"
+    "product": "Software for Healthcare"
   },
   {
-    "id": "TASK-7262",
-    "title": "The UTF8 application is down, parse the neural bandwidth so we can back up the PNG firewall!",
+    "id": "6386",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeSolutions",
+    "industry": "Real Estate",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "sustainability"
+    ],
+    "status": "in progress",
+    "product": "App for Consumers"
+  },
+  {
+    "id": "8254",
+    "avatar": "image_src_placeholder",
+    "name": "SmartTechnologies",
+    "industry": "Healthcare",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "AR",
+      "cloud"
+    ],
+    "status": "in progress",
+    "product": "Application for Businesses"
+  },
+  {
+    "id": "6218",
+    "avatar": "image_src_placeholder",
+    "name": "BetaConcepts",
+    "industry": "Retail",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "AI",
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "Software for Finance"
+  },
+  {
+    "id": "3315",
+    "avatar": "image_src_placeholder",
+    "name": "DataLimited",
+    "industry": "Healthcare",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "e-commerce"
+    ],
+    "status": "todo",
+    "product": "System for Healthcare"
+  },
+  {
+    "id": "4281",
+    "avatar": "image_src_placeholder",
+    "name": "SmartLimited",
+    "industry": "Technology",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "blockchain"
+    ],
     "status": "done",
-    "label": "feature",
-    "priority": "high"
+    "product": "Program for Finance"
   },
   {
-    "id": "TASK-1138",
-    "title": "Generating the driver won't do anything, we need to quantify the 1080p SMTP bandwidth!",
-    "status": "in progress",
-    "label": "feature",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-7184",
-    "title": "We need to program the back-end THX pixel!",
+    "id": "9996",
+    "avatar": "image_src_placeholder",
+    "name": "BetaIncorporated",
+    "industry": "Real Estate",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "cloud",
+      "blockchain",
+      "IoT",
+      "AI"
+    ],
     "status": "todo",
-    "label": "feature",
-    "priority": "low"
+    "product": "Solution for Healthcare"
   },
   {
-    "id": "TASK-5160",
-    "title": "Calculating the bus won't do anything, we need to navigate the back-end JSON protocol!",
-    "status": "in progress",
-    "label": "documentation",
-    "priority": "high"
+    "id": "9950",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeDynamics",
+    "industry": "Technology",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "AR",
+      "sustainability",
+      "fintech",
+      "blockchain",
+      "VR"
+    ],
+    "status": "todo",
+    "product": "Solution for Consumers"
   },
   {
-    "id": "TASK-5618",
-    "title": "Generating the driver won't do anything, we need to index the online SSL application!",
+    "id": "2523",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaServices",
+    "industry": "Manufacturing",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "AR",
+      "IoT",
+      "innovation",
+      "VR"
+    ],
+    "status": "todo",
+    "product": "Solution for Consumers"
+  },
+  {
+    "id": "5202",
+    "avatar": "image_src_placeholder",
+    "name": "InfoCorp",
+    "industry": "Education",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "sustainability",
+      "cloud"
+    ],
     "status": "done",
-    "label": "documentation",
-    "priority": "medium"
+    "product": "System for Consumers"
   },
   {
-    "id": "TASK-6699",
-    "title": "I'll transmit the wireless JBOD capacitor, that should hard drive the SSD feed!",
-    "status": "backlog",
-    "label": "documentation",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-2858",
-    "title": "We need to override the online UDP bus!",
-    "status": "backlog",
-    "label": "bug",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-9864",
-    "title": "I'll reboot the 1080p FTP panel, that should matrix the HEX hard drive!",
+    "id": "4744",
+    "avatar": "image_src_placeholder",
+    "name": "BetaSystems",
+    "industry": "Real Estate",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "AR"
+    ],
     "status": "done",
-    "label": "bug",
-    "priority": "high"
+    "product": "Application for Consumers"
   },
   {
-    "id": "TASK-8404",
-    "title": "We need to generate the virtual HEX alarm!",
-    "status": "in progress",
-    "label": "bug",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-5365",
-    "title": "Backing up the pixel won't do anything, we need to transmit the primary IB array!",
-    "status": "in progress",
-    "label": "documentation",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-1780",
-    "title": "The CSS feed is down, index the bluetooth transmitter so we can compress the CLI protocol!",
-    "status": "todo",
-    "label": "documentation",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-6938",
-    "title": "Use the redundant SCSI application, then you can hack the optical alarm!",
-    "status": "todo",
-    "label": "documentation",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-9885",
-    "title": "We need to compress the auxiliary VGA driver!",
-    "status": "backlog",
-    "label": "bug",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-3216",
-    "title": "Transmitting the transmitter won't do anything, we need to compress the virtual HDD sensor!",
-    "status": "backlog",
-    "label": "documentation",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-9285",
-    "title": "The IP monitor is down, copy the haptic alarm so we can generate the HTTP transmitter!",
-    "status": "todo",
-    "label": "bug",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-1024",
-    "title": "Overriding the microchip won't do anything, we need to transmit the digital OCR transmitter!",
-    "status": "in progress",
-    "label": "documentation",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-7068",
-    "title": "You can't generate the capacitor without indexing the wireless HEX pixel!",
-    "status": "canceled",
-    "label": "bug",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-6502",
-    "title": "Navigating the microchip won't do anything, we need to bypass the back-end SQL bus!",
-    "status": "todo",
-    "label": "bug",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-5326",
-    "title": "We need to hack the redundant UTF8 transmitter!",
-    "status": "todo",
-    "label": "bug",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-6274",
-    "title": "Use the virtual PCI circuit, then you can parse the bluetooth alarm!",
-    "status": "canceled",
-    "label": "documentation",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-1571",
-    "title": "I'll input the neural DRAM circuit, that should protocol the SMTP interface!",
-    "status": "in progress",
-    "label": "feature",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-9518",
-    "title": "Compressing the interface won't do anything, we need to compress the online SDD matrix!",
-    "status": "canceled",
-    "label": "documentation",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-5581",
-    "title": "I'll synthesize the digital COM pixel, that should transmitter the UTF8 protocol!",
-    "status": "backlog",
-    "label": "documentation",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-2197",
-    "title": "Parsing the feed won't do anything, we need to copy the bluetooth DRAM bus!",
-    "status": "todo",
-    "label": "documentation",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-8484",
-    "title": "We need to parse the solid state UDP firewall!",
-    "status": "in progress",
-    "label": "bug",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-9892",
-    "title": "If we back up the application, we can get to the UDP application through the multi-byte THX capacitor!",
+    "id": "1335",
+    "avatar": "image_src_placeholder",
+    "name": "SmartIncorporated",
+    "industry": "Finance",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "VR",
+      "blockchain",
+      "fintech"
+    ],
     "status": "done",
-    "label": "documentation",
-    "priority": "high"
+    "product": "System for Finance"
   },
   {
-    "id": "TASK-9616",
-    "title": "We need to synthesize the cross-platform ASCII pixel!",
+    "id": "3676",
+    "avatar": "image_src_placeholder",
+    "name": "FutureTechnologies",
+    "industry": "Hospitality",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "sustainability",
+      "blockchain",
+      "e-commerce",
+      "innovation"
+    ],
+    "status": "todo",
+    "product": "App for Consumers"
+  },
+  {
+    "id": "5415",
+    "avatar": "image_src_placeholder",
+    "name": "FutureSystems",
+    "industry": "Manufacturing",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "sustainability",
+      "innovation",
+      "AR",
+      "AI",
+      "cloud"
+    ],
+    "status": "done",
+    "product": "Program for Healthcare"
+  },
+  {
+    "id": "1375",
+    "avatar": "image_src_placeholder",
+    "name": "BetaConcepts",
+    "industry": "Healthcare",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "VR",
+      "AR",
+      "fintech"
+    ],
+    "status": "todo",
+    "product": "Application for Businesses"
+  },
+  {
+    "id": "6182",
+    "avatar": "image_src_placeholder",
+    "name": "BetaSystems",
+    "industry": "Retail",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "sustainability"
+    ],
+    "status": "todo",
+    "product": "Application for Finance"
+  },
+  {
+    "id": "7339",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalDynamics",
+    "industry": "Retail",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "App for Healthcare"
+  },
+  {
+    "id": "8849",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaSystems",
+    "industry": "Real Estate",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "fintech",
+      "AI",
+      "IoT",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "App for Businesses"
+  },
+  {
+    "id": "9915",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeSolutions",
+    "industry": "Entertainment",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "e-commerce",
+      "AR",
+      "IoT",
+      "blockchain"
+    ],
+    "status": "done",
+    "product": "Application for Education"
+  },
+  {
+    "id": "4575",
+    "avatar": "image_src_placeholder",
+    "name": "BetaLimited",
+    "industry": "Healthcare",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "VR"
+    ],
+    "status": "done",
+    "product": "Software for Businesses"
+  },
+  {
+    "id": "9581",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeDynamics",
+    "industry": "Hospitality",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "e-commerce",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "Software for Healthcare"
+  },
+  {
+    "id": "5952",
+    "avatar": "image_src_placeholder",
+    "name": "BetaIncorporated",
+    "industry": "Manufacturing",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "fintech",
+      "innovation",
+      "blockchain"
+    ],
+    "status": "todo",
+    "product": "Platform for Businesses"
+  },
+  {
+    "id": "8341",
+    "avatar": "image_src_placeholder",
+    "name": "SmartGroup",
+    "industry": "Technology",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "sustainability",
+      "IoT"
+    ],
+    "status": "todo",
+    "product": "Program for Consumers"
+  },
+  {
+    "id": "6199",
+    "avatar": "image_src_placeholder",
+    "name": "SmartLimited",
+    "industry": "Manufacturing",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "fintech",
+      "sustainability",
+      "blockchain"
+    ],
     "status": "in progress",
-    "label": "feature",
-    "priority": "medium"
+    "product": "Program for Finance"
   },
   {
-    "id": "TASK-9744",
-    "title": "Use the back-end IP card, then you can input the solid state hard drive!",
-    "status": "done",
-    "label": "documentation",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-1376",
-    "title": "Generating the alarm won't do anything, we need to generate the mobile IP capacitor!",
-    "status": "backlog",
-    "label": "documentation",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-7382",
-    "title": "If we back up the firewall, we can get to the RAM alarm through the primary UTF8 pixel!",
+    "id": "2635",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeGroup",
+    "industry": "Logistics",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "innovation"
+    ],
     "status": "todo",
-    "label": "feature",
-    "priority": "low"
+    "product": "Tool for Education"
   },
   {
-    "id": "TASK-2290",
-    "title": "I'll compress the virtual JSON panel, that should application the UTF8 bus!",
-    "status": "canceled",
-    "label": "documentation",
-    "priority": "high"
+    "id": "1508",
+    "avatar": "image_src_placeholder",
+    "name": "TechSolutions",
+    "industry": "Real Estate",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "VR",
+      "cloud"
+    ],
+    "status": "todo",
+    "product": "Device for Finance"
   },
   {
-    "id": "TASK-1533",
-    "title": "You can't input the firewall without overriding the wireless TCP firewall!",
+    "id": "6247",
+    "avatar": "image_src_placeholder",
+    "name": "SmartIncorporated",
+    "industry": "Finance",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "blockchain"
+    ],
+    "status": "todo",
+    "product": "Platform for Businesses"
+  },
+  {
+    "id": "6492",
+    "avatar": "image_src_placeholder",
+    "name": "FutureCorp",
+    "industry": "Retail",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "innovation"
+    ],
     "status": "done",
-    "label": "bug",
-    "priority": "high"
+    "product": "Program for Businesses"
   },
   {
-    "id": "TASK-4920",
-    "title": "Bypassing the hard drive won't do anything, we need to input the bluetooth JSON program!",
+    "id": "5439",
+    "avatar": "image_src_placeholder",
+    "name": "InfoDynamics",
+    "industry": "Logistics",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "AR"
+    ],
     "status": "in progress",
-    "label": "bug",
-    "priority": "high"
+    "product": "App for Businesses"
   },
   {
-    "id": "TASK-5168",
-    "title": "If we synthesize the bus, we can get to the IP panel through the virtual TLS array!",
+    "id": "6520",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaIncorporated",
+    "industry": "Manufacturing",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "e-commerce",
+      "cloud",
+      "IoT",
+      "fintech",
+      "sustainability"
+    ],
     "status": "in progress",
-    "label": "feature",
-    "priority": "low"
+    "product": "Tool for Finance"
   },
   {
-    "id": "TASK-7103",
-    "title": "We need to parse the multi-byte EXE bandwidth!",
-    "status": "canceled",
-    "label": "feature",
-    "priority": "low"
+    "id": "2700",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaSolutions",
+    "industry": "Entertainment",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "e-commerce",
+      "fintech",
+      "VR",
+      "sustainability"
+    ],
+    "status": "todo",
+    "product": "System for Healthcare"
   },
   {
-    "id": "TASK-4314",
-    "title": "If we compress the program, we can get to the XML alarm through the multi-byte COM matrix!",
+    "id": "3238",
+    "avatar": "image_src_placeholder",
+    "name": "BetaCorp",
+    "industry": "Retail",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "cloud"
+    ],
+    "status": "done",
+    "product": "Device for Finance"
+  },
+  {
+    "id": "5278",
+    "avatar": "image_src_placeholder",
+    "name": "TechTechnologies",
+    "industry": "Logistics",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "VR",
+      "sustainability",
+      "fintech",
+      "e-commerce",
+      "blockchain"
+    ],
     "status": "in progress",
-    "label": "bug",
-    "priority": "high"
+    "product": "App for Businesses"
   },
   {
-    "id": "TASK-3415",
-    "title": "Use the cross-platform XML application, then you can quantify the solid state feed!",
-    "status": "todo",
-    "label": "feature",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-8339",
-    "title": "Try to calculate the DNS interface, maybe it will input the bluetooth capacitor!",
+    "id": "9778",
+    "avatar": "image_src_placeholder",
+    "name": "DataCorp",
+    "industry": "Education",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "cloud",
+      "IoT",
+      "innovation"
+    ],
     "status": "in progress",
-    "label": "feature",
-    "priority": "low"
+    "product": "System for Businesses"
   },
   {
-    "id": "TASK-6995",
-    "title": "Try to hack the XSS bandwidth, maybe it will override the bluetooth matrix!",
-    "status": "todo",
-    "label": "feature",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-8053",
-    "title": "If we connect the program, we can get to the UTF8 matrix through the digital UDP protocol!",
-    "status": "todo",
-    "label": "feature",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-4336",
-    "title": "If we synthesize the microchip, we can get to the SAS sensor through the optical UDP program!",
-    "status": "todo",
-    "label": "documentation",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-8790",
-    "title": "I'll back up the optical COM alarm, that should alarm the RSS capacitor!",
+    "id": "8303",
+    "avatar": "image_src_placeholder",
+    "name": "FutureSolutions",
+    "industry": "Finance",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "e-commerce"
+    ],
     "status": "done",
-    "label": "bug",
-    "priority": "medium"
+    "product": "System for Finance"
   },
   {
-    "id": "TASK-8980",
-    "title": "Try to navigate the SQL transmitter, maybe it will back up the virtual firewall!",
-    "status": "canceled",
-    "label": "bug",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-7342",
-    "title": "Use the neural CLI card, then you can parse the online port!",
-    "status": "backlog",
-    "label": "documentation",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-5608",
-    "title": "I'll hack the haptic SSL program, that should bus the UDP transmitter!",
-    "status": "canceled",
-    "label": "documentation",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-1606",
-    "title": "I'll generate the bluetooth PNG firewall, that should pixel the SSL driver!",
-    "status": "done",
-    "label": "feature",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-7872",
-    "title": "Transmitting the circuit won't do anything, we need to reboot the 1080p RSS monitor!",
-    "status": "canceled",
-    "label": "feature",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-4167",
-    "title": "Use the cross-platform SMS circuit, then you can synthesize the optical feed!",
-    "status": "canceled",
-    "label": "bug",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-9581",
-    "title": "You can't index the port without hacking the cross-platform XSS monitor!",
-    "status": "backlog",
-    "label": "documentation",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-8806",
-    "title": "We need to bypass the back-end SSL panel!",
-    "status": "done",
-    "label": "bug",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-6542",
-    "title": "Try to quantify the RSS firewall, maybe it will quantify the open-source system!",
-    "status": "done",
-    "label": "feature",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-6806",
-    "title": "The VGA protocol is down, reboot the back-end matrix so we can parse the CSS panel!",
-    "status": "canceled",
-    "label": "documentation",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-9549",
-    "title": "You can't bypass the bus without connecting the neural JBOD bus!",
-    "status": "todo",
-    "label": "feature",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-1075",
-    "title": "Backing up the driver won't do anything, we need to parse the redundant RAM pixel!",
-    "status": "done",
-    "label": "feature",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-1427",
-    "title": "Use the auxiliary PCI circuit, then you can calculate the cross-platform interface!",
-    "status": "done",
-    "label": "documentation",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-1907",
-    "title": "Hacking the circuit won't do anything, we need to back up the online DRAM system!",
-    "status": "todo",
-    "label": "documentation",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-4309",
-    "title": "If we generate the system, we can get to the TCP sensor through the optical GB pixel!",
-    "status": "backlog",
-    "label": "bug",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-3973",
-    "title": "I'll parse the back-end ADP array, that should bandwidth the RSS bandwidth!",
-    "status": "todo",
-    "label": "feature",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-7962",
-    "title": "Use the wireless RAM program, then you can hack the cross-platform feed!",
-    "status": "canceled",
-    "label": "bug",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-3360",
-    "title": "You can't quantify the program without synthesizing the neural OCR interface!",
-    "status": "done",
-    "label": "feature",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-9887",
-    "title": "Use the auxiliary ASCII sensor, then you can connect the solid state port!",
-    "status": "backlog",
-    "label": "bug",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-3649",
-    "title": "I'll input the virtual USB system, that should circuit the DNS monitor!",
+    "id": "6023",
+    "avatar": "image_src_placeholder",
+    "name": "SmartSolutions",
+    "industry": "Hospitality",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "innovation",
+      "VR",
+      "AI",
+      "e-commerce"
+    ],
     "status": "in progress",
-    "label": "feature",
-    "priority": "medium"
+    "product": "Tool for Businesses"
   },
   {
-    "id": "TASK-3586",
-    "title": "If we quantify the circuit, we can get to the CLI feed through the mobile SMS hard drive!",
-    "status": "in progress",
-    "label": "bug",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-5150",
-    "title": "I'll hack the wireless XSS port, that should transmitter the IP interface!",
-    "status": "canceled",
-    "label": "feature",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-3652",
-    "title": "The SQL interface is down, override the optical bus so we can program the ASCII interface!",
-    "status": "backlog",
-    "label": "feature",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-6884",
-    "title": "Use the digital PCI circuit, then you can synthesize the multi-byte microchip!",
-    "status": "canceled",
-    "label": "feature",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-1591",
-    "title": "We need to connect the mobile XSS driver!",
-    "status": "in progress",
-    "label": "feature",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-3802",
-    "title": "Try to override the ASCII protocol, maybe it will parse the virtual matrix!",
-    "status": "in progress",
-    "label": "feature",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-7253",
-    "title": "Programming the capacitor won't do anything, we need to bypass the neural IB hard drive!",
-    "status": "backlog",
-    "label": "bug",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-9739",
-    "title": "We need to hack the multi-byte HDD bus!",
-    "status": "done",
-    "label": "documentation",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-4424",
-    "title": "Try to hack the HEX alarm, maybe it will connect the optical pixel!",
-    "status": "in progress",
-    "label": "documentation",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-3922",
-    "title": "You can't back up the capacitor without generating the wireless PCI program!",
-    "status": "backlog",
-    "label": "bug",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-4921",
-    "title": "I'll index the open-source IP feed, that should system the GB application!",
-    "status": "canceled",
-    "label": "bug",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-5814",
-    "title": "We need to calculate the 1080p AGP feed!",
-    "status": "backlog",
-    "label": "bug",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-2645",
-    "title": "Synthesizing the system won't do anything, we need to navigate the multi-byte HDD firewall!",
+    "id": "6905",
+    "avatar": "image_src_placeholder",
+    "name": "DataGroup",
+    "industry": "Hospitality",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "innovation",
+      "VR",
+      "cloud",
+      "AR",
+      "IoT"
+    ],
     "status": "todo",
-    "label": "documentation",
-    "priority": "medium"
+    "product": "Application for Finance"
   },
   {
-    "id": "TASK-4535",
-    "title": "Try to copy the JSON circuit, maybe it will connect the wireless feed!",
+    "id": "7486",
+    "avatar": "image_src_placeholder",
+    "name": "BetaConcepts",
+    "industry": "Entertainment",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "VR",
+      "e-commerce",
+      "innovation"
+    ],
     "status": "in progress",
-    "label": "feature",
-    "priority": "low"
+    "product": "Application for Finance"
   },
   {
-    "id": "TASK-4463",
-    "title": "We need to copy the solid state AGP monitor!",
+    "id": "4528",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeIncorporated",
+    "industry": "Entertainment",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "VR",
+      "fintech",
+      "AI",
+      "blockchain",
+      "e-commerce"
+    ],
     "status": "done",
-    "label": "documentation",
-    "priority": "low"
+    "product": "App for Finance"
   },
   {
-    "id": "TASK-9745",
-    "title": "If we connect the protocol, we can get to the GB system through the bluetooth PCI microchip!",
-    "status": "canceled",
-    "label": "feature",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-2080",
-    "title": "If we input the bus, we can get to the RAM matrix through the auxiliary RAM card!",
-    "status": "todo",
-    "label": "bug",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-3838",
-    "title": "I'll bypass the online TCP application, that should panel the AGP system!",
-    "status": "backlog",
-    "label": "bug",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-1340",
-    "title": "We need to navigate the virtual PNG circuit!",
-    "status": "todo",
-    "label": "bug",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-6665",
-    "title": "If we parse the monitor, we can get to the SSD hard drive through the cross-platform AGP alarm!",
-    "status": "canceled",
-    "label": "feature",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-7585",
-    "title": "If we calculate the hard drive, we can get to the SSL program through the multi-byte CSS microchip!",
-    "status": "backlog",
-    "label": "feature",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-6319",
-    "title": "We need to copy the multi-byte SCSI program!",
-    "status": "backlog",
-    "label": "bug",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-4369",
-    "title": "Try to input the SCSI bus, maybe it will generate the 1080p pixel!",
-    "status": "backlog",
-    "label": "bug",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-9035",
-    "title": "We need to override the solid state PNG array!",
-    "status": "canceled",
-    "label": "documentation",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-3970",
-    "title": "You can't index the transmitter without quantifying the haptic ASCII card!",
-    "status": "todo",
-    "label": "documentation",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-4473",
-    "title": "You can't bypass the protocol without overriding the neural RSS program!",
-    "status": "todo",
-    "label": "documentation",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-4136",
-    "title": "You can't hack the hard drive without hacking the primary JSON program!",
-    "status": "canceled",
-    "label": "bug",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-3939",
-    "title": "Use the back-end SQL firewall, then you can connect the neural hard drive!",
-    "status": "done",
-    "label": "feature",
-    "priority": "low"
-  },
-  {
-    "id": "TASK-2007",
-    "title": "I'll input the back-end USB protocol, that should bandwidth the PCI system!",
-    "status": "backlog",
-    "label": "bug",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-7516",
-    "title": "Use the primary SQL program, then you can generate the auxiliary transmitter!",
-    "status": "done",
-    "label": "documentation",
-    "priority": "medium"
-  },
-  {
-    "id": "TASK-6906",
-    "title": "Try to back up the DRAM system, maybe it will reboot the online transmitter!",
-    "status": "done",
-    "label": "feature",
-    "priority": "high"
-  },
-  {
-    "id": "TASK-5207",
-    "title": "The SMS interface is down, copy the bluetooth bus so we can quantify the VGA card!",
+    "id": "3281",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaIncorporated",
+    "industry": "Healthcare",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "fintech",
+      "innovation",
+      "VR",
+      "cloud"
+    ],
     "status": "in progress",
-    "label": "bug",
-    "priority": "low"
+    "product": "Device for Consumers"
+  },
+  {
+    "id": "6374",
+    "avatar": "image_src_placeholder",
+    "name": "TechSystems",
+    "industry": "Logistics",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "e-commerce",
+      "AR",
+      "cloud",
+      "innovation",
+      "sustainability"
+    ],
+    "status": "todo",
+    "product": "Service for Healthcare"
+  },
+  {
+    "id": "3842",
+    "avatar": "image_src_placeholder",
+    "name": "FutureCorp",
+    "industry": "Logistics",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "AR"
+    ],
+    "status": "done",
+    "product": "Device for Finance"
+  },
+  {
+    "id": "6816",
+    "avatar": "image_src_placeholder",
+    "name": "BetaCorp",
+    "industry": "Hospitality",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "AI",
+      "sustainability"
+    ],
+    "status": "todo",
+    "product": "Application for Finance"
+  },
+  {
+    "id": "6364",
+    "avatar": "image_src_placeholder",
+    "name": "BetaIncorporated",
+    "industry": "Entertainment",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "AR",
+      "cloud",
+      "IoT",
+      "VR"
+    ],
+    "status": "done",
+    "product": "Solution for Healthcare"
+  },
+  {
+    "id": "6807",
+    "avatar": "image_src_placeholder",
+    "name": "TechTechnologies",
+    "industry": "Real Estate",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "cloud",
+      "blockchain"
+    ],
+    "status": "todo",
+    "product": "App for Consumers"
+  },
+  {
+    "id": "1902",
+    "avatar": "image_src_placeholder",
+    "name": "FutureIncorporated",
+    "industry": "Manufacturing",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "innovation",
+      "sustainability",
+      "e-commerce",
+      "IoT",
+      "cloud"
+    ],
+    "status": "in progress",
+    "product": "Application for Consumers"
+  },
+  {
+    "id": "6411",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeGroup",
+    "industry": "Real Estate",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "App for Education"
+  },
+  {
+    "id": "3764",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalSystems",
+    "industry": "Entertainment",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "innovation",
+      "fintech"
+    ],
+    "status": "in progress",
+    "product": "System for Finance"
+  },
+  {
+    "id": "9612",
+    "avatar": "image_src_placeholder",
+    "name": "DataServices",
+    "industry": "Retail",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "sustainability",
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "Platform for Healthcare"
+  },
+  {
+    "id": "8453",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaSolutions",
+    "industry": "Finance",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "e-commerce",
+      "cloud"
+    ],
+    "status": "in progress",
+    "product": "Software for Finance"
+  },
+  {
+    "id": "5249",
+    "avatar": "image_src_placeholder",
+    "name": "SmartLimited",
+    "industry": "Retail",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "fintech",
+      "cloud"
+    ],
+    "status": "in progress",
+    "product": "Tool for Finance"
+  },
+  {
+    "id": "2061",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalServices",
+    "industry": "Manufacturing",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "cloud",
+      "fintech"
+    ],
+    "status": "todo",
+    "product": "Application for Finance"
+  },
+  {
+    "id": "6419",
+    "avatar": "image_src_placeholder",
+    "name": "SmartTechnologies",
+    "industry": "Manufacturing",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "AI"
+    ],
+    "status": "todo",
+    "product": "Solution for Finance"
+  },
+  {
+    "id": "8598",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalConcepts",
+    "industry": "Finance",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "innovation",
+      "fintech",
+      "e-commerce"
+    ],
+    "status": "todo",
+    "product": "Application for Consumers"
+  },
+  {
+    "id": "9886",
+    "avatar": "image_src_placeholder",
+    "name": "InfoCorp",
+    "industry": "Healthcare",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "VR"
+    ],
+    "status": "done",
+    "product": "Platform for Finance"
+  },
+  {
+    "id": "4585",
+    "avatar": "image_src_placeholder",
+    "name": "DataDynamics",
+    "industry": "Real Estate",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "VR"
+    ],
+    "status": "todo",
+    "product": "App for Education"
+  },
+  {
+    "id": "1491",
+    "avatar": "image_src_placeholder",
+    "name": "TechIncorporated",
+    "industry": "Real Estate",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "VR",
+      "cloud"
+    ],
+    "status": "done",
+    "product": "Device for Consumers"
+  },
+  {
+    "id": "5327",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeCorp",
+    "industry": "Finance",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "VR",
+      "sustainability",
+      "fintech"
+    ],
+    "status": "in progress",
+    "product": "Program for Consumers"
+  },
+  {
+    "id": "5594",
+    "avatar": "image_src_placeholder",
+    "name": "FutureSystems",
+    "industry": "Hospitality",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "innovation",
+      "cloud",
+      "VR"
+    ],
+    "status": "done",
+    "product": "Application for Education"
+  },
+  {
+    "id": "5585",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaSolutions",
+    "industry": "Manufacturing",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "blockchain"
+    ],
+    "status": "in progress",
+    "product": "App for Education"
+  },
+  {
+    "id": "9277",
+    "avatar": "image_src_placeholder",
+    "name": "NetSystems",
+    "industry": "Finance",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "blockchain"
+    ],
+    "status": "in progress",
+    "product": "Software for Healthcare"
+  },
+  {
+    "id": "9312",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeSystems",
+    "industry": "Manufacturing",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "AI"
+    ],
+    "status": "todo",
+    "product": "System for Education"
+  },
+  {
+    "id": "6298",
+    "avatar": "image_src_placeholder",
+    "name": "SmartTechnologies",
+    "industry": "Hospitality",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "sustainability",
+      "VR",
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "Application for Healthcare"
+  },
+  {
+    "id": "1349",
+    "avatar": "image_src_placeholder",
+    "name": "NetTechnologies",
+    "industry": "Real Estate",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "AI"
+    ],
+    "status": "in progress",
+    "product": "Application for Healthcare"
+  },
+  {
+    "id": "6057",
+    "avatar": "image_src_placeholder",
+    "name": "InfoTechnologies",
+    "industry": "Hospitality",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "blockchain",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "Device for Consumers"
+  },
+  {
+    "id": "1587",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaSolutions",
+    "industry": "Logistics",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "Tool for Businesses"
+  },
+  {
+    "id": "6293",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaSolutions",
+    "industry": "Retail",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "blockchain",
+      "innovation"
+    ],
+    "status": "todo",
+    "product": "Platform for Healthcare"
+  },
+  {
+    "id": "5089",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeTechnologies",
+    "industry": "Healthcare",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "fintech",
+      "cloud"
+    ],
+    "status": "done",
+    "product": "Software for Finance"
+  },
+  {
+    "id": "4449",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaDynamics",
+    "industry": "Education",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "blockchain"
+    ],
+    "status": "todo",
+    "product": "Platform for Education"
+  },
+  {
+    "id": "4320",
+    "avatar": "image_src_placeholder",
+    "name": "InfoGroup",
+    "industry": "Finance",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "sustainability",
+      "IoT",
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "Application for Consumers"
+  },
+  {
+    "id": "8467",
+    "avatar": "image_src_placeholder",
+    "name": "TechTechnologies",
+    "industry": "Real Estate",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "innovation",
+      "e-commerce",
+      "blockchain",
+      "AI"
+    ],
+    "status": "done",
+    "product": "Platform for Consumers"
+  },
+  {
+    "id": "9457",
+    "avatar": "image_src_placeholder",
+    "name": "NetLimited",
+    "industry": "Logistics",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "VR"
+    ],
+    "status": "in progress",
+    "product": "Program for Education"
+  },
+  {
+    "id": "5249",
+    "avatar": "image_src_placeholder",
+    "name": "FutureTechnologies",
+    "industry": "Technology",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "sustainability",
+      "AR"
+    ],
+    "status": "todo",
+    "product": "App for Education"
+  },
+  {
+    "id": "3012",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaCorp",
+    "industry": "Healthcare",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "fintech"
+    ],
+    "status": "todo",
+    "product": "Tool for Businesses"
+  },
+  {
+    "id": "3444",
+    "avatar": "image_src_placeholder",
+    "name": "InfoConcepts",
+    "industry": "Manufacturing",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "VR"
+    ],
+    "status": "done",
+    "product": "Solution for Consumers"
+  },
+  {
+    "id": "4473",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalDynamics",
+    "industry": "Education",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "fintech",
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "Software for Businesses"
+  },
+  {
+    "id": "8756",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalSystems",
+    "industry": "Healthcare",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "e-commerce",
+      "IoT"
+    ],
+    "status": "done",
+    "product": "Device for Businesses"
+  },
+  {
+    "id": "2064",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalServices",
+    "industry": "Real Estate",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "VR",
+      "AR",
+      "e-commerce",
+      "cloud",
+      "IoT"
+    ],
+    "status": "done",
+    "product": "Program for Consumers"
+  },
+  {
+    "id": "8629",
+    "avatar": "image_src_placeholder",
+    "name": "BetaIncorporated",
+    "industry": "Finance",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "innovation",
+      "VR"
+    ],
+    "status": "done",
+    "product": "Solution for Education"
+  },
+  {
+    "id": "4000",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalGroup",
+    "industry": "Logistics",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "e-commerce"
+    ],
+    "status": "in progress",
+    "product": "Device for Education"
+  },
+  {
+    "id": "7731",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaSolutions",
+    "industry": "Manufacturing",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "AR",
+      "innovation",
+      "fintech",
+      "sustainability",
+      "cloud"
+    ],
+    "status": "todo",
+    "product": "Service for Finance"
+  },
+  {
+    "id": "6751",
+    "avatar": "image_src_placeholder",
+    "name": "TechLimited",
+    "industry": "Entertainment",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "sustainability",
+      "e-commerce"
+    ],
+    "status": "in progress",
+    "product": "App for Education"
+  },
+  {
+    "id": "4261",
+    "avatar": "image_src_placeholder",
+    "name": "TechSystems",
+    "industry": "Manufacturing",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "AR"
+    ],
+    "status": "done",
+    "product": "Device for Consumers"
+  },
+  {
+    "id": "4456",
+    "avatar": "image_src_placeholder",
+    "name": "FutureCorp",
+    "industry": "Manufacturing",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "innovation",
+      "VR"
+    ],
+    "status": "in progress",
+    "product": "Software for Businesses"
+  },
+  {
+    "id": "5599",
+    "avatar": "image_src_placeholder",
+    "name": "InfoServices",
+    "industry": "Technology",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "AR",
+      "IoT",
+      "AI",
+      "fintech"
+    ],
+    "status": "todo",
+    "product": "Platform for Healthcare"
+  },
+  {
+    "id": "1879",
+    "avatar": "image_src_placeholder",
+    "name": "DataServices",
+    "industry": "Real Estate",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability"
+    ],
+    "status": "todo",
+    "product": "Software for Consumers"
+  },
+  {
+    "id": "3805",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaLimited",
+    "industry": "Technology",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "e-commerce",
+      "AR",
+      "fintech"
+    ],
+    "status": "todo",
+    "product": "Solution for Education"
+  },
+  {
+    "id": "6694",
+    "avatar": "image_src_placeholder",
+    "name": "DataSystems",
+    "industry": "Education",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "VR",
+      "fintech",
+      "AI",
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "Tool for Businesses"
+  },
+  {
+    "id": "9451",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeIncorporated",
+    "industry": "Finance",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "VR",
+      "innovation",
+      "e-commerce",
+      "fintech"
+    ],
+    "status": "todo",
+    "product": "Software for Finance"
+  },
+  {
+    "id": "9051",
+    "avatar": "image_src_placeholder",
+    "name": "TechSolutions",
+    "industry": "Technology",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "AR",
+      "IoT"
+    ],
+    "status": "todo",
+    "product": "Application for Healthcare"
+  },
+  {
+    "id": "2276",
+    "avatar": "image_src_placeholder",
+    "name": "SmartSystems",
+    "industry": "Hospitality",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "innovation",
+      "fintech",
+      "e-commerce",
+      "AR",
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "Application for Healthcare"
+  },
+  {
+    "id": "1991",
+    "avatar": "image_src_placeholder",
+    "name": "FutureServices",
+    "industry": "Technology",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "cloud",
+      "blockchain",
+      "VR"
+    ],
+    "status": "in progress",
+    "product": "Service for Consumers"
+  },
+  {
+    "id": "7561",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaSystems",
+    "industry": "Technology",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "e-commerce"
+    ],
+    "status": "todo",
+    "product": "Solution for Finance"
+  },
+  {
+    "id": "9121",
+    "avatar": "image_src_placeholder",
+    "name": "SmartGroup",
+    "industry": "Retail",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "fintech"
+    ],
+    "status": "done",
+    "product": "Solution for Education"
+  },
+  {
+    "id": "4856",
+    "avatar": "image_src_placeholder",
+    "name": "TechConcepts",
+    "industry": "Hospitality",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "VR"
+    ],
+    "status": "done",
+    "product": "App for Businesses"
+  },
+  {
+    "id": "2878",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalCorp",
+    "industry": "Retail",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "AI",
+      "innovation",
+      "fintech"
+    ],
+    "status": "done",
+    "product": "Solution for Businesses"
+  },
+  {
+    "id": "7293",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeCorp",
+    "industry": "Entertainment",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "AR",
+      "blockchain",
+      "AI"
+    ],
+    "status": "done",
+    "product": "System for Healthcare"
+  },
+  {
+    "id": "5697",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeIncorporated",
+    "industry": "Finance",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "AR",
+      "VR",
+      "sustainability",
+      "AI",
+      "IoT"
+    ],
+    "status": "todo",
+    "product": "Software for Healthcare"
+  },
+  {
+    "id": "2414",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeServices",
+    "industry": "Education",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "innovation",
+      "VR",
+      "AI",
+      "cloud"
+    ],
+    "status": "done",
+    "product": "Service for Healthcare"
+  },
+  {
+    "id": "5658",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalSolutions",
+    "industry": "Healthcare",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "IoT"
+    ],
+    "status": "done",
+    "product": "Software for Education"
+  },
+  {
+    "id": "8696",
+    "avatar": "image_src_placeholder",
+    "name": "SmartTechnologies",
+    "industry": "Education",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability"
+    ],
+    "status": "in progress",
+    "product": "Program for Consumers"
+  },
+  {
+    "id": "3789",
+    "avatar": "image_src_placeholder",
+    "name": "FutureDynamics",
+    "industry": "Manufacturing",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "VR",
+      "cloud"
+    ],
+    "status": "done",
+    "product": "App for Consumers"
+  },
+  {
+    "id": "9544",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalIncorporated",
+    "industry": "Technology",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "IoT"
+    ],
+    "status": "done",
+    "product": "Service for Finance"
+  },
+  {
+    "id": "3756",
+    "avatar": "image_src_placeholder",
+    "name": "BetaSystems",
+    "industry": "Hospitality",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "Application for Healthcare"
+  },
+  {
+    "id": "4963",
+    "avatar": "image_src_placeholder",
+    "name": "TechSystems",
+    "industry": "Logistics",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "Service for Healthcare"
+  },
+  {
+    "id": "6837",
+    "avatar": "image_src_placeholder",
+    "name": "InfoGroup",
+    "industry": "Finance",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "sustainability"
+    ],
+    "status": "todo",
+    "product": "App for Education"
+  },
+  {
+    "id": "3167",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaSystems",
+    "industry": "Real Estate",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "fintech",
+      "blockchain"
+    ],
+    "status": "done",
+    "product": "Application for Healthcare"
+  },
+  {
+    "id": "7241",
+    "avatar": "image_src_placeholder",
+    "name": "FutureConcepts",
+    "industry": "Entertainment",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "cloud",
+      "innovation",
+      "e-commerce",
+      "AR"
+    ],
+    "status": "todo",
+    "product": "Device for Education"
+  },
+  {
+    "id": "3168",
+    "avatar": "image_src_placeholder",
+    "name": "NetCorp",
+    "industry": "Education",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "Tool for Finance"
+  },
+  {
+    "id": "8327",
+    "avatar": "image_src_placeholder",
+    "name": "SmartConcepts",
+    "industry": "Retail",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "fintech",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "Service for Healthcare"
+  },
+  {
+    "id": "5063",
+    "avatar": "image_src_placeholder",
+    "name": "BetaDynamics",
+    "industry": "Technology",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "VR",
+      "fintech"
+    ],
+    "status": "in progress",
+    "product": "Service for Consumers"
+  },
+  {
+    "id": "5292",
+    "avatar": "image_src_placeholder",
+    "name": "BetaCorp",
+    "industry": "Logistics",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "cloud",
+      "e-commerce",
+      "AI"
+    ],
+    "status": "in progress",
+    "product": "Device for Education"
+  },
+  {
+    "id": "3162",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeGroup",
+    "industry": "Finance",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "AI"
+    ],
+    "status": "in progress",
+    "product": "Software for Businesses"
+  },
+  {
+    "id": "5692",
+    "avatar": "image_src_placeholder",
+    "name": "NetLimited",
+    "industry": "Retail",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "VR",
+      "sustainability",
+      "fintech",
+      "e-commerce",
+      "IoT"
+    ],
+    "status": "done",
+    "product": "Service for Healthcare"
+  },
+  {
+    "id": "4339",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalConcepts",
+    "industry": "Finance",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "AR"
+    ],
+    "status": "done",
+    "product": "Application for Finance"
+  },
+  {
+    "id": "8449",
+    "avatar": "image_src_placeholder",
+    "name": "BetaIncorporated",
+    "industry": "Education",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "cloud",
+      "AI"
+    ],
+    "status": "todo",
+    "product": "Tool for Businesses"
+  },
+  {
+    "id": "1883",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeCorp",
+    "industry": "Hospitality",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "e-commerce",
+      "blockchain",
+      "innovation",
+      "cloud"
+    ],
+    "status": "done",
+    "product": "Application for Education"
+  },
+  {
+    "id": "3175",
+    "avatar": "image_src_placeholder",
+    "name": "FutureSystems",
+    "industry": "Education",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "blockchain",
+      "innovation",
+      "AR",
+      "e-commerce"
+    ],
+    "status": "in progress",
+    "product": "Program for Healthcare"
+  },
+  {
+    "id": "2387",
+    "avatar": "image_src_placeholder",
+    "name": "DataConcepts",
+    "industry": "Real Estate",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "IoT",
+      "fintech",
+      "innovation"
+    ],
+    "status": "todo",
+    "product": "Application for Businesses"
+  },
+  {
+    "id": "9838",
+    "avatar": "image_src_placeholder",
+    "name": "FutureCorp",
+    "industry": "Manufacturing",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "e-commerce",
+      "cloud",
+      "innovation",
+      "VR"
+    ],
+    "status": "done",
+    "product": "Service for Finance"
+  },
+  {
+    "id": "4635",
+    "avatar": "image_src_placeholder",
+    "name": "TechGroup",
+    "industry": "Retail",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "VR"
+    ],
+    "status": "in progress",
+    "product": "Software for Consumers"
+  },
+  {
+    "id": "6019",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalSolutions",
+    "industry": "Hospitality",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "AI"
+    ],
+    "status": "in progress",
+    "product": "Device for Education"
+  },
+  {
+    "id": "2132",
+    "avatar": "image_src_placeholder",
+    "name": "DataCorp",
+    "industry": "Technology",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "cloud"
+    ],
+    "status": "done",
+    "product": "App for Consumers"
+  },
+  {
+    "id": "8448",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalGroup",
+    "industry": "Manufacturing",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "Program for Education"
+  },
+  {
+    "id": "2081",
+    "avatar": "image_src_placeholder",
+    "name": "TechConcepts",
+    "industry": "Healthcare",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "sustainability",
+      "VR",
+      "cloud",
+      "AI"
+    ],
+    "status": "done",
+    "product": "Service for Education"
+  },
+  {
+    "id": "3525",
+    "avatar": "image_src_placeholder",
+    "name": "FutureCorp",
+    "industry": "Retail",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "e-commerce",
+      "cloud",
+      "sustainability",
+      "VR",
+      "IoT"
+    ],
+    "status": "in progress",
+    "product": "App for Businesses"
+  },
+  {
+    "id": "6622",
+    "avatar": "image_src_placeholder",
+    "name": "DataSystems",
+    "industry": "Hospitality",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "fintech",
+      "AR"
+    ],
+    "status": "todo",
+    "product": "Platform for Finance"
+  },
+  {
+    "id": "8874",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaConcepts",
+    "industry": "Finance",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "AR"
+    ],
+    "status": "todo",
+    "product": "Platform for Healthcare"
+  },
+  {
+    "id": "1408",
+    "avatar": "image_src_placeholder",
+    "name": "DataConcepts",
+    "industry": "Education",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "fintech",
+      "VR"
+    ],
+    "status": "done",
+    "product": "Platform for Businesses"
+  },
+  {
+    "id": "5973",
+    "avatar": "image_src_placeholder",
+    "name": "InfoLimited",
+    "industry": "Technology",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "innovation"
+    ],
+    "status": "todo",
+    "product": "Solution for Businesses"
+  },
+  {
+    "id": "3670",
+    "avatar": "image_src_placeholder",
+    "name": "DataLimited",
+    "industry": "Logistics",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "AR",
+      "blockchain",
+      "cloud",
+      "VR"
+    ],
+    "status": "todo",
+    "product": "Tool for Education"
+  },
+  {
+    "id": "6466",
+    "avatar": "image_src_placeholder",
+    "name": "TechServices",
+    "industry": "Technology",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "AR"
+    ],
+    "status": "done",
+    "product": "Solution for Education"
+  },
+  {
+    "id": "9602",
+    "avatar": "image_src_placeholder",
+    "name": "FutureTechnologies",
+    "industry": "Technology",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "sustainability",
+      "innovation",
+      "cloud",
+      "fintech",
+      "e-commerce"
+    ],
+    "status": "done",
+    "product": "Program for Finance"
+  },
+  {
+    "id": "5897",
+    "avatar": "image_src_placeholder",
+    "name": "DataSolutions",
+    "industry": "Hospitality",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "e-commerce",
+      "AI",
+      "fintech",
+      "VR"
+    ],
+    "status": "in progress",
+    "product": "Service for Consumers"
+  },
+  {
+    "id": "6255",
+    "avatar": "image_src_placeholder",
+    "name": "DataCorp",
+    "industry": "Real Estate",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain"
+    ],
+    "status": "in progress",
+    "product": "App for Consumers"
+  },
+  {
+    "id": "2955",
+    "avatar": "image_src_placeholder",
+    "name": "BetaLimited",
+    "industry": "Technology",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "AI",
+      "sustainability"
+    ],
+    "status": "todo",
+    "product": "Solution for Finance"
+  },
+  {
+    "id": "1892",
+    "avatar": "image_src_placeholder",
+    "name": "InfoLimited",
+    "industry": "Hospitality",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "innovation",
+      "blockchain",
+      "fintech",
+      "sustainability"
+    ],
+    "status": "in progress",
+    "product": "Program for Consumers"
+  },
+  {
+    "id": "3586",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeLimited",
+    "industry": "Entertainment",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "sustainability",
+      "e-commerce",
+      "blockchain"
+    ],
+    "status": "done",
+    "product": "Service for Businesses"
+  },
+  {
+    "id": "5100",
+    "avatar": "image_src_placeholder",
+    "name": "BetaGroup",
+    "industry": "Education",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "VR"
+    ],
+    "status": "in progress",
+    "product": "System for Education"
+  },
+  {
+    "id": "3969",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeDynamics",
+    "industry": "Manufacturing",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "fintech",
+      "AI",
+      "e-commerce"
+    ],
+    "status": "in progress",
+    "product": "App for Healthcare"
+  },
+  {
+    "id": "8105",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaCorp",
+    "industry": "Retail",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "e-commerce"
+    ],
+    "status": "in progress",
+    "product": "Solution for Education"
+  },
+  {
+    "id": "2822",
+    "avatar": "image_src_placeholder",
+    "name": "NetServices",
+    "industry": "Finance",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "AR",
+      "innovation",
+      "VR"
+    ],
+    "status": "done",
+    "product": "Program for Finance"
+  },
+  {
+    "id": "8032",
+    "avatar": "image_src_placeholder",
+    "name": "TechGroup",
+    "industry": "Logistics",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "innovation"
+    ],
+    "status": "todo",
+    "product": "System for Healthcare"
+  },
+  {
+    "id": "4539",
+    "avatar": "image_src_placeholder",
+    "name": "DataIncorporated",
+    "industry": "Technology",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "fintech",
+      "blockchain"
+    ],
+    "status": "todo",
+    "product": "Platform for Healthcare"
+  },
+  {
+    "id": "3563",
+    "avatar": "image_src_placeholder",
+    "name": "SmartCorp",
+    "industry": "Technology",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "VR",
+      "fintech"
+    ],
+    "status": "done",
+    "product": "System for Finance"
+  },
+  {
+    "id": "2969",
+    "avatar": "image_src_placeholder",
+    "name": "DataLimited",
+    "industry": "Technology",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "Tool for Businesses"
+  },
+  {
+    "id": "9461",
+    "avatar": "image_src_placeholder",
+    "name": "TechIncorporated",
+    "industry": "Hospitality",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "VR",
+      "blockchain"
+    ],
+    "status": "todo",
+    "product": "Software for Education"
+  },
+  {
+    "id": "6935",
+    "avatar": "image_src_placeholder",
+    "name": "SmartCorp",
+    "industry": "Healthcare",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "cloud"
+    ],
+    "status": "done",
+    "product": "Tool for Consumers"
+  },
+  {
+    "id": "3627",
+    "avatar": "image_src_placeholder",
+    "name": "FutureIncorporated",
+    "industry": "Technology",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "VR",
+      "innovation",
+      "blockchain",
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "Service for Finance"
+  },
+  {
+    "id": "5022",
+    "avatar": "image_src_placeholder",
+    "name": "DataDynamics",
+    "industry": "Education",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "blockchain"
+    ],
+    "status": "done",
+    "product": "Solution for Healthcare"
+  },
+  {
+    "id": "1637",
+    "avatar": "image_src_placeholder",
+    "name": "TechSystems",
+    "industry": "Retail",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "innovation",
+      "VR",
+      "IoT",
+      "AR",
+      "blockchain"
+    ],
+    "status": "done",
+    "product": "Solution for Finance"
+  },
+  {
+    "id": "7453",
+    "avatar": "image_src_placeholder",
+    "name": "BetaGroup",
+    "industry": "Technology",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "AR"
+    ],
+    "status": "done",
+    "product": "System for Healthcare"
+  },
+  {
+    "id": "3300",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeTechnologies",
+    "industry": "Healthcare",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "cloud",
+      "AI",
+      "innovation",
+      "AR"
+    ],
+    "status": "todo",
+    "product": "Service for Consumers"
+  },
+  {
+    "id": "2681",
+    "avatar": "image_src_placeholder",
+    "name": "SmartSolutions",
+    "industry": "Finance",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "cloud",
+      "fintech"
+    ],
+    "status": "todo",
+    "product": "Service for Education"
+  },
+  {
+    "id": "4547",
+    "avatar": "image_src_placeholder",
+    "name": "TechServices",
+    "industry": "Entertainment",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "IoT",
+      "AR"
+    ],
+    "status": "todo",
+    "product": "Tool for Consumers"
+  },
+  {
+    "id": "8283",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalGroup",
+    "industry": "Entertainment",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "AR",
+      "IoT"
+    ],
+    "status": "done",
+    "product": "Tool for Finance"
+  },
+  {
+    "id": "2498",
+    "avatar": "image_src_placeholder",
+    "name": "BetaCorp",
+    "industry": "Retail",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "e-commerce",
+      "cloud",
+      "IoT"
+    ],
+    "status": "todo",
+    "product": "Device for Finance"
+  },
+  {
+    "id": "1016",
+    "avatar": "image_src_placeholder",
+    "name": "BetaLimited",
+    "industry": "Entertainment",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "VR",
+      "cloud",
+      "IoT",
+      "fintech"
+    ],
+    "status": "done",
+    "product": "System for Consumers"
+  },
+  {
+    "id": "5186",
+    "avatar": "image_src_placeholder",
+    "name": "DataIncorporated",
+    "industry": "Technology",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "fintech"
+    ],
+    "status": "in progress",
+    "product": "Application for Education"
+  },
+  {
+    "id": "6533",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaSystems",
+    "industry": "Retail",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "AR",
+      "blockchain",
+      "cloud"
+    ],
+    "status": "in progress",
+    "product": "Program for Finance"
+  },
+  {
+    "id": "4448",
+    "avatar": "image_src_placeholder",
+    "name": "BetaSolutions",
+    "industry": "Manufacturing",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "cloud",
+      "AR"
+    ],
+    "status": "done",
+    "product": "Program for Consumers"
+  },
+  {
+    "id": "3946",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeDynamics",
+    "industry": "Hospitality",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "Tool for Healthcare"
+  },
+  {
+    "id": "6493",
+    "avatar": "image_src_placeholder",
+    "name": "TechServices",
+    "industry": "Technology",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "blockchain",
+      "sustainability",
+      "VR"
+    ],
+    "status": "done",
+    "product": "Device for Finance"
+  },
+  {
+    "id": "4016",
+    "avatar": "image_src_placeholder",
+    "name": "SmartCorp",
+    "industry": "Hospitality",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "innovation",
+      "e-commerce",
+      "cloud",
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "System for Consumers"
+  },
+  {
+    "id": "9387",
+    "avatar": "image_src_placeholder",
+    "name": "SmartCorp",
+    "industry": "Logistics",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "innovation",
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "Application for Education"
+  },
+  {
+    "id": "5077",
+    "avatar": "image_src_placeholder",
+    "name": "FutureSolutions",
+    "industry": "Technology",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "VR",
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "Program for Businesses"
+  },
+  {
+    "id": "2107",
+    "avatar": "image_src_placeholder",
+    "name": "FutureGroup",
+    "industry": "Education",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "innovation",
+      "cloud",
+      "VR"
+    ],
+    "status": "todo",
+    "product": "App for Healthcare"
+  },
+  {
+    "id": "9196",
+    "avatar": "image_src_placeholder",
+    "name": "NetSystems",
+    "industry": "Retail",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "innovation",
+      "cloud",
+      "e-commerce",
+      "IoT",
+      "fintech"
+    ],
+    "status": "in progress",
+    "product": "Service for Consumers"
+  },
+  {
+    "id": "5272",
+    "avatar": "image_src_placeholder",
+    "name": "DataDynamics",
+    "industry": "Manufacturing",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "blockchain"
+    ],
+    "status": "done",
+    "product": "Solution for Finance"
+  },
+  {
+    "id": "5364",
+    "avatar": "image_src_placeholder",
+    "name": "DataDynamics",
+    "industry": "Finance",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "AR",
+      "fintech",
+      "cloud",
+      "VR"
+    ],
+    "status": "todo",
+    "product": "Program for Healthcare"
+  },
+  {
+    "id": "7665",
+    "avatar": "image_src_placeholder",
+    "name": "DataCorp",
+    "industry": "Finance",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "AR",
+      "VR",
+      "AI"
+    ],
+    "status": "done",
+    "product": "Software for Businesses"
+  },
+  {
+    "id": "4308",
+    "avatar": "image_src_placeholder",
+    "name": "FutureTechnologies",
+    "industry": "Entertainment",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "fintech",
+      "cloud"
+    ],
+    "status": "done",
+    "product": "Service for Finance"
+  },
+  {
+    "id": "3115",
+    "avatar": "image_src_placeholder",
+    "name": "FutureLimited",
+    "industry": "Entertainment",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "VR",
+      "fintech",
+      "AI",
+      "sustainability",
+      "cloud"
+    ],
+    "status": "in progress",
+    "product": "Program for Consumers"
+  },
+  {
+    "id": "9767",
+    "avatar": "image_src_placeholder",
+    "name": "TechIncorporated",
+    "industry": "Entertainment",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "AR",
+      "fintech"
+    ],
+    "status": "done",
+    "product": "Platform for Finance"
+  },
+  {
+    "id": "9176",
+    "avatar": "image_src_placeholder",
+    "name": "TechServices",
+    "industry": "Finance",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "fintech",
+      "sustainability",
+      "AI"
+    ],
+    "status": "in progress",
+    "product": "Application for Healthcare"
+  },
+  {
+    "id": "5932",
+    "avatar": "image_src_placeholder",
+    "name": "TechDynamics",
+    "industry": "Retail",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "blockchain",
+      "cloud",
+      "e-commerce"
+    ],
+    "status": "in progress",
+    "product": "App for Education"
+  },
+  {
+    "id": "2145",
+    "avatar": "image_src_placeholder",
+    "name": "NetConcepts",
+    "industry": "Hospitality",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "VR",
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "Program for Businesses"
+  },
+  {
+    "id": "3048",
+    "avatar": "image_src_placeholder",
+    "name": "InfoTechnologies",
+    "industry": "Technology",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "Solution for Businesses"
+  },
+  {
+    "id": "1462",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaGroup",
+    "industry": "Technology",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "cloud",
+      "e-commerce",
+      "blockchain",
+      "sustainability"
+    ],
+    "status": "in progress",
+    "product": "Program for Consumers"
+  },
+  {
+    "id": "9131",
+    "avatar": "image_src_placeholder",
+    "name": "BetaCorp",
+    "industry": "Hospitality",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "e-commerce",
+      "IoT",
+      "blockchain",
+      "cloud",
+      "sustainability"
+    ],
+    "status": "in progress",
+    "product": "Program for Consumers"
+  },
+  {
+    "id": "9690",
+    "avatar": "image_src_placeholder",
+    "name": "FutureTechnologies",
+    "industry": "Logistics",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "innovation"
+    ],
+    "status": "todo",
+    "product": "App for Education"
+  },
+  {
+    "id": "4771",
+    "avatar": "image_src_placeholder",
+    "name": "BetaLimited",
+    "industry": "Entertainment",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "cloud",
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "Platform for Finance"
+  },
+  {
+    "id": "2697",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalSystems",
+    "industry": "Finance",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "VR",
+      "blockchain",
+      "e-commerce"
+    ],
+    "status": "done",
+    "product": "Application for Healthcare"
+  },
+  {
+    "id": "2253",
+    "avatar": "image_src_placeholder",
+    "name": "FutureLimited",
+    "industry": "Manufacturing",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "AR",
+      "e-commerce"
+    ],
+    "status": "done",
+    "product": "System for Finance"
+  },
+  {
+    "id": "8889",
+    "avatar": "image_src_placeholder",
+    "name": "NetTechnologies",
+    "industry": "Finance",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "fintech",
+      "VR",
+      "e-commerce",
+      "sustainability"
+    ],
+    "status": "in progress",
+    "product": "Platform for Healthcare"
+  },
+  {
+    "id": "2703",
+    "avatar": "image_src_placeholder",
+    "name": "BetaSystems",
+    "industry": "Finance",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "IoT",
+      "VR",
+      "AI",
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "Service for Consumers"
+  },
+  {
+    "id": "9915",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalConcepts",
+    "industry": "Finance",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "fintech",
+      "AI",
+      "AR",
+      "sustainability"
+    ],
+    "status": "todo",
+    "product": "Platform for Consumers"
+  },
+  {
+    "id": "8806",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeConcepts",
+    "industry": "Logistics",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "cloud",
+      "fintech",
+      "innovation",
+      "IoT"
+    ],
+    "status": "in progress",
+    "product": "Solution for Businesses"
+  },
+  {
+    "id": "5801",
+    "avatar": "image_src_placeholder",
+    "name": "FutureSolutions",
+    "industry": "Technology",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "cloud",
+      "AI"
+    ],
+    "status": "done",
+    "product": "App for Finance"
+  },
+  {
+    "id": "3431",
+    "avatar": "image_src_placeholder",
+    "name": "NetLimited",
+    "industry": "Real Estate",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "blockchain",
+      "cloud",
+      "innovation",
+      "fintech"
+    ],
+    "status": "in progress",
+    "product": "System for Finance"
+  },
+  {
+    "id": "5911",
+    "avatar": "image_src_placeholder",
+    "name": "FutureConcepts",
+    "industry": "Manufacturing",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "fintech",
+      "IoT",
+      "innovation",
+      "cloud"
+    ],
+    "status": "in progress",
+    "product": "Solution for Consumers"
+  },
+  {
+    "id": "7774",
+    "avatar": "image_src_placeholder",
+    "name": "SmartServices",
+    "industry": "Retail",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "cloud",
+      "innovation",
+      "sustainability",
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "Service for Consumers"
+  },
+  {
+    "id": "7014",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalSystems",
+    "industry": "Technology",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "Program for Finance"
+  },
+  {
+    "id": "3794",
+    "avatar": "image_src_placeholder",
+    "name": "BetaConcepts",
+    "industry": "Entertainment",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "IoT"
+    ],
+    "status": "in progress",
+    "product": "Device for Finance"
+  },
+  {
+    "id": "7345",
+    "avatar": "image_src_placeholder",
+    "name": "TechLimited",
+    "industry": "Logistics",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "cloud",
+      "IoT",
+      "sustainability"
+    ],
+    "status": "in progress",
+    "product": "System for Education"
+  },
+  {
+    "id": "5722",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeDynamics",
+    "industry": "Manufacturing",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "innovation",
+      "VR",
+      "fintech",
+      "cloud"
+    ],
+    "status": "done",
+    "product": "Device for Finance"
+  },
+  {
+    "id": "1287",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeDynamics",
+    "industry": "Hospitality",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "fintech",
+      "blockchain"
+    ],
+    "status": "in progress",
+    "product": "Service for Consumers"
+  },
+  {
+    "id": "1255",
+    "avatar": "image_src_placeholder",
+    "name": "NetServices",
+    "industry": "Manufacturing",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "cloud"
+    ],
+    "status": "todo",
+    "product": "Platform for Consumers"
+  },
+  {
+    "id": "8498",
+    "avatar": "image_src_placeholder",
+    "name": "SmartSolutions",
+    "industry": "Entertainment",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "fintech"
+    ],
+    "status": "done",
+    "product": "Platform for Finance"
+  },
+  {
+    "id": "2657",
+    "avatar": "image_src_placeholder",
+    "name": "TechDynamics",
+    "industry": "Retail",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "cloud",
+      "fintech",
+      "innovation",
+      "IoT"
+    ],
+    "status": "in progress",
+    "product": "Solution for Finance"
+  },
+  {
+    "id": "7148",
+    "avatar": "image_src_placeholder",
+    "name": "BetaConcepts",
+    "industry": "Healthcare",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "IoT",
+      "VR",
+      "blockchain"
+    ],
+    "status": "in progress",
+    "product": "System for Healthcare"
+  },
+  {
+    "id": "1832",
+    "avatar": "image_src_placeholder",
+    "name": "BetaTechnologies",
+    "industry": "Real Estate",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "cloud",
+      "VR",
+      "sustainability",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "Application for Education"
+  },
+  {
+    "id": "5703",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaSystems",
+    "industry": "Hospitality",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "VR",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "Program for Finance"
+  },
+  {
+    "id": "5864",
+    "avatar": "image_src_placeholder",
+    "name": "SmartLimited",
+    "industry": "Technology",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "cloud",
+      "fintech",
+      "blockchain",
+      "VR"
+    ],
+    "status": "todo",
+    "product": "Device for Consumers"
+  },
+  {
+    "id": "8535",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaConcepts",
+    "industry": "Logistics",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "fintech",
+      "AI",
+      "AR"
+    ],
+    "status": "done",
+    "product": "Platform for Businesses"
+  },
+  {
+    "id": "1042",
+    "avatar": "image_src_placeholder",
+    "name": "InfoLimited",
+    "industry": "Real Estate",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "IoT",
+      "cloud"
+    ],
+    "status": "todo",
+    "product": "Service for Businesses"
+  },
+  {
+    "id": "8836",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaDynamics",
+    "industry": "Technology",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "e-commerce",
+      "sustainability",
+      "blockchain",
+      "cloud"
+    ],
+    "status": "todo",
+    "product": "System for Education"
+  },
+  {
+    "id": "5788",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalIncorporated",
+    "industry": "Retail",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "e-commerce",
+      "AR"
+    ],
+    "status": "todo",
+    "product": "Software for Finance"
+  },
+  {
+    "id": "8894",
+    "avatar": "image_src_placeholder",
+    "name": "SmartIncorporated",
+    "industry": "Healthcare",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "cloud",
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "Application for Consumers"
+  },
+  {
+    "id": "9568",
+    "avatar": "image_src_placeholder",
+    "name": "TechTechnologies",
+    "industry": "Retail",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "App for Education"
+  },
+  {
+    "id": "9863",
+    "avatar": "image_src_placeholder",
+    "name": "NetGroup",
+    "industry": "Retail",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "cloud",
+      "AR",
+      "sustainability",
+      "AI"
+    ],
+    "status": "todo",
+    "product": "Tool for Education"
+  },
+  {
+    "id": "2169",
+    "avatar": "image_src_placeholder",
+    "name": "FutureGroup",
+    "industry": "Technology",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "AR"
+    ],
+    "status": "done",
+    "product": "Service for Businesses"
+  },
+  {
+    "id": "6127",
+    "avatar": "image_src_placeholder",
+    "name": "TechSystems",
+    "industry": "Real Estate",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "blockchain",
+      "AI",
+      "innovation",
+      "IoT"
+    ],
+    "status": "todo",
+    "product": "App for Businesses"
+  },
+  {
+    "id": "2681",
+    "avatar": "image_src_placeholder",
+    "name": "BetaConcepts",
+    "industry": "Manufacturing",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "fintech",
+      "e-commerce",
+      "AR",
+      "VR"
+    ],
+    "status": "done",
+    "product": "System for Healthcare"
+  },
+  {
+    "id": "8280",
+    "avatar": "image_src_placeholder",
+    "name": "NetTechnologies",
+    "industry": "Healthcare",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "VR",
+      "IoT",
+      "e-commerce",
+      "cloud",
+      "blockchain"
+    ],
+    "status": "in progress",
+    "product": "System for Consumers"
+  },
+  {
+    "id": "7443",
+    "avatar": "image_src_placeholder",
+    "name": "BetaServices",
+    "industry": "Finance",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "VR",
+      "fintech"
+    ],
+    "status": "todo",
+    "product": "Solution for Businesses"
+  },
+  {
+    "id": "3511",
+    "avatar": "image_src_placeholder",
+    "name": "BetaConcepts",
+    "industry": "Education",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "sustainability",
+      "IoT",
+      "VR"
+    ],
+    "status": "in progress",
+    "product": "Application for Businesses"
+  },
+  {
+    "id": "8302",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeLimited",
+    "industry": "Logistics",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "fintech",
+      "AR",
+      "innovation",
+      "AI",
+      "IoT"
+    ],
+    "status": "in progress",
+    "product": "Software for Consumers"
+  },
+  {
+    "id": "6938",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaServices",
+    "industry": "Manufacturing",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "AR",
+      "AI",
+      "fintech"
+    ],
+    "status": "todo",
+    "product": "Tool for Finance"
+  },
+  {
+    "id": "6216",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaIncorporated",
+    "industry": "Real Estate",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "blockchain",
+      "cloud"
+    ],
+    "status": "todo",
+    "product": "Service for Education"
+  },
+  {
+    "id": "8257",
+    "avatar": "image_src_placeholder",
+    "name": "BetaConcepts",
+    "industry": "Logistics",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "sustainability"
+    ],
+    "status": "in progress",
+    "product": "App for Healthcare"
+  },
+  {
+    "id": "7090",
+    "avatar": "image_src_placeholder",
+    "name": "InfoDynamics",
+    "industry": "Real Estate",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "Software for Education"
+  },
+  {
+    "id": "1479",
+    "avatar": "image_src_placeholder",
+    "name": "BetaTechnologies",
+    "industry": "Technology",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "VR",
+      "e-commerce",
+      "IoT"
+    ],
+    "status": "in progress",
+    "product": "System for Finance"
+  },
+  {
+    "id": "8846",
+    "avatar": "image_src_placeholder",
+    "name": "SmartIncorporated",
+    "industry": "Hospitality",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "AI"
+    ],
+    "status": "done",
+    "product": "Platform for Healthcare"
+  },
+  {
+    "id": "1865",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeDynamics",
+    "industry": "Healthcare",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "Program for Healthcare"
+  },
+  {
+    "id": "5971",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaTechnologies",
+    "industry": "Education",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "AI",
+      "AR",
+      "blockchain"
+    ],
+    "status": "todo",
+    "product": "Platform for Healthcare"
+  },
+  {
+    "id": "3772",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaIncorporated",
+    "industry": "Hospitality",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "sustainability",
+      "cloud"
+    ],
+    "status": "todo",
+    "product": "System for Consumers"
+  },
+  {
+    "id": "1482",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeDynamics",
+    "industry": "Real Estate",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "Application for Finance"
+  },
+  {
+    "id": "6531",
+    "avatar": "image_src_placeholder",
+    "name": "FutureTechnologies",
+    "industry": "Hospitality",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "blockchain",
+      "AR",
+      "fintech"
+    ],
+    "status": "todo",
+    "product": "Platform for Consumers"
+  },
+  {
+    "id": "8162",
+    "avatar": "image_src_placeholder",
+    "name": "SmartServices",
+    "industry": "Retail",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "Software for Education"
+  },
+  {
+    "id": "8953",
+    "avatar": "image_src_placeholder",
+    "name": "DataSolutions",
+    "industry": "Logistics",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "AR"
+    ],
+    "status": "done",
+    "product": "Application for Consumers"
+  },
+  {
+    "id": "1619",
+    "avatar": "image_src_placeholder",
+    "name": "NetSystems",
+    "industry": "Entertainment",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "AI",
+      "innovation",
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "App for Consumers"
+  },
+  {
+    "id": "4989",
+    "avatar": "image_src_placeholder",
+    "name": "FutureConcepts",
+    "industry": "Real Estate",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "AR",
+      "fintech",
+      "AI",
+      "VR",
+      "sustainability"
+    ],
+    "status": "in progress",
+    "product": "Platform for Healthcare"
+  },
+  {
+    "id": "3132",
+    "avatar": "image_src_placeholder",
+    "name": "SmartSystems",
+    "industry": "Retail",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "AI",
+      "cloud",
+      "innovation"
+    ],
+    "status": "todo",
+    "product": "App for Businesses"
+  },
+  {
+    "id": "4438",
+    "avatar": "image_src_placeholder",
+    "name": "FutureIncorporated",
+    "industry": "Hospitality",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "sustainability",
+      "VR"
+    ],
+    "status": "in progress",
+    "product": "Software for Consumers"
+  },
+  {
+    "id": "7942",
+    "avatar": "image_src_placeholder",
+    "name": "FutureSystems",
+    "industry": "Healthcare",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "AR",
+      "e-commerce",
+      "sustainability"
+    ],
+    "status": "todo",
+    "product": "Software for Consumers"
+  },
+  {
+    "id": "2719",
+    "avatar": "image_src_placeholder",
+    "name": "BetaGroup",
+    "industry": "Finance",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "fintech",
+      "IoT",
+      "AI",
+      "AR",
+      "e-commerce"
+    ],
+    "status": "in progress",
+    "product": "Service for Healthcare"
+  },
+  {
+    "id": "3548",
+    "avatar": "image_src_placeholder",
+    "name": "TechServices",
+    "industry": "Hospitality",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "AR"
+    ],
+    "status": "todo",
+    "product": "Application for Education"
+  },
+  {
+    "id": "4743",
+    "avatar": "image_src_placeholder",
+    "name": "FutureConcepts",
+    "industry": "Entertainment",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "e-commerce",
+      "blockchain"
+    ],
+    "status": "done",
+    "product": "App for Healthcare"
+  },
+  {
+    "id": "8892",
+    "avatar": "image_src_placeholder",
+    "name": "InfoConcepts",
+    "industry": "Entertainment",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "cloud",
+      "fintech",
+      "AI",
+      "sustainability"
+    ],
+    "status": "in progress",
+    "product": "Service for Businesses"
+  },
+  {
+    "id": "1145",
+    "avatar": "image_src_placeholder",
+    "name": "NetDynamics",
+    "industry": "Manufacturing",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "blockchain",
+      "innovation",
+      "VR"
+    ],
+    "status": "in progress",
+    "product": "Program for Consumers"
+  },
+  {
+    "id": "4839",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaServices",
+    "industry": "Retail",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "AI",
+      "blockchain",
+      "fintech",
+      "VR"
+    ],
+    "status": "done",
+    "product": "Solution for Businesses"
+  },
+  {
+    "id": "3954",
+    "avatar": "image_src_placeholder",
+    "name": "SmartDynamics",
+    "industry": "Finance",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "e-commerce",
+      "AI",
+      "cloud",
+      "VR"
+    ],
+    "status": "done",
+    "product": "Service for Education"
+  },
+  {
+    "id": "2972",
+    "avatar": "image_src_placeholder",
+    "name": "BetaDynamics",
+    "industry": "Technology",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "Application for Education"
+  },
+  {
+    "id": "2401",
+    "avatar": "image_src_placeholder",
+    "name": "FutureConcepts",
+    "industry": "Finance",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "fintech"
+    ],
+    "status": "done",
+    "product": "Program for Finance"
+  },
+  {
+    "id": "1269",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalCorp",
+    "industry": "Technology",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "AI"
+    ],
+    "status": "in progress",
+    "product": "Solution for Finance"
+  },
+  {
+    "id": "6479",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalIncorporated",
+    "industry": "Hospitality",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "fintech",
+      "AI",
+      "blockchain",
+      "e-commerce"
+    ],
+    "status": "in progress",
+    "product": "Platform for Healthcare"
+  },
+  {
+    "id": "1677",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeConcepts",
+    "industry": "Logistics",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "innovation",
+      "AR",
+      "VR"
+    ],
+    "status": "done",
+    "product": "App for Consumers"
+  },
+  {
+    "id": "4465",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaSystems",
+    "industry": "Logistics",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "Platform for Finance"
+  },
+  {
+    "id": "2767",
+    "avatar": "image_src_placeholder",
+    "name": "SmartSystems",
+    "industry": "Finance",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "innovation",
+      "e-commerce",
+      "fintech"
+    ],
+    "status": "done",
+    "product": "Application for Businesses"
+  },
+  {
+    "id": "8352",
+    "avatar": "image_src_placeholder",
+    "name": "InfoIncorporated",
+    "industry": "Entertainment",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "AR",
+      "innovation",
+      "IoT"
+    ],
+    "status": "done",
+    "product": "Program for Healthcare"
+  },
+  {
+    "id": "2206",
+    "avatar": "image_src_placeholder",
+    "name": "NetConcepts",
+    "industry": "Technology",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "e-commerce",
+      "IoT",
+      "AR"
+    ],
+    "status": "todo",
+    "product": "Program for Businesses"
+  },
+  {
+    "id": "4399",
+    "avatar": "image_src_placeholder",
+    "name": "TechDynamics",
+    "industry": "Entertainment",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "cloud",
+      "AI"
+    ],
+    "status": "done",
+    "product": "Application for Consumers"
+  },
+  {
+    "id": "7470",
+    "avatar": "image_src_placeholder",
+    "name": "TechDynamics",
+    "industry": "Entertainment",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "e-commerce",
+      "VR",
+      "blockchain",
+      "AR",
+      "sustainability"
+    ],
+    "status": "todo",
+    "product": "Program for Healthcare"
+  },
+  {
+    "id": "2028",
+    "avatar": "image_src_placeholder",
+    "name": "TechLimited",
+    "industry": "Healthcare",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "fintech"
+    ],
+    "status": "todo",
+    "product": "Application for Businesses"
+  },
+  {
+    "id": "8640",
+    "avatar": "image_src_placeholder",
+    "name": "FutureServices",
+    "industry": "Healthcare",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "blockchain",
+      "innovation",
+      "cloud",
+      "e-commerce"
+    ],
+    "status": "done",
+    "product": "Device for Healthcare"
+  },
+  {
+    "id": "2644",
+    "avatar": "image_src_placeholder",
+    "name": "DataSystems",
+    "industry": "Manufacturing",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "Platform for Finance"
+  },
+  {
+    "id": "1786",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeSolutions",
+    "industry": "Education",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "fintech",
+      "cloud",
+      "IoT",
+      "e-commerce"
+    ],
+    "status": "todo",
+    "product": "Program for Healthcare"
+  },
+  {
+    "id": "1622",
+    "avatar": "image_src_placeholder",
+    "name": "FutureTechnologies",
+    "industry": "Retail",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "innovation",
+      "blockchain"
+    ],
+    "status": "done",
+    "product": "Program for Finance"
+  },
+  {
+    "id": "8963",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalTechnologies",
+    "industry": "Technology",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "fintech",
+      "AR",
+      "blockchain"
+    ],
+    "status": "done",
+    "product": "Program for Healthcare"
+  },
+  {
+    "id": "9314",
+    "avatar": "image_src_placeholder",
+    "name": "InfoSystems",
+    "industry": "Hospitality",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "fintech",
+      "AI"
+    ],
+    "status": "done",
+    "product": "Service for Consumers"
+  },
+  {
+    "id": "7207",
+    "avatar": "image_src_placeholder",
+    "name": "FutureDynamics",
+    "industry": "Healthcare",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "fintech",
+      "AR",
+      "sustainability",
+      "cloud"
+    ],
+    "status": "done",
+    "product": "Application for Consumers"
+  },
+  {
+    "id": "7493",
+    "avatar": "image_src_placeholder",
+    "name": "BetaCorp",
+    "industry": "Technology",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "VR"
+    ],
+    "status": "in progress",
+    "product": "Tool for Finance"
+  },
+  {
+    "id": "2769",
+    "avatar": "image_src_placeholder",
+    "name": "NetDynamics",
+    "industry": "Retail",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "fintech",
+      "AI",
+      "blockchain",
+      "cloud"
+    ],
+    "status": "in progress",
+    "product": "Device for Businesses"
+  },
+  {
+    "id": "6786",
+    "avatar": "image_src_placeholder",
+    "name": "DataDynamics",
+    "industry": "Retail",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "VR",
+      "blockchain",
+      "sustainability",
+      "e-commerce",
+      "AR"
+    ],
+    "status": "done",
+    "product": "System for Consumers"
+  },
+  {
+    "id": "2660",
+    "avatar": "image_src_placeholder",
+    "name": "TechCorp",
+    "industry": "Finance",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "innovation",
+      "IoT",
+      "fintech",
+      "VR"
+    ],
+    "status": "done",
+    "product": "Service for Healthcare"
+  },
+  {
+    "id": "7969",
+    "avatar": "image_src_placeholder",
+    "name": "SmartSolutions",
+    "industry": "Education",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "blockchain"
+    ],
+    "status": "in progress",
+    "product": "Program for Consumers"
+  },
+  {
+    "id": "5767",
+    "avatar": "image_src_placeholder",
+    "name": "TechTechnologies",
+    "industry": "Manufacturing",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "AR",
+      "e-commerce"
+    ],
+    "status": "in progress",
+    "product": "Program for Consumers"
+  },
+  {
+    "id": "2759",
+    "avatar": "image_src_placeholder",
+    "name": "NetTechnologies",
+    "industry": "Logistics",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "VR"
+    ],
+    "status": "in progress",
+    "product": "App for Businesses"
+  },
+  {
+    "id": "3413",
+    "avatar": "image_src_placeholder",
+    "name": "BetaCorp",
+    "industry": "Real Estate",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "cloud",
+      "IoT",
+      "innovation",
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "System for Finance"
+  },
+  {
+    "id": "9830",
+    "avatar": "image_src_placeholder",
+    "name": "FutureTechnologies",
+    "industry": "Entertainment",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "blockchain",
+      "e-commerce",
+      "cloud",
+      "fintech"
+    ],
+    "status": "todo",
+    "product": "Software for Finance"
+  },
+  {
+    "id": "5536",
+    "avatar": "image_src_placeholder",
+    "name": "NetTechnologies",
+    "industry": "Hospitality",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "fintech",
+      "sustainability"
+    ],
+    "status": "in progress",
+    "product": "Tool for Finance"
+  },
+  {
+    "id": "5794",
+    "avatar": "image_src_placeholder",
+    "name": "DataTechnologies",
+    "industry": "Finance",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "blockchain",
+      "sustainability",
+      "AR",
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "Program for Finance"
+  },
+  {
+    "id": "2733",
+    "avatar": "image_src_placeholder",
+    "name": "InfoDynamics",
+    "industry": "Hospitality",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "AI",
+      "VR",
+      "AR",
+      "IoT"
+    ],
+    "status": "done",
+    "product": "System for Healthcare"
+  },
+  {
+    "id": "5076",
+    "avatar": "image_src_placeholder",
+    "name": "InfoServices",
+    "industry": "Hospitality",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "cloud",
+      "e-commerce",
+      "sustainability",
+      "fintech"
+    ],
+    "status": "in progress",
+    "product": "App for Education"
+  },
+  {
+    "id": "9123",
+    "avatar": "image_src_placeholder",
+    "name": "FutureCorp",
+    "industry": "Healthcare",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "cloud",
+      "e-commerce",
+      "IoT",
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "App for Healthcare"
+  },
+  {
+    "id": "6117",
+    "avatar": "image_src_placeholder",
+    "name": "FutureGroup",
+    "industry": "Logistics",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "AI"
+    ],
+    "status": "done",
+    "product": "Application for Businesses"
+  },
+  {
+    "id": "1323",
+    "avatar": "image_src_placeholder",
+    "name": "TechCorp",
+    "industry": "Technology",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "blockchain",
+      "AR"
+    ],
+    "status": "todo",
+    "product": "Tool for Healthcare"
+  },
+  {
+    "id": "5315",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalCorp",
+    "industry": "Finance",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "AR",
+      "innovation",
+      "e-commerce",
+      "VR"
+    ],
+    "status": "in progress",
+    "product": "Solution for Finance"
+  },
+  {
+    "id": "7753",
+    "avatar": "image_src_placeholder",
+    "name": "SmartIncorporated",
+    "industry": "Real Estate",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "blockchain",
+      "e-commerce",
+      "IoT",
+      "cloud"
+    ],
+    "status": "done",
+    "product": "System for Consumers"
+  },
+  {
+    "id": "3027",
+    "avatar": "image_src_placeholder",
+    "name": "FutureSolutions",
+    "industry": "Technology",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "fintech",
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "Software for Healthcare"
+  },
+  {
+    "id": "5166",
+    "avatar": "image_src_placeholder",
+    "name": "SmartServices",
+    "industry": "Healthcare",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "AR"
+    ],
+    "status": "todo",
+    "product": "App for Businesses"
+  },
+  {
+    "id": "2911",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeSystems",
+    "industry": "Hospitality",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "AR",
+      "innovation",
+      "e-commerce",
+      "fintech"
+    ],
+    "status": "in progress",
+    "product": "Device for Businesses"
+  },
+  {
+    "id": "1805",
+    "avatar": "image_src_placeholder",
+    "name": "SmartTechnologies",
+    "industry": "Hospitality",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "e-commerce",
+      "cloud",
+      "fintech"
+    ],
+    "status": "todo",
+    "product": "Application for Finance"
+  },
+  {
+    "id": "6986",
+    "avatar": "image_src_placeholder",
+    "name": "FutureCorp",
+    "industry": "Hospitality",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "cloud",
+      "AI",
+      "AR",
+      "blockchain",
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "App for Healthcare"
+  },
+  {
+    "id": "6398",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaTechnologies",
+    "industry": "Hospitality",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "AI",
+      "fintech",
+      "sustainability",
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "App for Finance"
+  },
+  {
+    "id": "6403",
+    "avatar": "image_src_placeholder",
+    "name": "DataSolutions",
+    "industry": "Entertainment",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "AR",
+      "blockchain",
+      "AI",
+      "cloud"
+    ],
+    "status": "in progress",
+    "product": "Application for Businesses"
+  },
+  {
+    "id": "7254",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaSolutions",
+    "industry": "Hospitality",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "VR",
+      "sustainability",
+      "IoT"
+    ],
+    "status": "todo",
+    "product": "Solution for Education"
+  },
+  {
+    "id": "2274",
+    "avatar": "image_src_placeholder",
+    "name": "InfoDynamics",
+    "industry": "Real Estate",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "blockchain"
+    ],
+    "status": "todo",
+    "product": "Device for Finance"
+  },
+  {
+    "id": "3002",
+    "avatar": "image_src_placeholder",
+    "name": "DataConcepts",
+    "industry": "Logistics",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "fintech",
+      "VR"
+    ],
+    "status": "done",
+    "product": "Tool for Education"
+  },
+  {
+    "id": "5802",
+    "avatar": "image_src_placeholder",
+    "name": "FutureServices",
+    "industry": "Entertainment",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "sustainability"
+    ],
+    "status": "todo",
+    "product": "System for Businesses"
+  },
+  {
+    "id": "7953",
+    "avatar": "image_src_placeholder",
+    "name": "FutureConcepts",
+    "industry": "Logistics",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "cloud",
+      "VR"
+    ],
+    "status": "done",
+    "product": "Application for Healthcare"
+  },
+  {
+    "id": "6649",
+    "avatar": "image_src_placeholder",
+    "name": "TechConcepts",
+    "industry": "Healthcare",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "AI"
+    ],
+    "status": "done",
+    "product": "System for Education"
+  },
+  {
+    "id": "3619",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalSolutions",
+    "industry": "Hospitality",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "fintech"
+    ],
+    "status": "todo",
+    "product": "Device for Finance"
+  },
+  {
+    "id": "6796",
+    "avatar": "image_src_placeholder",
+    "name": "TechSystems",
+    "industry": "Technology",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "Application for Healthcare"
+  },
+  {
+    "id": "8554",
+    "avatar": "image_src_placeholder",
+    "name": "TechServices",
+    "industry": "Real Estate",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "AR"
+    ],
+    "status": "todo",
+    "product": "Application for Businesses"
+  },
+  {
+    "id": "1431",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalTechnologies",
+    "industry": "Finance",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "fintech"
+    ],
+    "status": "in progress",
+    "product": "System for Healthcare"
+  },
+  {
+    "id": "1926",
+    "avatar": "image_src_placeholder",
+    "name": "TechConcepts",
+    "industry": "Hospitality",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "IoT"
+    ],
+    "status": "done",
+    "product": "Application for Education"
+  },
+  {
+    "id": "5077",
+    "avatar": "image_src_placeholder",
+    "name": "NetTechnologies",
+    "industry": "Entertainment",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce"
+    ],
+    "status": "done",
+    "product": "App for Finance"
+  },
+  {
+    "id": "4559",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaLimited",
+    "industry": "Finance",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "fintech",
+      "sustainability",
+      "AR"
+    ],
+    "status": "todo",
+    "product": "Application for Businesses"
+  },
+  {
+    "id": "9573",
+    "avatar": "image_src_placeholder",
+    "name": "NetLimited",
+    "industry": "Entertainment",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "fintech"
+    ],
+    "status": "done",
+    "product": "Service for Consumers"
+  },
+  {
+    "id": "7081",
+    "avatar": "image_src_placeholder",
+    "name": "BetaServices",
+    "industry": "Manufacturing",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "e-commerce",
+      "IoT"
+    ],
+    "status": "done",
+    "product": "System for Education"
+  },
+  {
+    "id": "1141",
+    "avatar": "image_src_placeholder",
+    "name": "InfoCorp",
+    "industry": "Real Estate",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "AR",
+      "e-commerce",
+      "fintech",
+      "innovation"
+    ],
+    "status": "todo",
+    "product": "Software for Businesses"
+  },
+  {
+    "id": "5041",
+    "avatar": "image_src_placeholder",
+    "name": "InfoDynamics",
+    "industry": "Logistics",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "e-commerce"
+    ],
+    "status": "todo",
+    "product": "Program for Education"
+  },
+  {
+    "id": "4961",
+    "avatar": "image_src_placeholder",
+    "name": "SmartGroup",
+    "industry": "Technology",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "fintech",
+      "sustainability"
+    ],
+    "status": "todo",
+    "product": "Application for Businesses"
+  },
+  {
+    "id": "6056",
+    "avatar": "image_src_placeholder",
+    "name": "InfoSystems",
+    "industry": "Real Estate",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "VR"
+    ],
+    "status": "in progress",
+    "product": "Platform for Consumers"
+  },
+  {
+    "id": "3185",
+    "avatar": "image_src_placeholder",
+    "name": "SmartIncorporated",
+    "industry": "Real Estate",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "IoT",
+      "sustainability",
+      "fintech",
+      "e-commerce"
+    ],
+    "status": "done",
+    "product": "Device for Businesses"
+  },
+  {
+    "id": "3458",
+    "avatar": "image_src_placeholder",
+    "name": "TechLimited",
+    "industry": "Logistics",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "VR",
+      "innovation",
+      "AI",
+      "e-commerce",
+      "sustainability"
+    ],
+    "status": "in progress",
+    "product": "Tool for Consumers"
+  },
+  {
+    "id": "4171",
+    "avatar": "image_src_placeholder",
+    "name": "BetaSystems",
+    "industry": "Healthcare",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "cloud",
+      "sustainability"
+    ],
+    "status": "in progress",
+    "product": "Platform for Businesses"
+  },
+  {
+    "id": "9922",
+    "avatar": "image_src_placeholder",
+    "name": "NetSolutions",
+    "industry": "Logistics",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "cloud",
+      "IoT"
+    ],
+    "status": "done",
+    "product": "Tool for Finance"
+  },
+  {
+    "id": "1127",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaDynamics",
+    "industry": "Manufacturing",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "cloud",
+      "AR"
+    ],
+    "status": "done",
+    "product": "App for Consumers"
+  },
+  {
+    "id": "2393",
+    "avatar": "image_src_placeholder",
+    "name": "DataServices",
+    "industry": "Finance",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "Tool for Consumers"
+  },
+  {
+    "id": "2327",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeDynamics",
+    "industry": "Retail",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "cloud",
+      "sustainability",
+      "fintech",
+      "AI"
+    ],
+    "status": "in progress",
+    "product": "Platform for Education"
+  },
+  {
+    "id": "1569",
+    "avatar": "image_src_placeholder",
+    "name": "TechTechnologies",
+    "industry": "Entertainment",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "e-commerce",
+      "IoT"
+    ],
+    "status": "done",
+    "product": "Platform for Consumers"
+  },
+  {
+    "id": "7219",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeSolutions",
+    "industry": "Education",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "blockchain"
+    ],
+    "status": "in progress",
+    "product": "System for Businesses"
+  },
+  {
+    "id": "6485",
+    "avatar": "image_src_placeholder",
+    "name": "BetaServices",
+    "industry": "Entertainment",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "AR"
+    ],
+    "status": "done",
+    "product": "Tool for Finance"
+  },
+  {
+    "id": "3812",
+    "avatar": "image_src_placeholder",
+    "name": "NetLimited",
+    "industry": "Manufacturing",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "IoT",
+      "AI",
+      "fintech",
+      "e-commerce"
+    ],
+    "status": "done",
+    "product": "Platform for Healthcare"
+  },
+  {
+    "id": "6810",
+    "avatar": "image_src_placeholder",
+    "name": "InfoTechnologies",
+    "industry": "Logistics",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "AR",
+      "e-commerce"
+    ],
+    "status": "todo",
+    "product": "Device for Businesses"
+  },
+  {
+    "id": "2287",
+    "avatar": "image_src_placeholder",
+    "name": "FutureCorp",
+    "industry": "Technology",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "IoT",
+      "e-commerce",
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "Device for Businesses"
+  },
+  {
+    "id": "3187",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeDynamics",
+    "industry": "Retail",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "fintech"
+    ],
+    "status": "in progress",
+    "product": "Application for Businesses"
+  },
+  {
+    "id": "3781",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaConcepts",
+    "industry": "Hospitality",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "sustainability",
+      "cloud",
+      "IoT",
+      "fintech"
+    ],
+    "status": "todo",
+    "product": "Application for Businesses"
+  },
+  {
+    "id": "4307",
+    "avatar": "image_src_placeholder",
+    "name": "DataGroup",
+    "industry": "Real Estate",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "AI",
+      "cloud"
+    ],
+    "status": "in progress",
+    "product": "Platform for Education"
+  },
+  {
+    "id": "2791",
+    "avatar": "image_src_placeholder",
+    "name": "BetaLimited",
+    "industry": "Real Estate",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "VR",
+      "cloud"
+    ],
+    "status": "todo",
+    "product": "Program for Finance"
+  },
+  {
+    "id": "3321",
+    "avatar": "image_src_placeholder",
+    "name": "BetaSystems",
+    "industry": "Retail",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "e-commerce",
+      "cloud"
+    ],
+    "status": "in progress",
+    "product": "Device for Healthcare"
+  },
+  {
+    "id": "2576",
+    "avatar": "image_src_placeholder",
+    "name": "FutureGroup",
+    "industry": "Manufacturing",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "AI",
+      "innovation",
+      "cloud",
+      "e-commerce"
+    ],
+    "status": "in progress",
+    "product": "Solution for Businesses"
+  },
+  {
+    "id": "3799",
+    "avatar": "image_src_placeholder",
+    "name": "DataDynamics",
+    "industry": "Manufacturing",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "AI",
+      "e-commerce",
+      "AR"
+    ],
+    "status": "done",
+    "product": "Tool for Healthcare"
+  },
+  {
+    "id": "1197",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalDynamics",
+    "industry": "Retail",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "Platform for Healthcare"
+  },
+  {
+    "id": "5146",
+    "avatar": "image_src_placeholder",
+    "name": "DataIncorporated",
+    "industry": "Retail",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "VR",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "App for Healthcare"
+  },
+  {
+    "id": "1868",
+    "avatar": "image_src_placeholder",
+    "name": "FutureCorp",
+    "industry": "Technology",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "innovation",
+      "AI"
+    ],
+    "status": "done",
+    "product": "Program for Consumers"
+  },
+  {
+    "id": "6054",
+    "avatar": "image_src_placeholder",
+    "name": "NetLimited",
+    "industry": "Hospitality",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "cloud"
+    ],
+    "status": "in progress",
+    "product": "Device for Businesses"
+  },
+  {
+    "id": "4732",
+    "avatar": "image_src_placeholder",
+    "name": "SmartCorp",
+    "industry": "Hospitality",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "IoT"
+    ],
+    "status": "todo",
+    "product": "Application for Businesses"
+  },
+  {
+    "id": "4955",
+    "avatar": "image_src_placeholder",
+    "name": "FutureIncorporated",
+    "industry": "Manufacturing",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "cloud",
+      "e-commerce",
+      "blockchain",
+      "IoT"
+    ],
+    "status": "done",
+    "product": "Tool for Businesses"
+  },
+  {
+    "id": "6935",
+    "avatar": "image_src_placeholder",
+    "name": "SmartDynamics",
+    "industry": "Real Estate",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "fintech",
+      "VR",
+      "e-commerce",
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "System for Healthcare"
+  },
+  {
+    "id": "5416",
+    "avatar": "image_src_placeholder",
+    "name": "SmartServices",
+    "industry": "Education",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "sustainability",
+      "fintech",
+      "VR"
+    ],
+    "status": "todo",
+    "product": "Service for Finance"
+  },
+  {
+    "id": "8038",
+    "avatar": "image_src_placeholder",
+    "name": "DataIncorporated",
+    "industry": "Manufacturing",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "AR",
+      "AI",
+      "blockchain",
+      "VR",
+      "cloud"
+    ],
+    "status": "done",
+    "product": "Platform for Consumers"
+  },
+  {
+    "id": "5602",
+    "avatar": "image_src_placeholder",
+    "name": "InfoSystems",
+    "industry": "Healthcare",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "VR"
+    ],
+    "status": "in progress",
+    "product": "System for Education"
+  },
+  {
+    "id": "4520",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeCorp",
+    "industry": "Education",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "fintech",
+      "e-commerce",
+      "blockchain",
+      "VR",
+      "cloud"
+    ],
+    "status": "todo",
+    "product": "Service for Consumers"
+  },
+  {
+    "id": "8024",
+    "avatar": "image_src_placeholder",
+    "name": "DataLimited",
+    "industry": "Technology",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "AR",
+      "blockchain",
+      "fintech"
+    ],
+    "status": "todo",
+    "product": "Tool for Consumers"
+  },
+  {
+    "id": "3439",
+    "avatar": "image_src_placeholder",
+    "name": "NetConcepts",
+    "industry": "Technology",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "blockchain"
+    ],
+    "status": "todo",
+    "product": "Solution for Education"
+  },
+  {
+    "id": "6769",
+    "avatar": "image_src_placeholder",
+    "name": "TechTechnologies",
+    "industry": "Real Estate",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "fintech",
+      "cloud",
+      "sustainability",
+      "VR"
+    ],
+    "status": "done",
+    "product": "Device for Education"
+  },
+  {
+    "id": "4267",
+    "avatar": "image_src_placeholder",
+    "name": "DataTechnologies",
+    "industry": "Retail",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "innovation",
+      "VR"
+    ],
+    "status": "done",
+    "product": "Software for Finance"
+  },
+  {
+    "id": "1403",
+    "avatar": "image_src_placeholder",
+    "name": "TechConcepts",
+    "industry": "Manufacturing",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "Tool for Education"
+  },
+  {
+    "id": "6403",
+    "avatar": "image_src_placeholder",
+    "name": "InfoGroup",
+    "industry": "Education",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "sustainability",
+      "fintech",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "Service for Finance"
+  },
+  {
+    "id": "8168",
+    "avatar": "image_src_placeholder",
+    "name": "FutureDynamics",
+    "industry": "Logistics",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "sustainability",
+      "blockchain"
+    ],
+    "status": "done",
+    "product": "System for Businesses"
+  },
+  {
+    "id": "3299",
+    "avatar": "image_src_placeholder",
+    "name": "BetaLimited",
+    "industry": "Technology",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "blockchain",
+      "e-commerce",
+      "VR",
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "Tool for Finance"
+  },
+  {
+    "id": "5519",
+    "avatar": "image_src_placeholder",
+    "name": "FutureSolutions",
+    "industry": "Manufacturing",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "blockchain",
+      "AI"
+    ],
+    "status": "todo",
+    "product": "Device for Finance"
+  },
+  {
+    "id": "4871",
+    "avatar": "image_src_placeholder",
+    "name": "NetCorp",
+    "industry": "Retail",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "AR",
+      "sustainability",
+      "e-commerce",
+      "VR",
+      "innovation"
+    ],
+    "status": "todo",
+    "product": "Platform for Finance"
+  },
+  {
+    "id": "5446",
+    "avatar": "image_src_placeholder",
+    "name": "SmartServices",
+    "industry": "Entertainment",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "fintech",
+      "blockchain"
+    ],
+    "status": "todo",
+    "product": "Device for Finance"
+  },
+  {
+    "id": "8259",
+    "avatar": "image_src_placeholder",
+    "name": "NetSolutions",
+    "industry": "Healthcare",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "innovation",
+      "sustainability",
+      "e-commerce"
+    ],
+    "status": "in progress",
+    "product": "App for Consumers"
+  },
+  {
+    "id": "6968",
+    "avatar": "image_src_placeholder",
+    "name": "NetConcepts",
+    "industry": "Logistics",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "fintech",
+      "IoT"
+    ],
+    "status": "in progress",
+    "product": "Platform for Healthcare"
+  },
+  {
+    "id": "3010",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaDynamics",
+    "industry": "Healthcare",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "sustainability",
+      "VR",
+      "blockchain",
+      "cloud"
+    ],
+    "status": "done",
+    "product": "Solution for Education"
+  },
+  {
+    "id": "2521",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaTechnologies",
+    "industry": "Healthcare",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "fintech",
+      "AR",
+      "cloud"
+    ],
+    "status": "in progress",
+    "product": "Solution for Consumers"
+  },
+  {
+    "id": "2786",
+    "avatar": "image_src_placeholder",
+    "name": "TechLimited",
+    "industry": "Hospitality",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "VR",
+      "IoT",
+      "sustainability"
+    ],
+    "status": "todo",
+    "product": "System for Education"
+  },
+  {
+    "id": "4633",
+    "avatar": "image_src_placeholder",
+    "name": "InfoDynamics",
+    "industry": "Education",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "AR"
+    ],
+    "status": "todo",
+    "product": "Program for Businesses"
+  },
+  {
+    "id": "8436",
+    "avatar": "image_src_placeholder",
+    "name": "InfoSolutions",
+    "industry": "Finance",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "cloud",
+      "fintech",
+      "AI",
+      "IoT"
+    ],
+    "status": "in progress",
+    "product": "Software for Businesses"
+  },
+  {
+    "id": "6277",
+    "avatar": "image_src_placeholder",
+    "name": "DataSolutions",
+    "industry": "Real Estate",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "VR"
+    ],
+    "status": "done",
+    "product": "Software for Healthcare"
+  },
+  {
+    "id": "6593",
+    "avatar": "image_src_placeholder",
+    "name": "SmartSolutions",
+    "industry": "Logistics",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "Platform for Businesses"
+  },
+  {
+    "id": "4987",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaSolutions",
+    "industry": "Real Estate",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "sustainability",
+      "cloud",
+      "fintech",
+      "e-commerce"
+    ],
+    "status": "done",
+    "product": "Platform for Consumers"
+  },
+  {
+    "id": "2421",
+    "avatar": "image_src_placeholder",
+    "name": "InfoServices",
+    "industry": "Retail",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "AR"
+    ],
+    "status": "todo",
+    "product": "App for Businesses"
+  },
+  {
+    "id": "5584",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalDynamics",
+    "industry": "Healthcare",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "cloud",
+      "blockchain",
+      "AI",
+      "IoT"
+    ],
+    "status": "todo",
+    "product": "App for Finance"
+  },
+  {
+    "id": "5651",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaGroup",
+    "industry": "Logistics",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "System for Finance"
+  },
+  {
+    "id": "3581",
+    "avatar": "image_src_placeholder",
+    "name": "TechServices",
+    "industry": "Logistics",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "innovation",
+      "AR",
+      "AI"
+    ],
+    "status": "in progress",
+    "product": "Solution for Consumers"
+  },
+  {
+    "id": "6978",
+    "avatar": "image_src_placeholder",
+    "name": "TechDynamics",
+    "industry": "Real Estate",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "VR"
+    ],
+    "status": "done",
+    "product": "Device for Education"
+  },
+  {
+    "id": "4538",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeTechnologies",
+    "industry": "Logistics",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "fintech",
+      "sustainability"
+    ],
+    "status": "in progress",
+    "product": "Software for Education"
+  },
+  {
+    "id": "2354",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaIncorporated",
+    "industry": "Technology",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "AI",
+      "VR",
+      "fintech"
+    ],
+    "status": "done",
+    "product": "Software for Healthcare"
+  },
+  {
+    "id": "3790",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalLimited",
+    "industry": "Healthcare",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce"
+    ],
+    "status": "todo",
+    "product": "Service for Finance"
+  },
+  {
+    "id": "5668",
+    "avatar": "image_src_placeholder",
+    "name": "TechSystems",
+    "industry": "Entertainment",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "AI"
+    ],
+    "status": "done",
+    "product": "Program for Finance"
+  },
+  {
+    "id": "2414",
+    "avatar": "image_src_placeholder",
+    "name": "TechSolutions",
+    "industry": "Technology",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "cloud",
+      "AR"
+    ],
+    "status": "todo",
+    "product": "Solution for Education"
+  },
+  {
+    "id": "3744",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeGroup",
+    "industry": "Education",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "AR",
+      "IoT",
+      "innovation",
+      "blockchain"
+    ],
+    "status": "in progress",
+    "product": "Application for Education"
+  },
+  {
+    "id": "3132",
+    "avatar": "image_src_placeholder",
+    "name": "DataServices",
+    "industry": "Education",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "innovation",
+      "AI"
+    ],
+    "status": "in progress",
+    "product": "Program for Consumers"
+  },
+  {
+    "id": "5736",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalCorp",
+    "industry": "Healthcare",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "IoT",
+      "AI",
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "Platform for Finance"
+  },
+  {
+    "id": "4602",
+    "avatar": "image_src_placeholder",
+    "name": "SmartSystems",
+    "industry": "Real Estate",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "VR"
+    ],
+    "status": "done",
+    "product": "Tool for Finance"
+  },
+  {
+    "id": "8168",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeLimited",
+    "industry": "Retail",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "AI"
+    ],
+    "status": "todo",
+    "product": "Device for Businesses"
+  },
+  {
+    "id": "5645",
+    "avatar": "image_src_placeholder",
+    "name": "SmartGroup",
+    "industry": "Technology",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "blockchain",
+      "AR",
+      "cloud"
+    ],
+    "status": "todo",
+    "product": "Application for Education"
+  },
+  {
+    "id": "2774",
+    "avatar": "image_src_placeholder",
+    "name": "NetServices",
+    "industry": "Hospitality",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "innovation"
+    ],
+    "status": "todo",
+    "product": "Software for Consumers"
+  },
+  {
+    "id": "1034",
+    "avatar": "image_src_placeholder",
+    "name": "TechConcepts",
+    "industry": "Logistics",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "AR",
+      "IoT"
+    ],
+    "status": "done",
+    "product": "Service for Finance"
+  },
+  {
+    "id": "4912",
+    "avatar": "image_src_placeholder",
+    "name": "SmartLimited",
+    "industry": "Entertainment",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "fintech"
+    ],
+    "status": "in progress",
+    "product": "Service for Businesses"
+  },
+  {
+    "id": "1496",
+    "avatar": "image_src_placeholder",
+    "name": "BetaSolutions",
+    "industry": "Entertainment",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "sustainability",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "Device for Healthcare"
+  },
+  {
+    "id": "3710",
+    "avatar": "image_src_placeholder",
+    "name": "InfoSystems",
+    "industry": "Entertainment",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "e-commerce",
+      "IoT",
+      "sustainability",
+      "cloud",
+      "innovation"
+    ],
+    "status": "todo",
+    "product": "Device for Education"
+  },
+  {
+    "id": "1513",
+    "avatar": "image_src_placeholder",
+    "name": "TechTechnologies",
+    "industry": "Retail",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "cloud",
+      "VR",
+      "AI",
+      "IoT"
+    ],
+    "status": "done",
+    "product": "Software for Healthcare"
+  },
+  {
+    "id": "8716",
+    "avatar": "image_src_placeholder",
+    "name": "InfoSolutions",
+    "industry": "Finance",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "VR",
+      "AR",
+      "cloud",
+      "fintech"
+    ],
+    "status": "done",
+    "product": "Software for Healthcare"
+  },
+  {
+    "id": "4459",
+    "avatar": "image_src_placeholder",
+    "name": "NetIncorporated",
+    "industry": "Retail",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "AR"
+    ],
+    "status": "done",
+    "product": "Service for Businesses"
+  },
+  {
+    "id": "4839",
+    "avatar": "image_src_placeholder",
+    "name": "DataConcepts",
+    "industry": "Real Estate",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "Device for Finance"
+  },
+  {
+    "id": "4753",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalTechnologies",
+    "industry": "Logistics",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "AI",
+      "VR",
+      "fintech"
+    ],
+    "status": "in progress",
+    "product": "App for Education"
+  },
+  {
+    "id": "8359",
+    "avatar": "image_src_placeholder",
+    "name": "BetaLimited",
+    "industry": "Real Estate",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "AR",
+      "VR",
+      "cloud"
+    ],
+    "status": "in progress",
+    "product": "Device for Finance"
+  },
+  {
+    "id": "3239",
+    "avatar": "image_src_placeholder",
+    "name": "TechCorp",
+    "industry": "Manufacturing",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "e-commerce"
+    ],
+    "status": "done",
+    "product": "Service for Education"
+  },
+  {
+    "id": "8077",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaConcepts",
+    "industry": "Logistics",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "blockchain"
+    ],
+    "status": "in progress",
+    "product": "Platform for Education"
+  },
+  {
+    "id": "7444",
+    "avatar": "image_src_placeholder",
+    "name": "FutureGroup",
+    "industry": "Finance",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "fintech"
+    ],
+    "status": "todo",
+    "product": "System for Healthcare"
+  },
+  {
+    "id": "1466",
+    "avatar": "image_src_placeholder",
+    "name": "DataLimited",
+    "industry": "Technology",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "blockchain",
+      "fintech"
+    ],
+    "status": "in progress",
+    "product": "Device for Education"
+  },
+  {
+    "id": "1294",
+    "avatar": "image_src_placeholder",
+    "name": "TechLimited",
+    "industry": "Logistics",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "VR"
+    ],
+    "status": "todo",
+    "product": "Platform for Consumers"
+  },
+  {
+    "id": "9161",
+    "avatar": "image_src_placeholder",
+    "name": "NetTechnologies",
+    "industry": "Healthcare",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "blockchain",
+      "cloud",
+      "e-commerce",
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "Program for Education"
+  },
+  {
+    "id": "6957",
+    "avatar": "image_src_placeholder",
+    "name": "FutureIncorporated",
+    "industry": "Technology",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "fintech",
+      "IoT",
+      "blockchain",
+      "innovation"
+    ],
+    "status": "todo",
+    "product": "System for Businesses"
+  },
+  {
+    "id": "4758",
+    "avatar": "image_src_placeholder",
+    "name": "InfoServices",
+    "industry": "Retail",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "cloud"
+    ],
+    "status": "todo",
+    "product": "Software for Education"
+  },
+  {
+    "id": "3587",
+    "avatar": "image_src_placeholder",
+    "name": "InfoGroup",
+    "industry": "Healthcare",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "e-commerce",
+      "IoT",
+      "AR"
+    ],
+    "status": "done",
+    "product": "Solution for Consumers"
+  },
+  {
+    "id": "1389",
+    "avatar": "image_src_placeholder",
+    "name": "BetaCorp",
+    "industry": "Healthcare",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "sustainability",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "Software for Businesses"
+  },
+  {
+    "id": "1664",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaCorp",
+    "industry": "Finance",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "AR",
+      "e-commerce"
+    ],
+    "status": "done",
+    "product": "Application for Education"
+  },
+  {
+    "id": "6475",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalConcepts",
+    "industry": "Logistics",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "blockchain"
+    ],
+    "status": "todo",
+    "product": "Tool for Consumers"
+  },
+  {
+    "id": "2872",
+    "avatar": "image_src_placeholder",
+    "name": "FutureCorp",
+    "industry": "Real Estate",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "innovation",
+      "AR",
+      "e-commerce",
+      "fintech"
+    ],
+    "status": "in progress",
+    "product": "Program for Healthcare"
+  },
+  {
+    "id": "6098",
+    "avatar": "image_src_placeholder",
+    "name": "DataTechnologies",
+    "industry": "Finance",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "blockchain"
+    ],
+    "status": "todo",
+    "product": "Device for Healthcare"
+  },
+  {
+    "id": "9103",
+    "avatar": "image_src_placeholder",
+    "name": "TechSolutions",
+    "industry": "Technology",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "VR"
+    ],
+    "status": "todo",
+    "product": "Device for Consumers"
+  },
+  {
+    "id": "9521",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalCorp",
+    "industry": "Real Estate",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "e-commerce",
+      "VR"
+    ],
+    "status": "in progress",
+    "product": "Program for Consumers"
+  },
+  {
+    "id": "9438",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaSystems",
+    "industry": "Healthcare",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "innovation",
+      "AR",
+      "blockchain",
+      "AI",
+      "IoT"
+    ],
+    "status": "todo",
+    "product": "Software for Businesses"
+  },
+  {
+    "id": "2201",
+    "avatar": "image_src_placeholder",
+    "name": "TechSolutions",
+    "industry": "Hospitality",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "cloud",
+      "AR",
+      "AI",
+      "IoT",
+      "fintech"
+    ],
+    "status": "in progress",
+    "product": "App for Finance"
+  },
+  {
+    "id": "9025",
+    "avatar": "image_src_placeholder",
+    "name": "TechConcepts",
+    "industry": "Healthcare",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "AI",
+      "e-commerce"
+    ],
+    "status": "todo",
+    "product": "App for Businesses"
+  },
+  {
+    "id": "1971",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeLimited",
+    "industry": "Healthcare",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "cloud",
+      "fintech",
+      "VR",
+      "sustainability",
+      "blockchain"
+    ],
+    "status": "done",
+    "product": "Program for Finance"
+  },
+  {
+    "id": "4789",
+    "avatar": "image_src_placeholder",
+    "name": "NetSystems",
+    "industry": "Education",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "AR",
+      "VR"
+    ],
+    "status": "in progress",
+    "product": "Application for Finance"
+  },
+  {
+    "id": "1254",
+    "avatar": "image_src_placeholder",
+    "name": "BetaDynamics",
+    "industry": "Education",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "AR",
+      "innovation",
+      "cloud",
+      "e-commerce"
+    ],
+    "status": "done",
+    "product": "System for Businesses"
+  },
+  {
+    "id": "2716",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaSolutions",
+    "industry": "Technology",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "e-commerce",
+      "blockchain"
+    ],
+    "status": "done",
+    "product": "Program for Consumers"
+  },
+  {
+    "id": "7037",
+    "avatar": "image_src_placeholder",
+    "name": "DataSystems",
+    "industry": "Hospitality",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "sustainability",
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "Program for Consumers"
+  },
+  {
+    "id": "8979",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaCorp",
+    "industry": "Finance",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "innovation",
+      "VR"
+    ],
+    "status": "done",
+    "product": "Service for Healthcare"
+  },
+  {
+    "id": "5895",
+    "avatar": "image_src_placeholder",
+    "name": "NetConcepts",
+    "industry": "Hospitality",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "fintech",
+      "AR",
+      "e-commerce",
+      "IoT"
+    ],
+    "status": "in progress",
+    "product": "Solution for Healthcare"
+  },
+  {
+    "id": "6939",
+    "avatar": "image_src_placeholder",
+    "name": "SmartIncorporated",
+    "industry": "Education",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "AR",
+      "VR"
+    ],
+    "status": "done",
+    "product": "Service for Businesses"
+  },
+  {
+    "id": "7226",
+    "avatar": "image_src_placeholder",
+    "name": "DataConcepts",
+    "industry": "Entertainment",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "Software for Businesses"
+  },
+  {
+    "id": "1195",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaGroup",
+    "industry": "Real Estate",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "fintech",
+      "VR",
+      "IoT",
+      "blockchain"
+    ],
+    "status": "in progress",
+    "product": "Tool for Healthcare"
+  },
+  {
+    "id": "8320",
+    "avatar": "image_src_placeholder",
+    "name": "NetSolutions",
+    "industry": "Technology",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "Device for Businesses"
+  },
+  {
+    "id": "3712",
+    "avatar": "image_src_placeholder",
+    "name": "NetLimited",
+    "industry": "Education",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "Application for Businesses"
+  },
+  {
+    "id": "2499",
+    "avatar": "image_src_placeholder",
+    "name": "NetLimited",
+    "industry": "Finance",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "e-commerce"
+    ],
+    "status": "done",
+    "product": "Platform for Businesses"
+  },
+  {
+    "id": "1746",
+    "avatar": "image_src_placeholder",
+    "name": "NetGroup",
+    "industry": "Manufacturing",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "cloud",
+      "innovation",
+      "fintech"
+    ],
+    "status": "done",
+    "product": "System for Businesses"
+  },
+  {
+    "id": "8822",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeDynamics",
+    "industry": "Logistics",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "fintech",
+      "VR",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "Platform for Education"
+  },
+  {
+    "id": "4568",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeLimited",
+    "industry": "Finance",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "AR",
+      "e-commerce",
+      "AI",
+      "sustainability",
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "Tool for Healthcare"
+  },
+  {
+    "id": "8139",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeServices",
+    "industry": "Hospitality",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "VR",
+      "innovation",
+      "blockchain"
+    ],
+    "status": "done",
+    "product": "Platform for Consumers"
+  },
+  {
+    "id": "6907",
+    "avatar": "image_src_placeholder",
+    "name": "TechIncorporated",
+    "industry": "Technology",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "IoT",
+      "sustainability",
+      "AI"
+    ],
+    "status": "done",
+    "product": "Program for Consumers"
+  },
+  {
+    "id": "7093",
+    "avatar": "image_src_placeholder",
+    "name": "InfoLimited",
+    "industry": "Real Estate",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "IoT",
+      "cloud",
+      "fintech"
+    ],
+    "status": "done",
+    "product": "Tool for Education"
+  },
+  {
+    "id": "2025",
+    "avatar": "image_src_placeholder",
+    "name": "DataGroup",
+    "industry": "Education",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "fintech",
+      "innovation",
+      "e-commerce",
+      "AR",
+      "cloud"
+    ],
+    "status": "done",
+    "product": "Platform for Finance"
+  },
+  {
+    "id": "5736",
+    "avatar": "image_src_placeholder",
+    "name": "InfoDynamics",
+    "industry": "Logistics",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "cloud",
+      "e-commerce",
+      "IoT",
+      "VR",
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "Device for Finance"
+  },
+  {
+    "id": "2061",
+    "avatar": "image_src_placeholder",
+    "name": "TechServices",
+    "industry": "Real Estate",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "cloud",
+      "e-commerce",
+      "sustainability",
+      "IoT"
+    ],
+    "status": "done",
+    "product": "Service for Healthcare"
+  },
+  {
+    "id": "8131",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeGroup",
+    "industry": "Healthcare",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "AR",
+      "sustainability"
+    ],
+    "status": "todo",
+    "product": "Platform for Businesses"
+  },
+  {
+    "id": "5628",
+    "avatar": "image_src_placeholder",
+    "name": "DataConcepts",
+    "industry": "Real Estate",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "cloud",
+      "VR",
+      "AR",
+      "sustainability",
+      "e-commerce"
+    ],
+    "status": "todo",
+    "product": "Program for Healthcare"
+  },
+  {
+    "id": "2082",
+    "avatar": "image_src_placeholder",
+    "name": "DataCorp",
+    "industry": "Hospitality",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain"
+    ],
+    "status": "in progress",
+    "product": "App for Businesses"
+  },
+  {
+    "id": "6350",
+    "avatar": "image_src_placeholder",
+    "name": "FutureConcepts",
+    "industry": "Education",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "sustainability",
+      "IoT"
+    ],
+    "status": "done",
+    "product": "Program for Finance"
+  },
+  {
+    "id": "9137",
+    "avatar": "image_src_placeholder",
+    "name": "BetaConcepts",
+    "industry": "Technology",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "VR",
+      "fintech",
+      "AR"
+    ],
+    "status": "todo",
+    "product": "Service for Consumers"
+  },
+  {
+    "id": "8510",
+    "avatar": "image_src_placeholder",
+    "name": "TechDynamics",
+    "industry": "Healthcare",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "cloud"
+    ],
+    "status": "todo",
+    "product": "Solution for Education"
+  },
+  {
+    "id": "5323",
+    "avatar": "image_src_placeholder",
+    "name": "BetaCorp",
+    "industry": "Manufacturing",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "blockchain"
+    ],
+    "status": "done",
+    "product": "Tool for Consumers"
+  },
+  {
+    "id": "7674",
+    "avatar": "image_src_placeholder",
+    "name": "TechSolutions",
+    "industry": "Finance",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "sustainability"
+    ],
+    "status": "in progress",
+    "product": "System for Businesses"
+  },
+  {
+    "id": "4321",
+    "avatar": "image_src_placeholder",
+    "name": "InfoSystems",
+    "industry": "Entertainment",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "VR"
+    ],
+    "status": "in progress",
+    "product": "Application for Education"
+  },
+  {
+    "id": "3579",
+    "avatar": "image_src_placeholder",
+    "name": "DataCorp",
+    "industry": "Entertainment",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "cloud",
+      "blockchain",
+      "AR"
+    ],
+    "status": "done",
+    "product": "Device for Businesses"
+  },
+  {
+    "id": "1571",
+    "avatar": "image_src_placeholder",
+    "name": "SmartIncorporated",
+    "industry": "Education",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "sustainability",
+      "fintech"
+    ],
+    "status": "todo",
+    "product": "Software for Consumers"
+  },
+  {
+    "id": "2851",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeGroup",
+    "industry": "Healthcare",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "sustainability",
+      "AR",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "Tool for Businesses"
+  },
+  {
+    "id": "7610",
+    "avatar": "image_src_placeholder",
+    "name": "NetConcepts",
+    "industry": "Logistics",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "AR",
+      "AI",
+      "cloud",
+      "VR",
+      "fintech"
+    ],
+    "status": "done",
+    "product": "Platform for Finance"
+  },
+  {
+    "id": "4180",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalIncorporated",
+    "industry": "Healthcare",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain"
+    ],
+    "status": "todo",
+    "product": "Program for Finance"
+  },
+  {
+    "id": "2441",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalGroup",
+    "industry": "Real Estate",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "e-commerce",
+      "AR",
+      "IoT",
+      "fintech"
+    ],
+    "status": "in progress",
+    "product": "Platform for Healthcare"
+  },
+  {
+    "id": "2682",
+    "avatar": "image_src_placeholder",
+    "name": "FutureTechnologies",
+    "industry": "Retail",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain"
+    ],
+    "status": "in progress",
+    "product": "Program for Education"
+  },
+  {
+    "id": "4469",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalCorp",
+    "industry": "Technology",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "AR",
+      "sustainability",
+      "fintech",
+      "VR"
+    ],
+    "status": "todo",
+    "product": "Application for Education"
+  },
+  {
+    "id": "3466",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaServices",
+    "industry": "Finance",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "fintech",
+      "innovation",
+      "e-commerce",
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "Program for Healthcare"
+  },
+  {
+    "id": "3779",
+    "avatar": "image_src_placeholder",
+    "name": "NetDynamics",
+    "industry": "Retail",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "AR",
+      "fintech",
+      "AI",
+      "cloud"
+    ],
+    "status": "in progress",
+    "product": "Application for Healthcare"
+  },
+  {
+    "id": "9583",
+    "avatar": "image_src_placeholder",
+    "name": "DataCorp",
+    "industry": "Healthcare",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "AI",
+      "e-commerce",
+      "fintech"
+    ],
+    "status": "done",
+    "product": "App for Businesses"
+  },
+  {
+    "id": "8483",
+    "avatar": "image_src_placeholder",
+    "name": "DataTechnologies",
+    "industry": "Finance",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "AR",
+      "sustainability",
+      "blockchain"
+    ],
+    "status": "in progress",
+    "product": "Solution for Finance"
+  },
+  {
+    "id": "5336",
+    "avatar": "image_src_placeholder",
+    "name": "TechIncorporated",
+    "industry": "Hospitality",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "fintech"
+    ],
+    "status": "done",
+    "product": "Solution for Businesses"
+  },
+  {
+    "id": "2550",
+    "avatar": "image_src_placeholder",
+    "name": "InfoSystems",
+    "industry": "Finance",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "IoT"
+    ],
+    "status": "in progress",
+    "product": "Tool for Consumers"
+  },
+  {
+    "id": "4360",
+    "avatar": "image_src_placeholder",
+    "name": "TechIncorporated",
+    "industry": "Manufacturing",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "fintech",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "Service for Finance"
+  },
+  {
+    "id": "4523",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaConcepts",
+    "industry": "Healthcare",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "fintech",
+      "IoT",
+      "VR",
+      "cloud"
+    ],
+    "status": "in progress",
+    "product": "App for Healthcare"
+  },
+  {
+    "id": "8667",
+    "avatar": "image_src_placeholder",
+    "name": "NetDynamics",
+    "industry": "Real Estate",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "IoT"
+    ],
+    "status": "in progress",
+    "product": "Program for Education"
+  },
+  {
+    "id": "5960",
+    "avatar": "image_src_placeholder",
+    "name": "InfoLimited",
+    "industry": "Logistics",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "AI",
+      "blockchain",
+      "fintech",
+      "cloud",
+      "VR"
+    ],
+    "status": "in progress",
+    "product": "Solution for Healthcare"
+  },
+  {
+    "id": "7139",
+    "avatar": "image_src_placeholder",
+    "name": "NetTechnologies",
+    "industry": "Hospitality",
+    "size": "1-10",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "AR",
+      "VR",
+      "IoT",
+      "innovation"
+    ],
+    "status": "todo",
+    "product": "Platform for Businesses"
+  },
+  {
+    "id": "9081",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaTechnologies",
+    "industry": "Retail",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "innovation",
+      "AR",
+      "blockchain"
+    ],
+    "status": "in progress",
+    "product": "Program for Consumers"
+  },
+  {
+    "id": "4957",
+    "avatar": "image_src_placeholder",
+    "name": "DataCorp",
+    "industry": "Hospitality",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "AR",
+      "sustainability"
+    ],
+    "status": "in progress",
+    "product": "Device for Consumers"
+  },
+  {
+    "id": "7181",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeCorp",
+    "industry": "Real Estate",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "AR"
+    ],
+    "status": "in progress",
+    "product": "Solution for Businesses"
+  },
+  {
+    "id": "9760",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalServices",
+    "industry": "Manufacturing",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "e-commerce",
+      "cloud"
+    ],
+    "status": "in progress",
+    "product": "System for Consumers"
+  },
+  {
+    "id": "5808",
+    "avatar": "image_src_placeholder",
+    "name": "DataSolutions",
+    "industry": "Finance",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "blockchain",
+      "innovation"
+    ],
+    "status": "todo",
+    "product": "System for Healthcare"
+  },
+  {
+    "id": "3756",
+    "avatar": "image_src_placeholder",
+    "name": "SmartConcepts",
+    "industry": "Hospitality",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "cloud",
+      "AI",
+      "fintech",
+      "blockchain"
+    ],
+    "status": "done",
+    "product": "Application for Businesses"
+  },
+  {
+    "id": "4912",
+    "avatar": "image_src_placeholder",
+    "name": "SmartConcepts",
+    "industry": "Manufacturing",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "innovation"
+    ],
+    "status": "todo",
+    "product": "System for Healthcare"
+  },
+  {
+    "id": "7153",
+    "avatar": "image_src_placeholder",
+    "name": "InfoTechnologies",
+    "industry": "Finance",
+    "size": "11-50",
+    "partner": "checkmark",
+    "tags": [
+      "IoT"
+    ],
+    "status": "done",
+    "product": "Software for Education"
+  },
+  {
+    "id": "5562",
+    "avatar": "image_src_placeholder",
+    "name": "BetaTechnologies",
+    "industry": "Hospitality",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "VR"
+    ],
+    "status": "todo",
+    "product": "Software for Consumers"
+  },
+  {
+    "id": "9543",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaSystems",
+    "industry": "Real Estate",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "AR",
+      "AI",
+      "innovation",
+      "IoT"
+    ],
+    "status": "in progress",
+    "product": "System for Businesses"
+  },
+  {
+    "id": "1292",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaServices",
+    "industry": "Retail",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "e-commerce",
+      "innovation",
+      "AI",
+      "VR"
+    ],
+    "status": "done",
+    "product": "App for Consumers"
+  },
+  {
+    "id": "6369",
+    "avatar": "image_src_placeholder",
+    "name": "SmartTechnologies",
+    "industry": "Healthcare",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "cloud",
+      "fintech",
+      "AR"
+    ],
+    "status": "done",
+    "product": "Device for Businesses"
+  },
+  {
+    "id": "7831",
+    "avatar": "image_src_placeholder",
+    "name": "InfoIncorporated",
+    "industry": "Technology",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "AR",
+      "VR",
+      "IoT",
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "App for Education"
+  },
+  {
+    "id": "1624",
+    "avatar": "image_src_placeholder",
+    "name": "NetCorp",
+    "industry": "Healthcare",
+    "size": "51-200",
+    "partner": "x",
+    "tags": [
+      "IoT"
+    ],
+    "status": "in progress",
+    "product": "Software for Finance"
+  },
+  {
+    "id": "3365",
+    "avatar": "image_src_placeholder",
+    "name": "BetaDynamics",
+    "industry": "Manufacturing",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "innovation",
+      "e-commerce",
+      "AI",
+      "AR"
+    ],
+    "status": "todo",
+    "product": "Solution for Finance"
+  },
+  {
+    "id": "5020",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeConcepts",
+    "industry": "Healthcare",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "AI"
+    ],
+    "status": "done",
+    "product": "Service for Consumers"
+  },
+  {
+    "id": "1527",
+    "avatar": "image_src_placeholder",
+    "name": "TechSolutions",
+    "industry": "Real Estate",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "blockchain",
+      "IoT",
+      "AR"
+    ],
+    "status": "done",
+    "product": "Service for Healthcare"
+  },
+  {
+    "id": "2546",
+    "avatar": "image_src_placeholder",
+    "name": "SmartCorp",
+    "industry": "Healthcare",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "IoT"
+    ],
+    "status": "done",
+    "product": "System for Finance"
+  },
+  {
+    "id": "9841",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeConcepts",
+    "industry": "Healthcare",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "AR",
+      "fintech",
+      "VR"
+    ],
+    "status": "todo",
+    "product": "Tool for Finance"
+  },
+  {
+    "id": "8908",
+    "avatar": "image_src_placeholder",
+    "name": "TechServices",
+    "industry": "Healthcare",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "e-commerce",
+      "innovation",
+      "cloud"
+    ],
+    "status": "in progress",
+    "product": "App for Businesses"
+  },
+  {
+    "id": "8519",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeConcepts",
+    "industry": "Logistics",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "AI",
+      "AR",
+      "IoT",
+      "innovation",
+      "e-commerce"
+    ],
+    "status": "todo",
+    "product": "System for Finance"
+  },
+  {
+    "id": "4046",
+    "avatar": "image_src_placeholder",
+    "name": "DataIncorporated",
+    "industry": "Education",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "cloud"
+    ],
+    "status": "todo",
+    "product": "Application for Businesses"
+  },
+  {
+    "id": "1463",
+    "avatar": "image_src_placeholder",
+    "name": "InfoLimited",
+    "industry": "Finance",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "AR",
+      "fintech",
+      "e-commerce",
+      "IoT",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "Application for Finance"
+  },
+  {
+    "id": "4526",
+    "avatar": "image_src_placeholder",
+    "name": "DataGroup",
+    "industry": "Logistics",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "blockchain"
+    ],
+    "status": "todo",
+    "product": "System for Consumers"
+  },
+  {
+    "id": "9394",
+    "avatar": "image_src_placeholder",
+    "name": "TechTechnologies",
+    "industry": "Technology",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability",
+      "AR",
+      "blockchain"
+    ],
+    "status": "in progress",
+    "product": "Program for Businesses"
+  },
+  {
+    "id": "5724",
+    "avatar": "image_src_placeholder",
+    "name": "SmartSystems",
+    "industry": "Real Estate",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "innovation",
+      "AR",
+      "sustainability",
+      "fintech",
+      "blockchain"
+    ],
+    "status": "in progress",
+    "product": "Platform for Finance"
+  },
+  {
+    "id": "3787",
+    "avatar": "image_src_placeholder",
+    "name": "FutureLimited",
+    "industry": "Healthcare",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "innovation"
+    ],
+    "status": "todo",
+    "product": "Service for Healthcare"
+  },
+  {
+    "id": "7322",
+    "avatar": "image_src_placeholder",
+    "name": "DataConcepts",
+    "industry": "Entertainment",
+    "size": "1001-5000",
+    "partner": "x",
+    "tags": [
+      "e-commerce",
+      "VR",
+      "IoT",
+      "AR"
+    ],
+    "status": "todo",
+    "product": "App for Healthcare"
+  },
+  {
+    "id": "1803",
+    "avatar": "image_src_placeholder",
+    "name": "TechCorp",
+    "industry": "Healthcare",
+    "size": "1-10",
+    "partner": "checkmark",
+    "tags": [
+      "sustainability"
+    ],
+    "status": "in progress",
+    "product": "App for Healthcare"
+  },
+  {
+    "id": "5975",
+    "avatar": "image_src_placeholder",
+    "name": "DataSystems",
+    "industry": "Finance",
+    "size": "501-1000",
+    "partner": "x",
+    "tags": [
+      "e-commerce",
+      "VR",
+      "fintech"
+    ],
+    "status": "todo",
+    "product": "Program for Healthcare"
+  },
+  {
+    "id": "4784",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaCorp",
+    "industry": "Healthcare",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "AR",
+      "VR"
+    ],
+    "status": "todo",
+    "product": "System for Finance"
+  },
+  {
+    "id": "2802",
+    "avatar": "image_src_placeholder",
+    "name": "GlobalLimited",
+    "industry": "Hospitality",
+    "size": "5000+",
+    "partner": "checkmark",
+    "tags": [
+      "blockchain",
+      "sustainability"
+    ],
+    "status": "todo",
+    "product": "App for Education"
+  },
+  {
+    "id": "8350",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaServices",
+    "industry": "Finance",
+    "size": "51-200",
+    "partner": "checkmark",
+    "tags": [
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "System for Healthcare"
+  },
+  {
+    "id": "3794",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaLimited",
+    "industry": "Technology",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "AR",
+      "blockchain"
+    ],
+    "status": "done",
+    "product": "Tool for Healthcare"
+  },
+  {
+    "id": "4515",
+    "avatar": "image_src_placeholder",
+    "name": "DataGroup",
+    "industry": "Technology",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "AI",
+      "blockchain"
+    ],
+    "status": "in progress",
+    "product": "Application for Consumers"
+  },
+  {
+    "id": "2927",
+    "avatar": "image_src_placeholder",
+    "name": "BetaLimited",
+    "industry": "Entertainment",
+    "size": "501-1000",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "Service for Businesses"
+  },
+  {
+    "id": "4222",
+    "avatar": "image_src_placeholder",
+    "name": "SmartGroup",
+    "industry": "Education",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "VR",
+      "blockchain",
+      "cloud"
+    ],
+    "status": "todo",
+    "product": "Platform for Finance"
+  },
+  {
+    "id": "3613",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeServices",
+    "industry": "Education",
+    "size": "201-500",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "cloud",
+      "innovation",
+      "sustainability"
+    ],
+    "status": "done",
+    "product": "Solution for Businesses"
+  },
+  {
+    "id": "4945",
+    "avatar": "image_src_placeholder",
+    "name": "InnovativeTechnologies",
+    "industry": "Logistics",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "IoT",
+      "cloud",
+      "fintech",
+      "AR",
+      "innovation"
+    ],
+    "status": "done",
+    "product": "Solution for Businesses"
+  },
+  {
+    "id": "2305",
+    "avatar": "image_src_placeholder",
+    "name": "SmartServices",
+    "industry": "Finance",
+    "size": "1001-5000",
+    "partner": "checkmark",
+    "tags": [
+      "e-commerce",
+      "sustainability",
+      "IoT"
+    ],
+    "status": "in progress",
+    "product": "Tool for Businesses"
+  },
+  {
+    "id": "2695",
+    "avatar": "image_src_placeholder",
+    "name": "InfoCorp",
+    "industry": "Healthcare",
+    "size": "5000+",
+    "partner": "x",
+    "tags": [
+      "innovation"
+    ],
+    "status": "todo",
+    "product": "Service for Finance"
+  },
+  {
+    "id": "9153",
+    "avatar": "image_src_placeholder",
+    "name": "SmartCorp",
+    "industry": "Finance",
+    "size": "11-50",
+    "partner": "x",
+    "tags": [
+      "IoT",
+      "cloud",
+      "blockchain",
+      "AI"
+    ],
+    "status": "todo",
+    "product": "Tool for Consumers"
+  },
+  {
+    "id": "8235",
+    "avatar": "image_src_placeholder",
+    "name": "AlphaGroup",
+    "industry": "Finance",
+    "size": "201-500",
+    "partner": "checkmark",
+    "tags": [
+      "VR",
+      "AI",
+      "e-commerce",
+      "sustainability",
+      "innovation"
+    ],
+    "status": "in progress",
+    "product": "Platform for Finance"
   }
 ]
