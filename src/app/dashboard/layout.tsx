@@ -20,7 +20,7 @@ export default function DashboardLayout({
   return (
     <div className="flex min-h-screen flex-col space-y-6">
       <header className="sticky top-0 z-40 border-b bg-background">
-        <div className="container flex h-16 items-center justify-between py-4">
+        <div className="mx-32 lg:mx-10 md:mx-8 sm:mx-2  flex h-16 items-center justify-between py-4">
           <MainNav items={dashboardConfig.mainNav} />
           {/* <Icons.help className="w-5 h-5 text-primary " /> */}
           <UserAccountNav
@@ -33,7 +33,7 @@ export default function DashboardLayout({
         </div>
       </header>
       
-      <div className="mx-32  grid flex-1 gap-12 md:grid-cols-[150px_1fr]">
+      <div className="mx-32 lg:mx-10 md:mx-8 sm:mx-2 grid flex-1 gap-12 md:grid-cols-[150px_1fr]">
         <aside className="hidden w-[200px] flex-col md:flex">
           <DashboardNav items={dashboardConfig.sidebarNav} />
         </aside>
@@ -41,7 +41,7 @@ export default function DashboardLayout({
           {children}
         </main>
       </div>
-      <Footer className="border-t" />
+      <Footer className="" />
     </div>
   )
 }
