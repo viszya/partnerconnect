@@ -66,64 +66,72 @@ model User {
 }
 
 model Company {
-  id          String        @id @default(cuid())
-  name        String
-  image       String?
-  progress    Int           @default(0)
-  industry    String?
-  description String?
-  partner     Boolean       @default(false)
-  contact     Contact[]
-  socialmedia SocialMedia[]
-  finance     Finance[]
-  reports     Report[]
-  teammembers TeamMembers[]
-  createdAt   DateTime      @default(now()) @map(name: "created_at")
-  User        User?         @relation(fields: [userId], references: [id])
-  userId      String?
+  id                       String                   @id @default(cuid())
+  companyName              String
+  image                    String?
+  progress                 Int                      @default(0)
+  industry                 String?
+  description              String?
+  partner                  Boolean                  @default(false)
+  address                  String?
+  phoneNumber              String?
+  email                    String?
+  website                  String?
+  district                 String?
+  createdAt                DateTime                 @default(now()) @map(name: "created_at")
+  userId                   String?
+  status                   String?
+  typeOfOrganization       String?
+  industryOrSector         String?
+  sizeEmployees            String?
+  historyBackground        String?
+  missionStatementVision   String?
+  targetMarketCustomerBase String?
+  facebook                 String?
+  twitter                  String?
+  linkedin                 String?
+  mainProduct              String?
+  descriptionOfProducts    String?
+  financialsRevenueModel   String?
+  companyValuesCulture     String?
+  award1Name               String?
+  award1Description        String?
+  award2Name               String?
+  award2Description        String?
+  testimonial1Name         String?
+  testimonial1Description  String?
+  testimonial2Name         String?
+  testimonial2Description  String?
+  name1                    String?
+  position1                String?
+  phoneNumber1             String?
+  email1                   String?
+  avatarImage1             String?
+  name2                    String?
+  position2                String?
+  phoneNumber2             String?
+  email2                   String?
+  avatarImage2             String?
+  name3                    String?
+  position3                String?
+  phoneNumber3             String?
+  email3                   String?
+  avatarImage3             String?
+  listOfProductsServices   listOfProductsServices[]
+  tags                     Tags[]
+  user                     User?                    @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
-model Contact {
-  id        String   @id @default(cuid())
-  phone     String?
-  email     String?
-  address   String?
-  link      String?
-  Company   Company? @relation(fields: [companyId], references: [id])
-  companyId String?
-}
-
-model TeamMembers {
+model Tags {
   id        String   @id @default(cuid())
   name      String
-  phone     String?
-  email     String?
-  address   String?
-  position  String?
-  image     String?
-  Company   Company? @relation(fields: [companyId], references: [id])
   companyId String?
+  company   Company? @relation(fields: [companyId], references: [id])
 }
 
-model SocialMedia {
+model listOfProductsServices {
   id        String   @id @default(cuid())
   name      String
-  logo      String?
-  link      String
-  Company   Company? @relation(fields: [companyId], references: [id])
   companyId String?
-}
-
-model Finance {
-  id        String   @id @default(cuid())
-  Company   Company? @relation(fields: [companyId], references: [id])
-  companyId String?
-}
-
-model Report {
-  id        String   @id @default(cuid())
-  name      String
-  link      String
-  Company   Company? @relation(fields: [companyId], references: [id])
-  companyId String?
+  company   Company? @relation(fields: [companyId], references: [id])
 }

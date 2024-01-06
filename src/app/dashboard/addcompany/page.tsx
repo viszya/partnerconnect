@@ -6,6 +6,7 @@ import { Form1 } from "@/app/_components/company/form-1";
 import { Form2 } from "@/app/_components/company/form-2";
 import { Form3 } from "@/app/_components/company/form-3";
 import { Form4 } from "@/app/_components/company/form-4";
+import { Form5 } from "@/app/_components/company/form-5";
 import { InputData } from "@/app/_components/inputdata";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -57,7 +58,6 @@ export default function AddCompany() {
                         <Icons.chevronRight className="text-gray-300 h-5 w-5" />
                         <TabsTrigger value="teammembers">Team Members</TabsTrigger>
                         <Icons.chevronRight className="text-gray-300 h-5 w-5" />
-                        <TabsTrigger value="data">Data</TabsTrigger>
                     </TabsList>
                     <div className="w-full">
                         <TabsContent value="profile">
@@ -72,8 +72,11 @@ export default function AddCompany() {
                         <TabsContent value="teammembers">
                             <Form4 onNextClick={handleNextButtonClick} onBackClick={handleBackButtonClick}/>
                         </TabsContent>
+                        <TabsContent value="teammembers">
+                            <Form4 onNextClick={handleNextButtonClick} onBackClick={handleBackButtonClick}/>
+                        </TabsContent>
                         <TabsContent value="data">
-                            <InputData />
+                            <Form5 onNextClick={handleNextButtonClick} onBackClick={handleBackButtonClick}/>
                         </TabsContent>
                     </div>
                 </Tabs>

@@ -13,70 +13,44 @@ interface FormProps {
     onBackClick: () => void;
 }
 
-export function Form2({ onNextClick, onBackClick }: FormProps) {
+export function Form5({ onNextClick, onBackClick }: FormProps) {
     const { toast } = useToast();
-    const [submitted, setSubmitted] = useState(false);
-    const [address, setAddress] = useState("456 Innovation Street, San Francisco, CA");
-    const [phoneNumber, setPhoneNumber] = useState("+1 (555) 987-6543");
-    const [email, setEmail] = useState("info@innovatetech.com");
-    const [website, setWebsite] = useState("https://www.innovatetech.com");
-    const [district, setDistrict] = useState("Bay Area");
-    const [tags, setTags] = useState<string[]>([""]);
+    const [award1Name, setAward1Name] = useState("");
+    const [award1Description, setAward1Description] = useState("");
+    const [award2Name, setAward2Name] = useState("");
+    const [award2Description, setAward2Description] = useState("");
+    const [testimonialName1, setTestimonialName1] = useState("");
+    const [testimonialFeedback1, setTestimonialFeedback1] = useState("");
+    const [testimonialName2, setTestimonialName2] = useState("");
+    const [testimonialFeedback2, setTestimonialFeedback2] = useState("");
     const [isLoading, setIsLoading] = useState(false);
+    const [submitted, setSubmitted] = useState(false);
 
     const id = api.company.getLatestProfile.useQuery().data?.id;
 
-    const createContact = api.company.createContact.useMutation({
+    const addAwardTestimonial = api.company.addAwardTestimonial.useMutation({
         onSuccess: () => {
             setIsLoading(false);
             toast({
                 title: "Success",
-                description: "Contact details created at " + formatDate(Date()),
+                description: "Team member created at " + formatDate(Date()),
             });
         },
     });
-    const addTag2 = api.company.addTag.useMutation({
-        onSuccess: () => {
-            setIsLoading(false);
-            toast({
-                title: "Success",
-                description: "Contact details created at " + formatDate(Date()),
-            });
-        },
-    });
-
-    const addTag = () => {
-        setTags([...tags, ""]);
-    }
-
-    const removeTag = (index: number) => {
-        const updatedTags = [...tags];
-        updatedTags.splice(index, 1);
-        setTags(updatedTags);
-    }
-
-    const updateTag = (index: number, value: string) => {
-        const updatedTags = [...tags];
-        updatedTags[index] = value;
-        setTags(updatedTags);
-    }
 
     function onSubmit() {
         setIsLoading(true);
         setSubmitted(true);
-        createContact.mutate({
-            address,
-            phoneNumber,
-            email,
-            website,
-            district,
+        addAwardTestimonial.mutate({
             id,
-        });
-        tags.forEach((tag) => {
-            addTag2.mutate({
-                tag,
-                id,
-            });
+            award1Name,
+            award1Description,
+            award2Name,
+            award2Description,
+            testimonialName1,
+            testimonialFeedback1,
+            testimonialName2,
+            testimonialFeedback2,
         });
     }
 
@@ -84,7 +58,7 @@ export function Form2({ onNextClick, onBackClick }: FormProps) {
         <section>
             <div className="flex flex-col mt-5 p-5 border border-secondary rounded-xl">
                 <div className="flex flex-col justify-center text-center md:flex-row md:text-left">
-                    <div className="flex flex-col justify-center max-w-5xl w-full  space-y-12">
+                    <div className="flex flex-col justify-center max-w-5xl w-full space-y-12">
                         <article>
                             <span className="inline-flex items-center text-primary rounded-xl">
                                 <span className="font-mono text-sm" aria-hidden="true">
@@ -110,100 +84,99 @@ export function Form2({ onNextClick, onBackClick }: FormProps) {
                         >
                             <div className="col-span-full">
                                 <label className="block mb-3 text-sm font-medium text-primary/90">
-                                    Address
+                                    Award 1 Name
                                 </label>
                                 <Input
-                                    placeholder="456 Innovation Street, San Francisco, CA"
+                                    placeholder="iPhone"
                                     className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
                                     type="text"
-                                    value={address}
-                                    required
-                                    onChange={(e) => setAddress(e.target.value)}
+                                    value={award1Name}
+                                    onChange={(e) => setAward1Name(e.target.value)}
                                 />
                             </div>
                             <div className="col-span-full">
                                 <label className="block mb-3 text-sm font-medium text-primary/90">
-                                    Phone Number
+                                    Award 1 Description
                                 </label>
                                 <Input
-                                    placeholder="+1 (555) 987-6543"
+                                    placeholder="iPhone"
                                     className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
                                     type="text"
-                                    value={phoneNumber}
-                                    onChange={(e) => setPhoneNumber(e.target.value)}
+                                    value={award1Description}
+                                    onChange={(e) => setAward1Description(e.target.value)}
                                 />
                             </div>
                             <div className="col-span-full">
                                 <label className="block mb-3 text-sm font-medium text-primary/90">
-                                    Email
+                                    Award 2 Name
                                 </label>
                                 <Input
-                                    placeholder="info@innovatetech.com"
-                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
-                                    type="email"
-                                    value={email}
-                                    onChange={(e) => setEmail(e.target.value)}
-                                />
-                            </div>
-                            <div className="col-span-full">
-                                <label className="block mb-3 text-sm font-medium text-primary/90">
-                                    Website
-                                </label>
-                                <Input
-                                    placeholder="https://www.innovatetech.com"
-                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
-                                    type="url"
-                                    value={website}
-                                    onChange={(e) => setWebsite(e.target.value)}
-                                />
-                            </div>
-                            <div className="col-span-full">
-                                <label className="block mb-3 text-sm font-medium text-primary/90">
-                                    District
-                                </label>
-                                <Input
-                                    placeholder="Bay Area"
+                                    placeholder="iPhone"
                                     className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
                                     type="text"
-                                    value={district}
-                                    onChange={(e) => setDistrict(e.target.value)}
+                                    value={award2Name}
+                                    onChange={(e) => setAward2Name(e.target.value)}
                                 />
                             </div>
                             <div className="col-span-full">
                                 <label className="block mb-3 text-sm font-medium text-primary/90">
-                                    Tags
+                                    Award 2 Description
                                 </label>
-                                <div className="flex flex-col gap-y-3">
-                                    {tags.map((tag, index) => (
-                                        <div className="flex flex-row gap-x-2">
-                                            <Input
-                                                key={index}
-                                                type="text"
-                                                placeholder="Tag"
-                                                value={tag}
-                                                className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
-                                                onChange={(e) => {
-                                                    updateTag(index, e.target.value);
-                                                }}
-                                                required
-                                            />
-                                            <button
-                                                type="button"
-                                                className={cn(buttonVariants({ variant: "destructive" }), "w-20 rounded-xl ")}
-                                                onClick={() => removeTag(index)}
-                                            >
-                                                Remove
-                                            </button>
-                                        </div>
-                                    ))}
-                                    <button
-                                        type="button"
-                                        className={cn(buttonVariants({ variant: "outline" }), " w-60 items-center justify-center px-6 py-2.5 text-center text-secondary duration-200 bg-primary border-2 border-primary rounded-xl inline-flex hover:bg-transparent hover:border-primary hover:text-primary focus:outline-none focus-visible:outline-primary text-sm focus-visible:ring-primary")}
-                                        onClick={addTag}
-                                    >
-                                        Add Tag
-                                    </button>
-                                </div>
+                                <Input
+                                    placeholder="iPhone"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={award2Description}
+                                    onChange={(e) => setAward2Description(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                    Testimonial 1 Name
+                                </label>
+                                <Input
+                                    placeholder="iPhone"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={testimonialName1}
+                                    onChange={(e) => setTestimonialName1(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                    Testimonial 1 Feedback
+                                </label>
+                                <Input
+                                    placeholder="iPhone"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={testimonialFeedback1}
+                                    onChange={(e) => setTestimonialFeedback1(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                    Testimonial 2 Name
+                                </label>
+                                <Input
+                                    placeholder="iPhone"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={testimonialName2}
+                                    onChange={(e) => setTestimonialName2(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                    Testimonial 2 Feedback
+                                </label>
+                                <Input
+                                    placeholder="iPhone"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={testimonialFeedback2}
+                                    onChange={(e) => setTestimonialFeedback2(e.target.value)}
+                                />
                             </div>
                             <div className="col-span-full">
                                 <button
@@ -216,7 +189,7 @@ export function Form2({ onNextClick, onBackClick }: FormProps) {
                                     ) : (
                                         <></>
                                     )}{" "}
-                                    Create Contact
+                                    Create Team Member
                                 </button>
                             </div>
                         </form>
@@ -237,7 +210,6 @@ export function Form2({ onNextClick, onBackClick }: FormProps) {
                     </div>
                 </div>
             ) : (<></>)}
-
         </section>
     );
 }

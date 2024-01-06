@@ -6,6 +6,7 @@ import { Icons } from "@/app/_components/icons";
 import { buttonVariants } from "@/app/_components/ui/button";
 import { cn } from "@/server/utils";
 import { Input } from "@/app/_components/ui/input";
+import { redirect } from "next/navigation"
 
 interface FormProps {
 	onNextClick: () => void;
@@ -34,6 +35,7 @@ export function Form1({ onNextClick }: FormProps) {
 			sendToEmail,
 			department,
 		});
+		redirect("/dashboard")
 	}
 
 	return (

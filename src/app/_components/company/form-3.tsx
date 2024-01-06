@@ -16,13 +16,26 @@ interface FormProps {
 export function Form3({ onNextClick, onBackClick }: FormProps) {
     const { toast } = useToast();
     const [submitted, setSubmitted] = useState(false);
-    const [name, setName] = useState("");
-    const [logo, setLogo] = useState("");
-    const [link, setLink] = useState("");
+    
+    const [name1, setName1] = useState("");
+    const [position1, setPosition1] = useState("");
+    const [phoneNumber1, setPhoneNumber1] = useState("");
+    const [email1, setEmail1] = useState("");
+    const [avatarImage1, setAvatarImage1] = useState("");
+    const [name2, setName2] = useState("");
+    const [position2, setPosition2] = useState("");
+    const [phoneNumber2, setPhoneNumber2] = useState("");
+    const [email2, setEmail2] = useState("");
+    const [avatarImage2, setAvatarImage2] = useState("");
+    const [name3, setName3] = useState("");
+    const [position3, setPosition3] = useState("");
+    const [phoneNumber3, setPhoneNumber3] = useState("");
+    const [email3, setEmail3] = useState("");
+    const [avatarImage3, setAvatarImage3] = useState("");
     const [isLoading, setIsLoading] = useState(false);
     const id = api.company.getLatestProfile.useQuery().data?.id;
 
-    const createSocialMedia = api.company.addSocialMedia.useMutation({
+    const addKeyPersonnel = api.company.addKeyPersonnel.useMutation({
         onSuccess: () => {
             setIsLoading(false);
             toast({
@@ -35,12 +48,25 @@ export function Form3({ onNextClick, onBackClick }: FormProps) {
     function onSubmit() {
         setIsLoading(true);
         setSubmitted(true);
-        createSocialMedia.mutate({
-            name,
-            logo,
-            link,
+        addKeyPersonnel.mutate({
             id,
+            name1: name1,
+            position1: position1,
+            phoneNumber1: phoneNumber1,
+            email1: email1,
+            avatarImage1: avatarImage1,
+            name2: name2,
+            position2: position2,
+            phoneNumber2: phoneNumber2,
+            email2: email2,
+            avatarImage2: avatarImage2,
+            name3: name3,
+            position3: position3,
+            phoneNumber3: phoneNumber3,
+            email3: email3,
+            avatarImage3: avatarImage3,
         });
+            
     }
 
     return (
@@ -71,40 +97,181 @@ export function Form3({ onNextClick, onBackClick }: FormProps) {
                                 onSubmit();
                             }}
                         >
+                            
                             <div className="col-span-full">
                                 <label className="block mb-3 text-sm font-medium text-primary/90">
-                                    Social Media Name
+                                   Key Personnel 1 Name
                                 </label>
                                 <Input
-                                    placeholder="Facebook"
+                                    placeholder="John Doe"
                                     className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
                                     type="text"
-                                    value={name}
-                                    onChange={(e) => setName(e.target.value)}
+                                    value={name1}
+                                    onChange={(e) => setName1(e.target.value)}
                                 />
                             </div>
                             <div className="col-span-full">
                                 <label className="block mb-3 text-sm font-medium text-primary/90">
-                                    Social Media Logo (Image URL)
+                                   Key Personnel 1 Position
                                 </label>
                                 <Input
-                                    placeholder="https://example.com/logo.png"
+                                    placeholder="CEO"
                                     className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
                                     type="text"
-                                    value={logo}
-                                    onChange={(e) => setLogo(e.target.value)}
+                                    value={position1}
+                                    onChange={(e) => setPosition1(e.target.value)}
                                 />
                             </div>
                             <div className="col-span-full">
                                 <label className="block mb-3 text-sm font-medium text-primary/90">
-                                    Social Media Link
+                                   Key Personnel 1 Phone Number
                                 </label>
                                 <Input
-                                    placeholder="https://facebook.com"
+                                    placeholder="1234567890"
                                     className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
                                     type="text"
-                                    value={link}
-                                    onChange={(e) => setLink(e.target.value)}
+                                    value={phoneNumber1}
+                                    onChange={(e) => setPhoneNumber1(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                   Key Personnel 1 Email
+                                </label>
+                                <Input
+                                    placeholder="@gmail.com"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={email1}
+                                    onChange={(e) => setEmail1(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                   Key Personnel 1 Avatar Image
+                                </label>
+                                <Input
+                                    placeholder="https://"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={avatarImage1}
+                                    onChange={(e) => setAvatarImage1(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                   Key Personnel 2 Name
+                                </label>
+                                <Input
+                                    placeholder="John Doe"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={name2}
+                                    onChange={(e) => setName2(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                   Key Personnel 2 Position
+                                </label>
+                                <Input
+                                    placeholder="CEO"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={position2}
+                                    onChange={(e) => setPosition2(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                   Key Personnel 2 Phone Number
+                                </label>
+                                <Input
+                                    placeholder="1234567890"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={phoneNumber2}
+                                    onChange={(e) => setPhoneNumber2(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                   Key Personnel 2 Email
+                                </label>
+                                <Input
+                                    placeholder="@gmail.com"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={email2}
+                                    onChange={(e) => setEmail2(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                   Key Personnel 2 Avatar Image
+                                </label>
+                                <Input
+                                    placeholder="https://"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={avatarImage2}
+                                    onChange={(e) => setAvatarImage2(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                   Key Personnel 3 Name
+                                </label>
+                                <Input
+                                    placeholder="John Doe"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={name3}
+                                    onChange={(e) => setName3(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                   Key Personnel 3 Position
+                                </label>
+                                <Input
+                                    placeholder="CEO"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={position3}
+                                    onChange={(e) => setPosition3(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                Key Personnel 3 Phone Number
+                                </label>
+                                <Input
+                                    placeholder="1234567890"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={phoneNumber3}
+                                    onChange={(e) => setPhoneNumber3(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">Key Personnel 3 Email</label>
+                                <Input
+                                    placeholder="@gmail.com"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={email3}
+                                    onChange={(e) => setEmail3(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">Key Personnel 3 Avatar Image</label>
+                                <Input
+                                    placeholder="https://"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={avatarImage3}
+                                    onChange={(e) => setAvatarImage3(e.target.value)}
                                 />
                             </div>
                             <div className="col-span-full">

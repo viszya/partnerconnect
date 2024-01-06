@@ -17,17 +17,19 @@ interface FormProps {
 export function Form4({ onNextClick, onBackClick }: FormProps) {
     const { toast } = useToast();
     const [submitted, setSubmitted] = useState(true);
-    const [name, setName] = useState("");
-    const [phone, setPhone] = useState("");
-    const [email, setEmail] = useState("");
-    const [address, setAddress] = useState("");
-    const [position, setPosition] = useState("");
-    const [image, setImage] = useState("");
+    const [mainProduct, setMainProduct] = useState("");
+    const [descriptionOfProducts, setDescriptionOfProducts] = useState("");
+    const [listOfProductsServices, setListOfProductsServices] = useState<string[]>([""]);
+    const [financialsRevenueModel, setFinancialsRevenueModel] = useState("");
+    const [facebook, setFacebook] = useState("");
+    const [twitter, setTwitter] = useState("");
+    const [linkedin, setLinkedin] = useState("");
+    const [companyValuesCulture, setCompanyValuesCulture] = useState("");
     const [isLoading, setIsLoading] = useState(false);
 
     const id = api.company.getLatestProfile.useQuery().data?.id;
 
-    const createTeamMember = api.company.addTeamMember.useMutation({
+    const addInfo2 = api.company.addInfo2.useMutation({
         onSuccess: () => {
             setIsLoading(false);
             toast({
@@ -36,18 +38,51 @@ export function Form4({ onNextClick, onBackClick }: FormProps) {
             });
         },
     });
+    const addProducts = api.company.addProducts.useMutation({
+        onSuccess: () => {
+            setIsLoading(false);
+            toast({
+                title: "Success",
+                description: "Contact details created at " + formatDate(Date()),
+            });
+        },
+    });
+
+
+    const addListOfProductsServices = () => {
+        setListOfProductsServices([...listOfProductsServices, ""]);
+    }
+
+    const removeListOfProductsServices = (index: number) => {
+        const updatedListOfProductsServices = [...listOfProductsServices];
+        updatedListOfProductsServices.splice(index, 1);
+        setListOfProductsServices(updatedListOfProductsServices);
+    }
+
+    const updateListOfProductsServices = (index: number, value: string) => {
+        const updatedListOfProductsServices = [...listOfProductsServices];
+        updatedListOfProductsServices[index] = value;
+        setListOfProductsServices(updatedListOfProductsServices);
+    }
 
     function onSubmit() {
         setIsLoading(true);
         setSubmitted(true);
-        createTeamMember.mutate({
-            name,
-            phone,
-            email,
-            address,
-            position,
-            image,
-            id,
+        addInfo2.mutate({
+            id: id!,
+            mainProduct,
+            descriptionOfProducts,
+            financialsRevenueModel,
+            facebook,
+            twitter,
+            linkedin,
+            companyValuesCulture,
+        });
+        listOfProductsServices.forEach((listOfProductsService) => {
+            addProducts.mutate({
+                id,
+                listOfProductsService,
+            });
         });
     }
 
@@ -81,74 +116,122 @@ export function Form4({ onNextClick, onBackClick }: FormProps) {
                         >
                             <div className="col-span-full">
                                 <label className="block mb-3 text-sm font-medium text-primary/90">
-                                    Team Member Name
+                                    mainProduct
                                 </label>
                                 <Input
-                                    placeholder="John Doe"
+                                    placeholder="iPhone"
                                     className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
                                     type="text"
-                                    value={name}
-                                    onChange={(e) => setName(e.target.value)}
+                                    value={mainProduct}
+                                    onChange={(e) => setMainProduct(e.target.value)}
                                 />
                             </div>
                             <div className="col-span-full">
                                 <label className="block mb-3 text-sm font-medium text-primary/90">
-                                    Phone Number
+                                    descriptionOfProducts
                                 </label>
                                 <Input
-                                    placeholder="123-456-7890"
+                                    placeholder="iPhone"
                                     className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
                                     type="text"
-                                    value={phone}
-                                    onChange={(e) => setPhone(e.target.value)}
+                                    value={descriptionOfProducts}
+                                    onChange={(e) => setDescriptionOfProducts(e.target.value)}
                                 />
                             </div>
                             <div className="col-span-full">
                                 <label className="block mb-3 text-sm font-medium text-primary/90">
-                                    Email
+                                    listOfProductsServices
+                                </label>
+                                <div className="flex flex-col gap-y-3">
+                                    {listOfProductsServices.map((listOfProductsService, index) => (
+                                        <div className="flex flex-row gap-x-2">
+                                            <Input
+                                                key={index}
+                                                type="text"
+                                                placeholder="listOfProductsService"
+                                                value={listOfProductsService}
+                                                className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                                onChange={(e) => {
+                                                    updateListOfProductsServices(index, e.target.value);
+                                                }}
+                                                required
+                                            />
+                                            <button
+                                                type="button"
+                                                className={cn(buttonVariants({ variant: "destructive" }), "w-20 rounded-xl ")}
+                                                onClick={() => removeListOfProductsServices(index)}
+                                            >
+                                                Remove
+                                            </button>
+                                        </div>
+                                    ))}
+                                    <button
+                                        type="button"
+                                        className={cn(buttonVariants({ variant: "outline" }), " w-60 items-center justify-center px-6 py-2.5 text-center text-secondary duration-200 bg-primary border-2 border-primary rounded-xl inline-flex hover:bg-transparent hover:border-primary hover:text-primary focus:outline-none focus-visible:outline-primary text-sm focus-visible:ring-primary")}
+                                        onClick={addListOfProductsServices}
+                                    >
+                                        Add listOfProductsService
+                                    </button>
+                                </div>
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                    financialsRevenueModel
                                 </label>
                                 <Input
-                                    placeholder="example@example.com"
+                                    placeholder="iPhone"
                                     className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
-                                    type="email"
-                                    value={email}
-                                    onChange={(e) => setEmail(e.target.value)}
+                                    type="text"
+                                    value={financialsRevenueModel}
+                                    onChange={(e) => setFinancialsRevenueModel(e.target.value)}
                                 />
                             </div>
                             <div className="col-span-full">
                                 <label className="block mb-3 text-sm font-medium text-primary/90">
-                                    Address
+                                    facebook
                                 </label>
                                 <Input
-                                    placeholder="123 Main St, City, Country"
+                                    placeholder="iPhone"
                                     className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
                                     type="text"
-                                    value={address}
-                                    onChange={(e) => setAddress(e.target.value)}
+                                    value={facebook}
+                                    onChange={(e) => setFacebook(e.target.value)}
                                 />
                             </div>
                             <div className="col-span-full">
                                 <label className="block mb-3 text-sm font-medium text-primary/90">
-                                    Position
+                                    twitter
                                 </label>
                                 <Input
-                                    placeholder="Software Engineer"
+                                    placeholder="iPhone"
                                     className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
                                     type="text"
-                                    value={position}
-                                    onChange={(e) => setPosition(e.target.value)}
+                                    value={twitter}
+                                    onChange={(e) => setTwitter(e.target.value)}
                                 />
                             </div>
                             <div className="col-span-full">
                                 <label className="block mb-3 text-sm font-medium text-primary/90">
-                                    Team Member Image (Image URL)
+                                    linkedin
                                 </label>
                                 <Input
-                                    placeholder="https://example.com/image.png"
+                                    placeholder="iPhone"
                                     className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
                                     type="text"
-                                    value={image}
-                                    onChange={(e) => setImage(e.target.value)}
+                                    value={linkedin}
+                                    onChange={(e) => setLinkedin(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                    companyValuesCulture
+                                </label>
+                                <Input
+                                    placeholder="iPhone"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={companyValuesCulture}
+                                    onChange={(e) => setCompanyValuesCulture(e.target.value)}
                                 />
                             </div>
                             <div className="col-span-full">

@@ -22,9 +22,8 @@ export function MainNav({ items, children }: MainNavProps) {
   return (
     <div className="flex gap-6 md:gap-10">
       <Link href="/" className="hidden items-center space-x-2 md:flex">
-        <Icons.logo />
         <span className="lg:text-lg uppecase font-semibold tracking-widest">
-          PARTNER-INSIGHT
+          PARTNER-CONNECT
         </span>
       </Link>
       <nav className="hidden md:flex -ml-2">
@@ -45,11 +44,6 @@ export function MainNav({ items, children }: MainNavProps) {
           ))} */}
         <div className='flex-1'>
           <Link
-            href='/features'
-            className="px-2 py-2 text-sm text-primary/80 lg:px-6 transition-colors delay-75 rounded-2xl hover:bg-teal-400/10 md:px-3 hover:text-teal-400 ">
-            Features
-          </Link>
-          <Link
             href='/dashboard/support'
             className="px-2 py-2 text-sm text-primary/80 lg:px-6 transition-colors delay-75 rounded-2xl hover:bg-teal-400/10 md:px-3 hover:text-teal-400 ">
             Support
@@ -61,16 +55,16 @@ export function MainNav({ items, children }: MainNavProps) {
           </Link>
         </div>
       </nav>
-      <button
+      {/* <button
         className="flex items-center space-x-2 md:hidden"
         onClick={() => setShowMobileMenu(!showMobileMenu)}
       >
         {showMobileMenu ? <Icons.close /> : <Icons.logo />}
         <span className="font-bold">Menu</span>
-      </button>
-      {showMobileMenu && items && (
+      </button> */}
+      {/* {showMobileMenu && items && (
         <MobileNav items={items}>{children}</MobileNav>
-      )}
+      )} */}
     </div>
   )
 }

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default async function LoginPage() {
     const session = await getServerAuthSession();
-    if (session) return redirect("/onboarding")
+    if (session) return redirect("/dashboard")
 
     return (
         <div className="container flex h-screen w-screen flex-col items-center justify-center">

@@ -28,7 +28,7 @@ const Nav = async () => {
         <div className="flex flex-row items-center justify-between lg:justify-start">
           <a className="text-lg tracking-tight primary-black uppercase focus:outline-none focus:ring focus:ring-gray-300/25 rounded-full px-4 lg:text-2xl" href="/">
             <span className="lg:text-lg uppecase font-semibold tracking-widest">
-              PARTNER-INSIGHT
+              PARTNER-CONNECT
             </span>
           </a>
           <button className="inline-flex items-center justify-center p-2 text-secondary hover:text-primary focus:outline-none focus:text-primary md:hidden">
@@ -40,11 +40,6 @@ const Nav = async () => {
         </div>
         <nav className="flex-col items-center flex-grow hidden md:pb-0 md:flex md:justify-end md:flex-row">
           <div className='flex-1 mx-4'>
-            <Link
-              href='/features'
-              className="px-2 py-2 text-sm text-primary/80 lg:px-6 transition-colors delay-75 rounded-2xl hover:bg-teal-400/10 md:px-3 hover:text-teal-400 ">
-              Features
-            </Link>
             <Link
               href='/support'
               className="px-2 py-2 text-sm text-primary/80 lg:px-6 transition-colors delay-75 rounded-2xl hover:bg-teal-400/10 md:px-3 hover:text-teal-400 ">
@@ -92,13 +87,6 @@ const Nav = async () => {
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuSeparator />
-              <DropdownMenuItem className='flex justify-center items-center px-0'>
-                <Link
-                  href='/features'
-                  className="w-full text-center px-2 py-2 text-sm text-primary lg:px-6 transition-colors delay-75 rounded-2xl hover:bg-teal-400/10 md:px-3 hover:text-teal-400 ">
-                  Features
-                </Link>
-              </DropdownMenuItem>
               <DropdownMenuItem className='flex justify-center items-center px-0'>
                 <Link
                   href='/support'

@@ -2,16 +2,9 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import { Resend } from 'resend';
 import { env } from "@/env.mjs";
-import ContactEmail from '@/app/_components/contact-email';
+import ReportEmail from '@/app/_components/report-email';
 
 const resend = new Resend(env.RESEND_API_KEY);
-interface ReqData {
-    email: string;
-    firstName: string;
-    lastName: string;
-    subject: string;
-    message: string;
-}
 
 export async function POST(req: NextRequest) {
     const reqData = await req.json() as ReqData;
@@ -19,8 +12,8 @@ export async function POST(req: NextRequest) {
         const { data, error } = await resend.emails.send({
             from: 'PartnerConnect <contact@resend.dev>',
             to: "xanthan.ex@gmail.com",
-            subject: 'Contact Request: ' + reqData.subject,
-            react: ContactEmail({ email: reqData.email, firstName: reqData.firstName, lastName: reqData.lastName, message: reqData.message }),
+            subject: 'Company Report' ,
+            react: ReportEmail(reqData),
         });
         if (error) {
             console.log(error);

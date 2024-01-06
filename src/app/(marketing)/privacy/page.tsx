@@ -7,10 +7,10 @@ export default function PrivacyPolicy() {
             <div className="mx-20">
                 <article>
                     <div className="mt-10 text-5xl tracking-tighter text-primary">
-                        Privacy Policy for Sparktup
+                        Privacy Policy for PartnerConnect
                     </div>
                     <div className="mt-4 text-primary/80 text-lg">
-                        This Privacy Policy outlines the ways in which Sparktup collects, uses, and safeguards personal information of users on our platform. By accessing or using Sparktup, you consent to the practices described in this Policy.
+                        This Privacy Policy outlines the ways in which PartnerConnect collects, uses, and safeguards personal information of users on our platform. By accessing or using PartnerConnect, you consent to the practices described in this Policy.
                     </div>
                 </article>
                 <article>
@@ -54,7 +54,7 @@ export default function PrivacyPolicy() {
                     <div className="mt-4 text-primary/80 text-lg">
                         <div>
                             <span className="text-lg tracking-tighter text-primary">a. Businesses and Individuals:</span><br />
-                            User profiles and job applications are shared as necessary to fulfill the primary purpose of Sparktup: connecting businesses with potential candidates.
+                            User profiles and job applications are shared as necessary to fulfill the primary purpose of PartnerConnect: connecting businesses with potential candidates.
                         </div>
                         <div className="mt-2">
                             <span className="text-lg tracking-tighter text-primary">b. Third Parties:</span><br />
@@ -123,12 +123,12 @@ export default function PrivacyPolicy() {
                         8. Contact Information
                     </div>
                     <div className="mt-4 text-primary/80 text-lg">
-                        For any questions, concerns, or requests related to this Privacy Policy, please contact us at sparktupfbla@gmail.com.
+                        For any questions, concerns, or requests related to this Privacy Policy, please contact us at PartnerConnectfbla@gmail.com.
                     </div>
                 </article>
                 <article>
                     <div className=" mt-20 text-3xl tracking-tighter text-primary">
-                        This Privacy Policy is effective as of 12/31/2025. Continued use of Sparktup signifies acceptance of this policy.
+                        This Privacy Policy is effective as of 12/31/2025. Continued use of PartnerConnect signifies acceptance of this policy.
                     </div>
                 </article>
             </div>

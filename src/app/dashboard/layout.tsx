@@ -1,3 +1,4 @@
+
 import { notFound } from "next/navigation"
 
 import { dashboardConfig } from "@/app/_config/dashboard"
@@ -7,15 +8,17 @@ import { Footer } from "@/app/_components/footer"
 import { UserAccountNav } from "@/app/_components/user-account-nav"
 import { Icon } from "@radix-ui/react-select"
 import { Icons } from "@/app/_components/icons"
+//import { api } from "@/server/react"
+import { getServerAuthSession } from "@/server/auth"
 
 interface DashboardLayoutProps {
   children?: React.ReactNode
 }
 
-export default function DashboardLayout({
+export default async function DashboardLayout({
   children,
 }: DashboardLayoutProps) {
- 
+  const session = await getServerAuthSession()
 
   return (
     <div className="flex min-h-screen flex-col space-y-6">
@@ -25,9 +28,9 @@ export default function DashboardLayout({
           {/* <Icons.help className="w-5 h-5 text-primary " /> */}
           <UserAccountNav
             user={{
-              name: "hi",//user.name,
-              image: "dsf",//user.image,
-              email: "fsdfs",//user.email,
+              name:  session?.user?.name,
+              image: session?.user?.image,
+              email: session?.user?.email,
             }}
           />
         </div>

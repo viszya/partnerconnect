@@ -1,27 +1,31 @@
-"use client"
-
 import { useState } from "react";
 import { api } from "@/trpc/react";
 import { Icons } from "@/app/_components/icons";
 import { buttonVariants } from "@/app/_components/ui/button";
 import { cn, formatDate } from "@/server/utils";
 import { Input } from "@/app/_components/ui/input";
-import { toast } from "@/app/_components/ui/sonner";
+import { useToast } from "@/app/_components/ui/use-toast";
 
 interface FormProps {
     onNextClick: () => void;
 }
 
 export function Form1({ onNextClick }: FormProps) {
+    const { toast } = useToast();
     const [submitted, setSubmitted] = useState(false);
-    const [name, setName] = useState("");
-    const [image, setImage] = useState("");
-    const [industry, setIndustry] = useState("");
-    const [description, setDescription] = useState("");
-    const [partner, setPartner] = useState(false);
+    const [companyName, setCompanyName] = useState("");
+    const [status, setStatus] = useState("");
+    const [typeOfOrganization, setTypeOfOrganization] = useState("");
+    const [image, setimage] = useState("");
+    const [industryOrSector, setIndustryOrSector] = useState("");
+    const [sizeEmployees, setSizeEmployees] = useState("");
+    const [historyBackground, setHistoryBackground] = useState("");
+    const [missionStatementVision, setMissionStatementVision] = useState("");
+    const [targetMarketCustomerBase, setTargetMarketCustomerBase] = useState("");
     const [isLoading, setIsLoading] = useState(false);
+    const [partner, setPartner] = useState(false);
 
-    const createCompany = api.company.createProfile.useMutation({
+    const createCompany = api.company.createCompany.useMutation({
         onSuccess: () => {
             setIsLoading(false);
             toast({
@@ -35,10 +39,15 @@ export function Form1({ onNextClick }: FormProps) {
         setIsLoading(true);
         setSubmitted(true);
         createCompany.mutate({
-            name,
+            companyName,
             image,
-            industry,
-            description,
+            status,
+            typeOfOrganization,
+            industryOrSector,
+            sizeEmployees,
+            historyBackground,
+            missionStatementVision,
+            targetMarketCustomerBase,
             partner,
         });
     }
@@ -79,50 +88,111 @@ export function Form1({ onNextClick }: FormProps) {
                                     placeholder="My Company"
                                     className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
                                     type="text"
-                                    value={name}
+                                    value={companyName}
                                     required
-                                    onChange={(e) => setName(e.target.value)}
+                                    onChange={(e) => setCompanyName(e.target.value)}
                                 />
                             </div>
                             <div className="col-span-full">
                                 <label className="block mb-3 text-sm font-medium text-primary/90">
-                                    Company Logo (Image URL)
+                                    Status
+                                </label>
+                                <Input
+                                    placeholder="Active"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={status}
+                                    onChange={(e) => setStatus(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                    Logo
                                 </label>
                                 <Input
                                     placeholder="https://example.com/logo.png"
                                     className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
                                     type="text"
                                     value={image}
-                                    onChange={(e) => setImage(e.target.value)}
+                                    onChange={(e) => setimage(e.target.value)}
                                 />
                             </div>
                             <div className="col-span-full">
                                 <label className="block mb-3 text-sm font-medium text-primary/90">
-                                    Industry
+                                    Type of Organization
                                 </label>
                                 <Input
-                                    placeholder="Technology"
+                                    placeholder="For-Profit"
                                     className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
                                     type="text"
-                                    value={industry}
-                                    onChange={(e) => setIndustry(e.target.value)}
+                                    value={typeOfOrganization}
+                                    onChange={(e) => setTypeOfOrganization(e.target.value)}
                                 />
                             </div>
                             <div className="col-span-full">
                                 <label className="block mb-3 text-sm font-medium text-primary/90">
-                                    Description
+                                    Industry or Sector
                                 </label>
                                 <Input
-                                    placeholder="A brief description of the company"
+                                    placeholder="IT"
                                     className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
                                     type="text"
-                                    value={description}
-                                    onChange={(e) => setDescription(e.target.value)}
+                                    value={industryOrSector}
+                                    onChange={(e) => setIndustryOrSector(e.target.value)}
                                 />
                             </div>
                             <div className="col-span-full">
                                 <label className="block mb-3 text-sm font-medium text-primary/90">
-                                    Is this company a business partner your organization engages with?  <br />
+                                    Size of Employees
+                                </label>
+                                <Input
+                                    placeholder="5000+"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={sizeEmployees}
+                                    onChange={(e) => setSizeEmployees(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                    History Background
+                                </label>
+                                <Input
+                                    placeholder="Founded in 2010, Innovate Tech has been a pioneer in delivering cutting-edge technology solutions."
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={historyBackground}
+                                    onChange={(e) => setHistoryBackground(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                    Mission Statement/Vision
+                                </label>
+                                <Input
+                                    placeholder="Empowering businesses through innovative technology solutions"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={missionStatementVision}
+                                    onChange={(e) => setMissionStatementVision(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                    Target Market/Customer Base
+                                </label>
+                                <Input
+                                    placeholder="Enterprise, Startups"
+                                    className="rounded-xl px-6 py-3 placeholder:text-primary/40 border-primary/20"
+                                    type="text"
+                                    value={targetMarketCustomerBase}
+                                    onChange={(e) => setTargetMarketCustomerBase(e.target.value)}
+                                />
+                            </div>
+                            <div className="col-span-full">
+                                <label className="block mb-3 text-sm font-medium text-primary/90">
+                                    Is this company a business partner your organization engages with?
+                                    <br />
                                     <em className="text-primary/80">Leave Un-Checked if they are not a partner </em>
                                 </label>
                                 <input
@@ -155,7 +225,6 @@ export function Form1({ onNextClick }: FormProps) {
                 <div className="flex justify-center items-center">
                     <div className="border border-dashed border-primary/60 p-2 flex justify-center items-center rounded-xl mt-2">
                         {/* Next Button */}
-
                         <button onClick={onNextClick} className={cn(buttonVariants({ variant: "default" }), " rounded-xl w-26")}>
                             Next
                             <Icons.chevronRight className="h-5 w-5 ml-2" />
