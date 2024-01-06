@@ -24,11 +24,11 @@ export default function SupportForm() {
   return (
     <section className="flex flex-col  px-8">
       <div>
-                <h2 className="text-3xl font-bold tracking-tight">Support Ticket</h2>
-                <p className="text-muted-foreground">
-                    Send us a support ticket and we'll reach back as soon as possible
-                </p>
-            </div>
+        <h2 className="text-3xl font-bold tracking-tight">Support Ticket</h2>
+        <p className="text-muted-foreground">
+          Send us a support ticket and we'll reach back as soon as possible
+        </p>
+      </div>
       <div className="">
         <div className="flex flex-col mt-5 p-5 border border-secondary rounded-xl border-dashed">
           <div className="flex flex-col justify-center text-center md:flex-row md:text-left">

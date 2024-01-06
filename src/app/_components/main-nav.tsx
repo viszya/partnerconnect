@@ -41,9 +41,9 @@ const Nav = async () => {
         <nav className="flex-col items-center flex-grow hidden md:pb-0 md:flex md:justify-end md:flex-row">
           <div className='flex-1 mx-4'>
             <Link
-              href='/about'
+              href='/features'
               className="px-2 py-2 text-sm text-primary/80 lg:px-6 transition-colors delay-75 rounded-2xl hover:bg-teal-400/10 md:px-3 hover:text-teal-400 ">
-              About
+              Features
             </Link>
             <Link
               href='/support'
@@ -94,9 +94,9 @@ const Nav = async () => {
               <DropdownMenuSeparator />
               <DropdownMenuItem className='flex justify-center items-center px-0'>
                 <Link
-                  href='/about'
+                  href='/features'
                   className="w-full text-center px-2 py-2 text-sm text-primary lg:px-6 transition-colors delay-75 rounded-2xl hover:bg-teal-400/10 md:px-3 hover:text-teal-400 ">
-                  About
+                  Features
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem className='flex justify-center items-center px-0'>

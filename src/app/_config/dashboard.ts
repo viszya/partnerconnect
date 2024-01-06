@@ -22,11 +22,11 @@ export const dashboardConfig: DashboardConfig = {
       href: "/dashboard/addcompany",
       icon: "copyplus",
     },
-    // {
-    //   title: "Reports",
-    //   href: "/dashboard/reports",
-    //   icon: "post",
-    // },
+    {
+      title: "Reports",
+      href: "/dashboard/reports",
+      icon: "post",
+    },
     // {
     //   title: "Upcoming",
     //   href: "/dashboard/upcoming",

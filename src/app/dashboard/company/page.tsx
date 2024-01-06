@@ -1,10 +1,11 @@
 "use client"
 
 import { twp, cn } from "@/server/utils";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Icons } from "@/app/_components/icons";
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "@/app/_components/ui/button";
+import { Button, buttonVariants } from "@/app/_components/ui/button";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/app/_components/ui/carousel";
 import {
   Drawer,
@@ -15,6 +16,27 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/app/_components/ui/drawer";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
+import { Badge } from "@/app/_components/ui/badge";
+import { Avatar, AvatarFallback, AvatarImage } from "@/app/_components/ui/avatar";
+import { Separator } from "@/app/_components/ui/separator";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+
+
 
 // Define the new company data
 const newData = {
@@ -22,13 +44,17 @@ const newData = {
   id: "1234",
   avatar: "/innovate_tech_logo.png",
   status: "Active",
-  typeOfOrganization: "Tech",
+  typeOfOrganization: "For-Profit",
   industryOrSector: "IT",
-  historyBackground: "Founded in 2010, Innovate Tech has been a pioneer in delivering cutting-edge technology solutions.",
   sizeEmployees: "5000+",
+
+
+  historyBackground: "Founded in 2010, Innovate Tech has been a pioneer in delivering cutting-edge technology solutions.",
   missionStatementVision: "Empowering businesses through innovative technology solutions",
   targetMarketCustomerBase: "Enterprise, Startups",
   tags: ["Technology", "Innovation", "Digital Transformation"],
+
+
   companyContactInformation: {
     address: "456 Innovation Street, San Francisco, CA",
     phoneNumber: "+1 (555) 987-6543",
@@ -36,6 +62,8 @@ const newData = {
     website: "https://www.innovatetech.com",
     district: "Bay Area",
   },
+
+
   keyPersonnel: [
     {
       name: "Alice Johnson",
@@ -51,7 +79,16 @@ const newData = {
       email: "bob@innovatetech.com",
       avatarImage: "/bob-smith-avatar.png",
     },
+    {
+      name: "Bob Smith",
+      position: "CTO",
+      phoneNumber: "+1 (555) 333-4444",
+      email: "bob@innovatetech.com",
+      avatarImage: "/bob-smith-avatar.png",
+    },
   ],
+
+
   mainProduct: "Tech Solutions",
   descriptionOfProducts: "Innovate Tech provides a wide range of technology solutions, including software development, cloud services, and digital transformation.",
   listOfProductsServices: [
@@ -85,160 +122,314 @@ const newData = {
 
 export default function CompanyProfile() {
   return (
-    <div className={cn("", twp().wrapper)}>
-      {/* Company Headline */}
-      <div className="grid grid-flow-col grid-cols-2 md:grid-cols-1 gap-x-6 m-10 bg-gray-300/10 p-8 rounded-2xl border-2 border-gray-200">
-        <div className=" max-w-[30rem]">
-          <div className="flex flex-row gap-x-8 mb-4">
-            <Image src={newData.avatar} alt="company-logo" width={100} height={50} className="rounded-full overflow-hidden" />
-            <div>
-              <div className="mt-4 text-2xl font-medium tracking-tight text-black sm:text-4xl">{newData.companyName}</div>
-              <div className="mt-2 flex flex-row items-center">
-                <Icons.pin className="h-4 w-4 mr-2" />
-                <div className="text-gray-500">{newData.companyContactInformation.district}</div>
+    <div className="">
+      <div>
+        <Tabs defaultValue="model" className="w-full my-4">
+          <TabsList className="w-full">
+            <TabsTrigger value="model" className="w-full">Model View</TabsTrigger>
+            <TabsTrigger value="pdf" className="w-full">PDF View</TabsTrigger>
+          </TabsList>
+          <TabsContent value="pdf">
+            <Link href="" className={cn(buttonVariants({ variant: "outline" }), "border-dashed border-teal-300 hover:border-solid border-2 py-10 font-semibold tracking-widest w-full text-2xl uppercase")}>
+              Generate Pdf
+            </Link>
+          </TabsContent>
+        </Tabs>
+      </div>
+
+      <Card>
+        <CardHeader>
+          <CardTitle className="mb-4">
+            <div className="flex flex-row ">
+              <Avatar>
+                <AvatarImage src={newData.avatar} />
+                <AvatarFallback className="uppercase">{newData.companyName.slice(0, 2)}</AvatarFallback>
+              </Avatar>
+              <h2 className="ml-4 text-5xl font-bold tracking-tight flex flex-col mb-4">
+                <span className="text-primary/80 text-sm uppercase tracking-widest">Company Profile</span>
+                {newData.companyName}
+              </h2>
+            </div>
+            <Separator />
+          </CardTitle>
+          <CardContent className="grid grid-cols-5 gap-x-2 w-full mt-10 ">
+            <Card className="px-4 py-2">
+              <div className="flex flex-col">
+                <span className=" text-lg font-semibold">{newData.id}</span>
+                <span className="text-teal-400/80 text-xs uppercase tracking-wide">ID</span>
               </div>
-            </div>
-          </div>
-          <div className="flex flex-row gap-x-4">
-            <div className="w-full flex flex-row justify-center items-center px-3 py-0.5 text-sm border font-medium text-gray-500 duration-200 rounded-sm">
-              <Icons.user className="h-4 w-4 mr-2" />
-              {newData.sizeEmployees}
-            </div>
-            <Drawer>
-              <DrawerTrigger className="w-full flex flex-row justify-center items-center px-3 py-0.5 text-sm border font-medium text-gray-500 duration-200 rounded-sm hover:text-red-300 hover:border-red-400 hover:scale-95 hover:cursor-pointer">
-                <Icons.contact className="h-4 w-4 mr-2" />
-                Contact Us
-              </DrawerTrigger>
-              <DrawerContent className="flex justify-center items-center">
-                <DrawerHeader className="max-w-5xl flex justify-center items-center">
-                  <section className="m-10 flex justify-center items-center">
-                    <div className="mt-8 text-xl font-medium tracking-tight text-black sm:text-2xl">Contact Information</div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-4">
-                      <div className="p-4 bg-gray-300/10 rounded-xl border-2 border-gray-200">
-                        <p className="text-base text-black font-medium">{newData.companyContactInformation.email}</p>
-                        <p className="text-sm text-gray-500">Email</p>
-                      </div>
-                      <div className="p-4 bg-gray-300/10 rounded-xl border-2 border-gray-200">
-                        <p className="text-base text-black font-medium">{newData.companyContactInformation.phoneNumber}</p>
-                        <p className="text-sm text-gray-500">Phone</p>
-                      </div>
-                      <div className="p-4 bg-gray-300/10 rounded-xl border-2 border-gray-200">
-                        <p className="text-base text-black font-medium">{newData.companyContactInformation.address}</p>
-                        <p className="text-sm text-gray-500">Address</p>
+            </Card>
+            <Card className="px-4 py-2">
+              <div className="flex flex-col">
+                <span className=" text-lg font-semibold">{newData.status}</span>
+                <span className="text-teal-400/80 text-xs uppercase tracking-wide">Status</span>
+              </div>
+            </Card>
+            <Card className="px-4 py-2">
+              <div className="flex flex-col">
+                <span className=" text-lg font-semibold">{newData.industryOrSector}</span>
+                <span className="text-teal-400/80 text-xs  uppercase tracking-wide">Industry</span>
+              </div>
+            </Card>
+            <Card className="px-4 py-2 ">
+              <div className="flex flex-col">
+                <span className=" text-lg font-semibold">{newData.typeOfOrganization}</span>
+                <span className="text-teal-400/80 text-xs uppercase tracking-wide">Type</span>
+              </div>
+            </Card>
+            <Card className="px-4 py-2">
+              <div className="flex flex-col">
+                <span className=" text-lg font-semibold">{newData.sizeEmployees}</span>
+                <span className="text-teal-400/80 text-xs uppercase tracking-wide">Size</span>
+              </div>
+            </Card>
+
+            <Separator />
+
+          </CardContent>
+          <CardContent>
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-3xl">Overview</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="flex flex-col text-base mb-4">
+                  <span className="font-semibold text-sm text-teal-400/80 uppercase">History Background</span>
+                  {newData.historyBackground}
+                </div>
+                <div className="flex flex-col text-base mb-4">
+                  <span className="font-semibold text-sm text-teal-400/80 uppercase">Mission Statement & Vision</span>
+                  {newData.missionStatementVision}
+                </div>
+                <div className="flex flex-col text-base mb-4">
+                  <span className="font-semibold text-sm text-teal-400/80 uppercase">Target Market & Customer Base</span>
+                  {newData.targetMarketCustomerBase}
+                </div>
+                <div className="flex flex-col text-base mb-4">
+                  <span className="font-semibold text-sm text-teal-400/80 uppercase">Tags</span>
+                  <div className="gap-x-2 flex flex-row mt-2">
+                    {newData.tags.map((tag, index) => (
+                      <Badge key={index} className="mr-2">{tag}</Badge>
+                    ))}
+                  </div>
+
+                </div>
+              </CardContent>
+            </Card>
+          </CardContent>
+          <CardContent>
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-3xl">Contact Info</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="flex flex-col text-base mb-4">
+                  <div className="flex flex-row gap-x-1 justify0center items-center mb-1">
+                    <Icons.map className="w-4 h-4 text-teal-400" />
+                    <span className="font-semibold text-sm text-teal-400/80 uppercase">Address</span>
+                  </div>
+                  {newData.companyContactInformation.address}
+                </div>
+                <div className="flex flex-col text-base mb-4">
+                  <div className="flex flex-row gap-x-1 justify0center items-center mb-1">
+                    <Icons.phone className="w-4 h-4 text-teal-400" />
+                    <span className="font-semibold text-sm text-teal-400/80 uppercase">Phone Number</span>
+                  </div>
+                  {newData.companyContactInformation.phoneNumber}
+                </div>
+                <div className="flex flex-col text-base mb-4">
+                  <div className="flex flex-row gap-x-1 justify0center items-center mb-1">
+                    <Icons.Mail className="w-4 h-4 text-teal-400" />
+                    <span className="font-semibold text-sm text-teal-400/80 uppercase">Email</span>
+                  </div>
+                  {newData.companyContactInformation.email}
+                </div>
+                <div className="flex flex-col text-base mb-4">
+                  <div className="flex flex-row gap-x-1 justify0center items-center mb-1">
+                    <Icons.globe className="w-4 h-4 text-teal-400" />
+                    <span className="font-semibold text-sm text-teal-400/80 uppercase">Website</span>
+                  </div>
+                  <a href={newData.companyContactInformation.website} target="_blank" className="text-primary/80 hover:text-primary">{newData.companyContactInformation.website}</a>
+                </div>
+                <div className="flex flex-col text-base mb-4">
+                  <div className="flex flex-row gap-x-1 justify0center items-center mb-1">
+                    <Icons.building className="w-4 h-4 text-teal-400" />
+                    <span className="font-semibold text-sm text-teal-400/80 uppercase">District</span>
+                  </div>
+                  {newData.companyContactInformation.district}
+                </div>
+
+              </CardContent>
+            </Card>
+          </CardContent>
+          <CardContent>
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-3xl">Key Personnel</CardTitle>
+              </CardHeader>
+              <CardContent className="grid grid-cols-3 gap-x-2">
+                {newData.keyPersonnel.map((person, index) => (
+                  <Card key={index} className="px-4 py-2 flex flex-row gap-x-2 items-center ">
+                    <Avatar>
+                      <AvatarImage src={person.avatarImage} />
+                      <AvatarFallback className="uppercase">{person.name.slice(0, 2)}</AvatarFallback>
+                    </Avatar>
+                    <div className="flex flex-col">
+                      <span className=" text-lg font-semibold">{person.name}</span>
+                      <div>
+                        <span className="text-teal-400/80 text-xs uppercase tracking-wide">{person.position}</span>
+                        <Dialog>
+                          <DialogTrigger className={cn("ml-2 py-1 px-1 border border-secondary text-xs uppercase rounded-sm hover:bg-secondary")}>
+                            View Contact
+                          </DialogTrigger>
+                          <DialogContent>
+                            <DialogHeader>
+                              <DialogTitle>{person.name} Contact Info</DialogTitle>
+                              <DialogDescription>
+                                <div className="flex flex-col text-base mb-4">
+                                  <span className="font-semibold text-sm text-teal-400/80 uppercase">Phone Number</span>
+                                  {person.phoneNumber}
+                                </div>
+                                <div className="flex flex-col text-base mb-4">
+                                  <span className="font-semibold text-sm text-teal-400/80 uppercase">Email</span>
+                                  {person.email}
+                                </div>
+                              </DialogDescription>
+                            </DialogHeader>
+                          </DialogContent>
+                        </Dialog>
                       </div>
                     </div>
-                  </section>
-                </DrawerHeader>
-                <DrawerFooter>
-                  <DrawerClose>
-                    <Button variant="outline">Close</Button>
-                  </DrawerClose>
-                </DrawerFooter>
-              </DrawerContent>
-            </Drawer>
-          </div>
-        </div>
-        <div className="md:justify-self-end justify-center items-center">
-          <Button
-            variant="default"
-            size="lg"
-            onClick={() => {
-              // Handle button click
-            }}
-          >
-            Follow
-          </Button>
-        </div>
-      </div>
+                  </Card>
+                ))}
+              </CardContent>
+            </Card>
+          </CardContent>
+          <CardContent>
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-3xl">Product Info</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="flex flex-col text-base mb-4">
+                  <span className="font-semibold text-sm text-teal-400/80 uppercase">Main Product</span>
+                  {newData.mainProduct}
+                </div>
+                <div className="flex flex-col text-base mb-4">
+                  <span className="font-semibold text-sm text-teal-400/80 uppercase">Description of Products</span>
+                  {newData.descriptionOfProducts}
+                </div>
+                <div className="flex flex-col text-base mb-4">
+                  <span className="font-semibold text-sm text-teal-400/80 uppercase">List of Products & Services</span>
+                  <div className="gap-x-2 flex flex-row mt-2">
+                    {newData.listOfProductsServices.map((product, index) => (
+                      <Badge key={index} className="mr-2">{product}</Badge>
+                    ))}
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </CardContent>
+          <CardContent>
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-3xl">Financial Info</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="flex flex-col text-base mb-4">
+                  <span className="font-semibold text-sm text-teal-400/80 uppercase">Revenue Model</span>
+                  {newData.financialsRevenueModel}
+                </div>
 
-      {/* About the Company */}
-      <div className="bg-white p-8 mt-8 rounded-2xl border-2 border-gray-200">
-        <div className="text-2xl font-medium text-black mb-4">About {newData.companyName}</div>
-        <p className="text-gray-500">{newData.historyBackground}</p>
-      </div>
+              </CardContent>
+            </Card>
+          </CardContent>
+          <CardContent>
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-3xl">Customer Testimonials</CardTitle>
+              </CardHeader>
+              <CardContent>
+                {newData.customerTestimonials.map((testimonial, index) => (
+                  <div key={index} className="flex flex-col text-base mb-4 border p-2 border-dashed border-secondary rounded-xl">
+                    <span className="font-semibold text-sm text-teal-400/80 uppercase">{testimonial.clientName}</span>
+                    {testimonial.feedback}
+                  </div>
+                ))}
+              </CardContent>
+            </Card>
+          </CardContent>
 
-      {/* Company Solutions */}
-      <div className="mt-8">
-        <div className="text-2xl font-medium text-black mb-4">Our Solutions</div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {newData.listOfProductsServices.map((product, index) => (
-            <div key={index} className="p-6 bg-white rounded-lg shadow-md">
-              <div className="text-lg font-medium text-black">{product}</div>
-            </div>
-          ))}
-        </div>
-      </div>
 
-      {/* Client Testimonials */}
-      <div className="mt-8">
-        <div className="text-2xl font-medium text-black mb-4">Client Testimonials</div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {newData.customerTestimonials.map((testimonial, index) => (
-            <div key={index} className="p-6 bg-white rounded-lg shadow-md">
-              <div className="text-lg font-medium text-black">{testimonial.clientName}</div>
-              <p className="text-gray-500">{testimonial.feedback}</p>
-            </div>
-          ))}
-        </div>
-      </div>
+          <CardContent>
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-3xl">Social Media</CardTitle>
+              </CardHeader>
+              <CardContent className="grid grid-cols-3 gap-x-2">
+                <div className="flex flex-col justify-center items-center border border-secondary rounded-xl p-2">
+                  <div className="flex flex-row text-base">
+                    <Icons.facebook className="w-10 h-10 text-teal-400" />
+                    <div className="flex flex-col ml-4">
+                      <span className="font-semibold text-sm text-teal-400/80 uppercase">Facebook</span>
+                      <a href={newData.socialMediaProfiles.facebook} target="_blank" className="text-primary/80 hover:text-primary">Facebook</a>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col justify-center items-center border border-secondary rounded-xl p-2">
+                  <div className="flex flex-row text-base ">
+                    <Icons.twitter className="w-10 h-10 text-teal-400" />
+                    <div className="flex flex-col ml-4">
+                      <span className="font-semibold text-sm text-teal-400/80 uppercase">Twitter</span>
+                      <a href={newData.socialMediaProfiles.twitter} target="_blank" className="text-primary/80 hover:text-primary">Twitter</a>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col justify-center items-center border border-secondary rounded-xl p-2">
+                  <div className="flex flex-row text-base">
+                    <Icons.linkedin className="w-10 h-10 text-teal-400" />
+                    <div className="flex flex-col ml-4">
+                      <span className="font-semibold text-sm text-teal-400/80 uppercase">LinkedIn</span>
+                      <a href={newData.socialMediaProfiles.linkedin} target="_blank" className="text-primary/80 hover:text-primary">LinkedIn</a>
+                    </div>
+                  </div>
+                </div>
 
-      {/* Key Personnel */}
-      <div className="mt-8">
-        <div className="text-2xl font-medium text-black mb-4">Key Personnel</div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {newData.keyPersonnel.map((person, index) => (
-            <div key={index} className="flex flex-col items-center bg-white p-6 rounded-lg shadow-md">
-              <Image src={person.avatarImage} alt={`${person.name}-avatar`} width={80} height={80} className="rounded-full overflow-hidden mb-4" />
-              <div className="text-lg font-medium text-black">{person.name}</div>
-              <p className="text-gray-500">{person.position}</p>
-            </div>
-          ))}
-        </div>
-      </div>
+              </CardContent>
+            </Card>
+          </CardContent>
+          <CardContent>
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-3xl">Company Values & Culture</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="flex flex-col text-base mb-4">
+                  {newData.companyValuesCulture}
+                </div>
+              </CardContent>
+            </Card>
+          </CardContent>
+          <CardContent>
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-3xl">Award Info</CardTitle>
+              </CardHeader>
+              <CardContent>
+                {newData.awardsRecognitions.map((award, index) => (
+                  <div key={index} className="flex flex-col text-base mb-4">
+                    <span className="font-semibold text-sm text-teal-400/80 uppercase">{award.title}</span>
+                    {award.description}
+                  </div>
+                ))}
+              </CardContent>
+            </Card>
+          </CardContent>
 
-      {/* Awards and Recognitions */}
-      <div className="mt-8">
-        <div className="text-2xl font-medium text-black mb-4">Awards and Recognitions</div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {newData.awardsRecognitions.map((award, index) => (
-            <div key={index} className="p-6 bg-white rounded-lg shadow-md">
-              <div className="text-lg font-medium text-black">{award.title}</div>
-              <p className="text-gray-500">{award.description}</p>
-            </div>
-          ))}
-        </div>
-      </div>
+        </CardHeader>
+      </Card>
 
-      {/* Social Media Profiles */}
-      {/* <div className="mt-8">
-        <div className="text-2xl font-medium text-black mb-4">Connect With Us</div>
-        <div className="flex flex-row gap-x-4">
-          <Link href={newData.socialMediaProfiles.facebook}>
-            {/* <a target="_blank" rel="noopener noreferrer">
-              {/* <Icons.facebook className="h-8 w-8 text-blue-500" />
-            </a> 
-          </Link>
-          <Link href={newData.socialMediaProfiles.twitter}>
-            <a target="_blank" rel="noopener noreferrer">
-              <Icons.twitter className="h-8 w-8 text-blue-400" />
-            </a>
-          </Link>
-          <Link href={newData.socialMediaProfiles.linkedin}>
-            <a target="_blank" rel="noopener noreferrer">
-              {/* <Icons.linkedin className="h-8 w-8 text-blue-600" /> 
-            </a>
-          </Link>
-        </div>
-      </div>
-     */}
 
-      {/* Company Culture */}
-      <div className="mt-8">
-        <div className="text-2xl font-medium text-black mb-4">Our Culture</div>
-        <p className="text-gray-500">{newData.companyValuesCulture}</p>
-      </div>
-
-  
     </div>
   );
 }

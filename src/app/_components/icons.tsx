@@ -16,6 +16,7 @@ import {
   Laptop,
   Loader2,
   Moon,
+  Facebook,
   TreePine,
   MoreVertical,
   Pizza,
@@ -58,8 +59,14 @@ import {
   BookOpen,
   Network,
   MessageCircle,
+  Linkedin,
   CalendarClock,
+  PanelTopClose,
+  Phone,
+  Building2,
+  MapPinIcon,
   AlarmCheck,
+  Globe,
 } from "lucide-react"
 import type { LucideProps } from "lucide-react";
 
@@ -67,11 +74,17 @@ export type Icon = typeof LucideIcon;
 
 export const Icons = {
   logo: Command,
+  map: MapPinIcon,
   alarm: AlarmCheck,
   menu: Menu,
+  building: Building2,
+  website: PanelTopClose,
+  phone: Phone,
   export: ArrowUpRightFromCircle,
   close: X,
+  linkedin: Linkedin,
   calendarclock: CalendarClock,
+  facebook: Facebook,
   pin: MapPin,
   copyplus: CopyPlus,
   hourglass: Hourglass,
@@ -108,6 +121,7 @@ export const Icons = {
   TrendingUp: TrendingUp,
   ShieldCheck: ShieldCheck,
   Clock: Clock,
+  globe: Globe,
   Database: Database,
   Mail: Mail,
   Check: Check,
