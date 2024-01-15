@@ -75,7 +75,6 @@ const newData = {
       avatarImage: "/bob-smith-avatar.png",
     },
   ],
-
   mainProduct: "Tech Solutions",
   descriptionOfProducts: "Innovate Tech provides a wide range of technology solutions, including software development, cloud services, and digital transformation.",
   listOfProductsServices: [
@@ -135,7 +134,7 @@ export default function CompanyProfile() {
                 <CardContent className="grid grid-cols-5 gap-x-2 w-full mt-10 ">
                   <Card className="px-4 py-2">
                     <div className="flex flex-col">
-                      <span className=" text-lg font-semibold">{newData.id}</span>
+                      <span className=" text-lg font-semibold">1982</span>
                       <span className="text-teal-500/80 text-xs uppercase tracking-wide">ID</span>
                     </div>
                   </Card>
@@ -578,7 +577,7 @@ export default function CompanyProfile() {
                   ))}
                 </Container>
             </div>
-               
+
           </TabsContent>
         </Tabs>
       </div>

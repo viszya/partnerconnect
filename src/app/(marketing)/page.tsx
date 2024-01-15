@@ -43,7 +43,7 @@ export default function Home() {
             <div className='-m-2 rounded-xl bg-primary/10 p-2 ring-1 ring-inset ring-secondary/10 lg:-m-4 lg:rounded-2xl lg:p-4'>
               <Image
                 priority={true}
-                src='/applicants.png'
+                src='/connect.png'
                 alt='product preview'
                 width={1364}
                 height={866}
@@ -69,7 +69,7 @@ export default function Home() {
     </div>
 
     {/* Features */}
-    {/* 
+    {/*
     <section>
 
       <div className="relative items-center w-full px-5 py-24 mx-auto md:px-12 lg:px-16 max-w-7xl border-1 mt-11 rounded-2xl ">
