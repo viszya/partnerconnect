@@ -19,8 +19,8 @@ export const dashboardConfig: DashboardConfig = {
     },
     {
       title: "View Company",
-      href: "/dashboard/addcompany",
-      icon: "copyplus",
+      href: "/dashboard/company",
+      icon: "eye",
     },
     {
       title: "Add Company",
@@ -39,13 +39,13 @@ export const dashboardConfig: DashboardConfig = {
     },
     {
       title: "Support",
-      href: "/dashboard/addcompany",
-      icon: "copyplus",
+      href: "/dashboard/support",
+      icon: "mailquestion",
     },
     {
       title: "FAQ",
-      href: "/dashboard/addcompany",
-      icon: "copyplus",
+      href: "/dashboard/faq",
+      icon: "helpcircle",
     },
   ],
 }

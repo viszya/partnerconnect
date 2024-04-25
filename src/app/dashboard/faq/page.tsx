@@ -13,7 +13,7 @@ export default function Page() {
             <div>
                 <h2 className="text-3xl font-bold tracking-tight">FAQ</h2>
             </div>
-            <Accordion type="single" collapsible className="mt-5 text-left w-full rounded-xl border border-dashed border-secondary p-4 px-6">
+            <Accordion type="single" collapsible className="bg-background  mt-5 text-left w-full rounded-xl border border-dashed border-secondary p-4 px-6">
                 {/* Question 1 */}
                 <AccordionItem value="item-1">
                     <AccordionTrigger className="text-left">How can my company partner with Sparktup for hiring?</AccordionTrigger>

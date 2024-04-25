@@ -47,7 +47,7 @@ export default function AddCompany() {
                     Go through the form processes to create a company profile
                 </p>
             </div>
-            <div className="flex flex-col justify-center w-full max-w-5xl">
+            <div className="flex flex-col justify-center w-full max-w-5xl  ">
                 <Tabs value={activeTab} className="mt-5">
                     <TabsList className="flex flex-row gap-x-6 overflow-x-auto">
                         <TabsTrigger value="profile">Company Profile</TabsTrigger>
@@ -80,7 +80,7 @@ export default function AddCompany() {
                         </TabsContent>
                     </div>
                 </Tabs>
-                
+
             </div>
         </div>
     );

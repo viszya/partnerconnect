@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next"
 import Link from "next/link"
 import { cn } from "@/server/utils"
@@ -6,6 +7,7 @@ import { Icons } from "@/app/_components/icons"
 import { UserAuthForm } from "@/app/_components/auth-form"
 import { getServerAuthSession } from "@/server/auth"
 import { redirect } from "next/navigation"
+import { useState } from "react"
 
 export const metadata: Metadata = {
     title: "Login",
@@ -14,7 +16,17 @@ export const metadata: Metadata = {
 
 export default async function LoginPage() {
     const session = await getServerAuthSession();
-    if (session) return redirect("/dashboard")
+    if (session) {
+        if (session.user.accountStatus == false) {
+            redirect("/onboarding")
+        } else {
+            if (session.user.accountType == "applicant") {
+                redirect("/applicant-dashboard")
+            } else {
+                redirect("/company-dashboard")
+            }
+        }
+    }
 
     return (
         <div className="container flex h-screen w-screen flex-col items-center justify-center">

@@ -136,7 +136,7 @@ export const columns: ColumnDef<Task>[] = [
           {label && <Badge variant="outline">{label.label}</Badge>}
           <span className="max-w-[500px] truncate font-medium">
             {(row.getValue("partner") == "checkmark") ? (
-              <Icons.check className="h-4 w-4 text-teal-300" />
+              <Icons.check className="h-4 w-4 text-purple-400" />
             ) : (
               <Icons.close className="h-4 w-4 text-red-500" />
             )}
@@ -161,7 +161,7 @@ export const columns: ColumnDef<Task>[] = [
           <ScrollArea className=" w-52 whitespace-nowrap rounded-md border p-2 py-3">
             <span className="truncate font-medium gap-x-2 flex flex-row ">
               {row.getValue("tags").map((tag) => (
-                <Badge key={tag} variant="outline" className="border-teal-300">
+                <Badge key={tag} variant="outline" className="border-purple-400">
                   {tag}
                 </Badge>
               ))}

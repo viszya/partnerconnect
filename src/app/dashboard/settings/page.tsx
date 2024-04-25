@@ -9,7 +9,7 @@ export default function Settings() {
                     Update your personal account settings
                 </p>
             </div>
-            <div className="flex flex-col justify-center w-full max-w-5xl">
+            <div className="flex flex-col justify-center w-full max-w-5xl ">
                 <SettingsForm />
             </div>
         </div>

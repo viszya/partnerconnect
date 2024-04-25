@@ -8,7 +8,7 @@ export function Pricing({ className }: React.HTMLAttributes<HTMLElement>) {
         <section className={cn(className)} aria-labelledby="pricing" id="pricing">
             <div className="items-center px-8 py-12 mx-auto md:px-8 lg:px-8 xl:px-8 max-w-7xl">
                 <div className="grid grid-cols-1 gap-12 text-center lg:grid-cols-2 lg:gap-14">
-                    <div className="bg-green-900/10 py-14 px-6 md:px-16 sm:px-20 rounded-2xl border-black border-2">
+                    <div className="bg-purple-900/10 py-14 px-6 md:px-16 sm:px-20 rounded-2xl border-black border-2">
                         <div className="text-left">
                             <div>
                                 <div className="flex items-center justify-center w-12 h-12 text-black rounded-full bg-white">
@@ -51,17 +51,17 @@ export function Pricing({ className }: React.HTMLAttributes<HTMLElement>) {
                                 </li>
                             </ul>
                             <div className="mt-6">
-                                <Link href="https://testflight.apple.com/join/Gw2MNJoT" className="items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-green-300 border-2 border-black rounded-full nline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none focus-visible:outline-black text-sm focus-visible:ring-black" aria-describedby="tier-starter">
+                                <Link href="https://testflight.apple.com/join/Gw2MNJoT" className="items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-purple-300 border-2 border-black rounded-full nline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none focus-visible:outline-black text-sm focus-visible:ring-black" aria-describedby="tier-starter">
                                     Get Started
                                 </Link>
                             </div>
                         </div>
                     </div>
-                    <div className="bg-green-900/5 py-14 px-6 md:px-16 sm:px-20 rounded-2xl">
+                    <div className="bg-purple-900/5 py-14 px-6 md:px-16 sm:px-20 rounded-2xl">
                         <div className="text-left">
                             <div>
                                 <div className="flex items-center justify-center w-12 h-12 text-black rounded-full bg-white">
-                                    <Icons.spark className="h-5 w-5 text-green-300"/>
+                                    <Icons.spark className="h-5 w-5 text-purple-300"/>
                                 </div>
                                 <p className="mt-4 text-lg font-medium text-black lg:text-2xl">
                                     Premium Plan
@@ -79,19 +79,19 @@ export function Pricing({ className }: React.HTMLAttributes<HTMLElement>) {
                             </p>
                             <ul className="gap-4 mt-6 space-y-3 list-none lg:gap-6" role="list">
                                 <li className="flex items-center">
-                                    <Icons.badgeCheck className="text-green-300"/>
+                                    <Icons.badgeCheck className="text-purple-300"/>
                                     <span className="ml-3 text-gray-700">Enhanced project management</span>
                                 </li>
                                 <li className="flex items-center">
-                                    <Icons.badgeCheck className="text-green-300"/>
+                                    <Icons.badgeCheck className="text-purple-300"/>
                                     <span className="ml-3 text-gray-700">Extra token credits</span>
                                 </li>
                                 <li className="flex items-center">
-                                    <Icons.badgeCheck className="text-green-300"/>
+                                    <Icons.badgeCheck className="text-purple-300"/>
                                     <span className="ml-3 text-gray-700">Larger lecture recordings</span>
                                 </li>
                                 <li className="flex items-center">
-                                    <Icons.badgeCheck className="text-green-300"/>
+                                    <Icons.badgeCheck className="text-purple-300"/>
                                     <span className="ml-3 text-gray-700">More customizable quiz features</span>
                                 </li>
                             </ul>

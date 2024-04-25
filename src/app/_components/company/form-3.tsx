@@ -16,7 +16,7 @@ interface FormProps {
 export function Form3({ onNextClick, onBackClick }: FormProps) {
     const { toast } = useToast();
     const [submitted, setSubmitted] = useState(false);
-    
+
     const [name1, setName1] = useState("");
     const [position1, setPosition1] = useState("");
     const [phoneNumber1, setPhoneNumber1] = useState("");
@@ -66,12 +66,12 @@ export function Form3({ onNextClick, onBackClick }: FormProps) {
             email3: email3,
             avatarImage3: avatarImage3,
         });
-            
+
     }
 
     return (
         <section>
-            <div className="flex flex-col mt-5 p-5 border border-secondary rounded-xl">
+            <div className="flex flex-col mt-5 p-5 border border-secondary rounded-xl bg-background">
                 <div className="flex flex-col justify-center text-center md:flex-row md:text-left">
                     <div className="flex flex-col justify-center max-w-5xl w-full  space-y-12">
                         <article>
@@ -97,7 +97,7 @@ export function Form3({ onNextClick, onBackClick }: FormProps) {
                                 onSubmit();
                             }}
                         >
-                            
+
                             <div className="col-span-full">
                                 <label className="block mb-3 text-sm font-medium text-primary/90">
                                    Key Personnel 1 Name

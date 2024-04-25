@@ -77,7 +77,7 @@ export default function Home() {
                 clipPath:
                   "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
               }}
-              className="relative left-[calc(50%-13rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-purple-500 to-green-300 opacity-30 sm:left-[calc(50%-36rem)] sm:w-[72.1875rem]"
+              className="relative left-[calc(50%-13rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-purple-500 to-purple-300 opacity-30 sm:left-[calc(50%-36rem)] sm:w-[72.1875rem]"
             />
           </div>
         </div>
@@ -91,7 +91,7 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-12 lg:grid-cols-4 lg:space-y-0 lg:text-center">
                 <div>
                   <div>
-                    <div className="flex items-center justify-center w-12 h-12 text-black bg-green-100 rounded-xl lg:mx-auto">
+                    <div className="flex items-center justify-center w-12 h-12 text-black bg-purple-100 rounded-xl lg:mx-auto">
                       <Icons.brain className="h-5 w-5" />
                     </div>
                     <p className="mt-4 text-lg font-medium leading-6 text-black">
@@ -192,7 +192,7 @@ export default function Home() {
               <ul className="grid grid-cols-2 gap-4 mt-12 list-none lg:gap-6" role="list">
                 <li>
                   <div>
-                    <div className="flex items-center justify-center w-12 h-12 text-black bg-green-100 rounded-xl">
+                    <div className="flex items-center justify-center w-12 h-12 text-black bg-purple-100 rounded-xl">
                       <Icons.link className="h-5 w-5" />
                     </div>
                     <p className="mt-5 text-lg font-medium leading-6 text-black">
@@ -303,7 +303,7 @@ export default function Home() {
                 clipPath:
                   'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
               }}
-              className='relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-green-300 to-green-400 opacity-40 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]'
+              className='relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-purple-300 to-purple-400 opacity-40 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]'
             />
           </div>
 
