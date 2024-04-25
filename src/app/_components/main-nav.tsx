@@ -52,7 +52,7 @@ const Nav = () => {
 
   if (state == "applicant") {
     return (
-      <header className="sticky top-0 z-40 border-b bg-background">
+      <header className="sticky top-0 z-40 border-b bg-background text-primary">
         <div className="mx-2 mr-5 flex h-16 items-center justify-between py-4 sm:mx-32 md:mx-10 lg:mx-8">
           <MainNav items={dashboardConfig.mainNav} />
           <div className="flex items-center justify-center">
@@ -265,7 +265,7 @@ const Nav = () => {
   } else {
     return (
       <>
-        <div className="sticky inset-x-0 top-0 z-30 mx-auto w-full bg-white backdrop-blur-lg transition-all">
+        <div className="sticky inset-x-0 top-0 z-30 mx-auto w-full bg-background backdrop-blur-lg transition-all">
           <div
             className={cn(
               twp().wrapper,
@@ -274,7 +274,7 @@ const Nav = () => {
           >
             <div className="flex flex-row items-center justify-between lg:justify-start">
               <a
-                className="flex flex-row items-center  justify-center gap-x-2 rounded-full px-4 text-lg  tracking-tight text-black focus:outline-none focus:ring focus:ring-gray-300/25 lg:text-2xl"
+                className="flex flex-row items-center  justify-center gap-x-2 rounded-full px-4 text-lg  tracking-tight text-primary focus:outline-none focus:ring focus:ring-gray-300/25 lg:text-2xl"
                 href="/"
               >
                 <svg
@@ -297,12 +297,12 @@ const Nav = () => {
                     <path d="M1857 2249 c-434 -424 -787 -773 -784 -775 2 -2 358 -4 792 -4 l788 0 171 167 c94 92 266 259 381 372 116 113 298 291 405 396 107 104 292 286 411 403 l216 212 -796 0 -796 -1 -788 -770z" />
                   </g>
                 </svg>
-                <span className=" font-semibold tracking-widest lg:text-lg">
+                <span className="text-primary font-semibold tracking-widest lg:text-lg">
                   partner.connect
                 </span>
               </a>
               <DropdownMenu>
-                <DropdownMenuTrigger className="ml-2 block text-black transition-all duration-100 md:hidden">
+                <DropdownMenuTrigger className="ml-2 block text-primary transition-all duration-100 md:hidden">
                   <Icons.menu className="h-6 w-6 text-primary" />
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="">
@@ -316,9 +316,6 @@ const Nav = () => {
                   </DropdownMenuItem>
                   <DropdownMenuSeparator />
                   <DropdownMenuItem>
-                    <Link href="/solutions">Features</Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem>
                     <Link href="/support">Support</Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem>
@@ -331,19 +328,13 @@ const Nav = () => {
               <div className="mx-4 flex-1">
                 <Link
                   href="/support"
-                  className="rounded-2xl px-2 py-2 text-sm font-medium text-gray-900 transition-colors delay-75 hover:text-black/40 md:px-3 lg:px-6"
-                >
-                  Features
-                </Link>
-                <Link
-                  href="/support"
-                  className="rounded-2xl px-2 py-2 text-sm font-medium text-gray-900 transition-colors delay-75 hover:text-black/40 md:px-3 lg:px-6"
+                  className="rounded-2xl px-2 py-2 text-sm font-medium text-primary/90 transition-colors delay-75 hover:text-primary/40 md:px-3 lg:px-6"
                 >
                   Support
                 </Link>
                 <Link
                   href="/faq"
-                  className="rounded-2xl px-2 py-2 text-sm font-medium text-gray-900 transition-colors delay-75 hover:text-black/40 md:px-3 lg:px-6 "
+                  className="rounded-2xl px-2 py-2 text-sm font-medium text-primary/90 transition-colors delay-75 hover:text-primary/40 md:px-3 lg:px-6 "
                 >
                   FAQ
                 </Link>
@@ -351,7 +342,7 @@ const Nav = () => {
               <div className="inline-flex list-none items-center gap-2">
                 <Link
                   href="/signin"
-                  className="transision-all :focus:outline-none focus:shadow-outline mt-2 block rounded-xl bg-black/5 px-4 py-2 text-sm font-medium text-black delay-75 md:mt-0"
+                  className="transision-all :focus:outline-none focus:shadow-outline mt-2 block rounded-xl bg-black/5 px-4 py-2 text-sm font-medium text-primary delay-75 md:mt-0"
                 >
                   Sign in
                 </Link>

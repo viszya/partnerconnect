@@ -16,7 +16,7 @@ export default function Home() {
     >
       {/* Hero Section */}
       <section className="hero-image flex flex-col items-center justify-center text-center ">
-        <h1 className="lg:text:8xl movein mb-2 mt-20 text-4xl font-semibold text-black sm:mt-24 md:text-7xl">
+        <h1 className="lg:text:8xl movein mb-2 mt-20 text-4xl font-semibold text-primary sm:mt-24 md:text-7xl">
           Elevate Your Company Insights!
         </h1>
         <p className="mb-2 mt-5 max-w-prose text-primary sm:text-lg">
@@ -91,53 +91,53 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-12 lg:grid-cols-4 lg:space-y-0 lg:text-center">
                 <div>
                   <div>
-                    <div className="flex items-center justify-center w-12 h-12 text-black bg-purple-100 rounded-xl lg:mx-auto">
-                      <Icons.brain className="h-5 w-5" />
+                    <div className="flex items-center justify-center w-12 h-12 text-primary bg-purple-100 rounded-xl lg:mx-auto">
+                      <Icons.brain className="h-5 w-5 text-background" />
                     </div>
-                    <p className="mt-4 text-lg font-medium leading-6 text-black">
+                    <p className="mt-4 text-lg font-medium leading-6 text-primary">
                       Advanced Datatable
                     </p>
                   </div>
-                  <div className="mt-4 text-base text-gray-700">
+                  <div className="mt-4 text-base text-primary/80">
                     The datatable is designed to help you analyze and visualize data in a more efficient way
                   </div>
                 </div>
                 <div>
                   <div>
-                    <div className="flex items-center justify-center w-12 h-12 text-black bg-blue-100 rounded-xl lg:mx-auto">
+                    <div className="flex items-center justify-center w-12 h-12 text-primary bg-blue-100 rounded-xl lg:mx-auto">
                       <Icons.album className="h-5 w-5" />
                     </div>
-                    <p className="mt-4 text-lg font-medium leading-6 text-black">
+                    <p className="mt-4 text-lg font-medium leading-6 text-primary">
                      Report Generation
                     </p>
                   </div>
-                  <div className="mt-4 text-base text-gray-700">
+                  <div className="mt-4 text-base text-primary/80">
                     Automatic report generation giving you insights into your company&apos;s performance
                   </div>
                 </div>
                 <div>
                   <div>
-                    <div className="flex items-center justify-center w-12 h-12 text-black bg-teal-100 rounded-xl lg:mx-auto">
+                    <div className="flex items-center justify-center w-12 h-12 text-primary bg-teal-100 rounded-xl lg:mx-auto">
                       <Icons.blocks className="h-5 w-5" />
                     </div>
-                    <p className="mt-4 text-lg font-medium leading-6 text-black">
+                    <p className="mt-4 text-lg font-medium leading-6 text-primary">
                      Company Insights
                     </p>
                   </div>
-                  <div className="mt-4 text-base text-gray-700">
+                  <div className="mt-4 text-base text-primary/80">
                     Insights to help you make better decisions for your company and business deals
                   </div>
                 </div>
                 <div>
                   <div>
-                    <div className="flex items-center justify-center w-12 h-12 text-black bg-purple-100 rounded-xl lg:mx-auto">
+                    <div className="flex items-center justify-center w-12 h-12 text-primary bg-purple-100 rounded-xl lg:mx-auto">
                       <Icons.zap className="h-5 w-5" />
                     </div>
-                    <p className="mt-4 text-lg font-medium leading-6 text-black">
+                    <p className="mt-4 text-lg font-medium leading-6 text-primary">
                      Auto Emails
                     </p>
                   </div>
-                  <div className="mt-4 text-base text-gray-700">
+                  <div className="mt-4 text-base text-primary/80">
                      Regular updated emails to keep you informed about your company&apos;s performance
                   </div>
                 </div>
@@ -151,36 +151,36 @@ export default function Home() {
         <div className="items-center w-full px-5 pb-20 mx-auto md:px-12 lg:px-16 max-w-7xl">
           <div className="grid items-start grid-cols-1 lg:grid-cols-2">
             <div className="lg:pr-24 md:pr-12">
-              <h2 className="mt-6 text-3xl font-medium text-black">
+              <h2 className="mt-6 text-3xl font-medium text-primary">
                 A neat and insightful company profile
               </h2>
-              <p className="mt-5 text-base text-gray-700">
+              <p className="mt-5 text-base text-primary/80">
                 PartnerConnect provides you with a detailed company profile that helps you understand your company&apos;s performance and make better decisions. The profile includes a detailed datatable, report generation, company insights, and auto emails to keep you informed about your company&apos;s performance.
               </p>
               <ul className="grid grid-cols-2 gap-4 mt-12 list-none lg:gap-6" role="list">
                 <li>
                   <div>
-                    <div className="flex items-center justify-center w-12 h-12 text-black bg-purple-100 rounded-xl">
-                      <Icons.link className="h-5 w-5" />
+                    <div className="flex items-center justify-center w-12 h-12 text-primary bg-purple-100 rounded-xl">
+                      <Icons.link className="h-5 w-5 text-background" />
                     </div>
-                    <p className="mt-5 text-lg font-medium leading-6 text-black">
+                    <p className="mt-5 text-lg font-medium leading-6 text-primary">
                       Advanced Filters
                     </p>
                   </div>
-                  <div className="mt-2 text-base text-gray-700">
+                  <div className="mt-2 text-base text-primary/80">
                     The datatable comes with advanced filters to help you analyze data more efficiently
                   </div>
                 </li>
                 <li>
                   <div>
-                    <div className="flex items-center justify-center w-12 h-12 text-black bg-purple-100 rounded-xl">
-                      <Icons.boxes className="h-5 w-5" />
+                    <div className="flex items-center justify-center w-12 h-12 text-primary bg-purple-100 rounded-xl">
+                      <Icons.boxes className="h-5 w-5 text-background" />
                     </div>
-                    <p className="mt-5 text-lg font-medium leading-6 text-black">
+                    <p className="mt-5 text-lg font-medium leading-6 text-primary">
                     Primary Info Prioritization
                     </p>
                   </div>
-                  <div className="mt-2 text-base text-gray-700">
+                  <div className="mt-2 text-base text-primary/80">
                     The company profile prioritizes primary information to help you make better decisions
                   </div>
                 </li>
@@ -250,16 +250,16 @@ export default function Home() {
           Get started with a free <br />{" "}
           <span className="text-purple-200">partner.connect</span> account today
         </h1>
-        <div className="mt-4 flex flex-col text-black sm:flex-row">
+        <div className="mt-4 flex flex-col text-primary sm:flex-row">
           <Link
             href="/signup"
             className={buttonVariants({
               size: "lg",
               className:
-                "ml-0 rounded-xl border-2 border-white bg-white text-black duration-200 ease-in-out hover:border-purple-300 hover:bg-purple-300  hover:shadow-xl sm:ml-5 ",
+                "ml-0 rounded-xl border-2 border-white bg-white text-primary duration-200 ease-in-out hover:border-purple-300 hover:bg-purple-300  hover:shadow-xl sm:ml-5 ",
             })}
           >
-            <span className="text-black flex flex-row">Get Started <Icons.arrowRight className="ml-2 h-5 w-5" /></span>
+            <span className="text-primary flex flex-row">Get Started <Icons.arrowRight className="ml-2 h-5 w-5" /></span>
           </Link>
         </div>
       </section>

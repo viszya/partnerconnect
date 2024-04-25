@@ -1,7 +1,6 @@
 "use client";
 import { useToast } from "@/app/_components/ui/use-toast";
 import { api } from "@/trpc/react";
-import { data2 } from "@/app/company/data2";
 
 const data = [
   {
@@ -98,16 +97,6 @@ const data = [
 export function InputData() {
   const { toast } = useToast();
 
-  //const updateProfile = api.test.createCompanyProfile.useMutation();
-  //const updateTestimonial = api.test.createTestimonial.useMutation();
-  //const s = api.user.getProfile.useQuery({ id: "clqst7m140000stm7xvs7wi5k" });
-
-  // const profile = api.settings.settingsForm1.useMutation();
-  // const addSkill = api.settings.settingsForm2.useMutation();
-  // const addRecommendation = api.settings.addRecommendation.useMutation();
-  // const addProject = api.settings.addProject.useMutation();
-  // const addExperience = api.settings.addExperience.useMutation();
-
   const addCompany = api.company.addCompany.useMutation();
   // const createContactInformation = api.test.createContactInformation.useMutation();
   // const createCareerOpportunity = api.test.createCareerOpportunity.useMutation();
@@ -116,8 +105,6 @@ export function InputData() {
   // const createEvent = api.test.createEvent.useMutation();
   // const company = api.test.getCompanyProfilePrivate.useQuery();
   // const companyData = company.data;
-  // console.log(companyData);
-  // console.log("SJDLKFJDSLKJF");
 
   function onSubmit() {
     addCompany.mutate({

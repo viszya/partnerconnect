@@ -28,11 +28,6 @@ export const dashboardConfig: DashboardConfig = {
       icon: "copyplus",
     },
     {
-      title: "Reports",
-      href: "/dashboard/reports",
-      icon: "post",
-    },
-    {
       title: "Settings",
       href: "/dashboard/settings",
       icon: "settings",

@@ -45,7 +45,7 @@ export function MainNav({ items, children }: MainNavProps) {
             <path d="M1857 2249 c-434 -424 -787 -773 -784 -775 2 -2 358 -4 792 -4 l788 0 171 167 c94 92 266 259 381 372 116 113 298 291 405 396 107 104 292 286 411 403 l216 212 -796 0 -796 -1 -788 -770z" />
           </g>
         </svg>
-        <span className=" font-semibold tracking-widest lg:text-lg">
+        <span className="text-primary font-semibold tracking-widest lg:text-lg">
           partner.connect
         </span>
       </Link>

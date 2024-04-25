@@ -33,7 +33,7 @@ export default async function TaskPage() {
   return (
     <>
       <div className="md:hidden">
-        <Image
+        {/* <Image
           src="/examples/tasks-light.png"
           width={1280}
           height={998}
@@ -46,11 +46,9 @@ export default async function TaskPage() {
           height={998}
           alt="Playground"
           className="hidden dark:block"
-        />
+        /> */}
       </div>
-      <div className="hidden h-full flex-1 flex-col space-y-8 py-8 md:flex">
         <DataTable data={tasks} columns={columns} />
-      </div>
     </>
   )
 }
