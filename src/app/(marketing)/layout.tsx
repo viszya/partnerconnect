@@ -10,33 +10,31 @@ import Image from "next/image";
 import { Toaster } from "@/app/_components/ui/sonner";
 
 interface MarketingLayoutProps {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
-export default function MarketingLayout({
-  children,
-}: MarketingLayoutProps) {
+export default function MarketingLayout({ children }: MarketingLayoutProps) {
   return (
     <div className="flex min-h-screen flex-col">
-        <Nav />
-        {children}
-        <Footer className={twp().wrapper} />
-        <Toaster />
-        <DropdownMenu>
-        <DropdownMenuTrigger className="sticky bottom-4 ml-auto mr-1 sm:mr-4 ">
+      <Nav />
+      {children}
+      <Footer className={twp().wrapper} />
+      <Toaster />
+      <DropdownMenu>
+        <DropdownMenuTrigger className="sticky bottom-4 ml-auto mr-1 sm:mr-4">
           <Image
             alt="Bot Image"
             src="/bot-white.png"
             width={50}
             height={100}
-            className="rounded-full bg-black p-2 shadow-2xl shadow-black w-[40px] sm:w-[50px] mb-2 sm:mb-0"
+            className="mb-2 w-[40px] rounded-full bg-black p-2 shadow-2xl shadow-black sm:mb-0 sm:w-[50px]"
           />
         </DropdownMenuTrigger>
 
-        <DropdownMenuContent className="mr-4 mb-2 mx-2 sm:mx-0 sm:w-[30rem] border-black bg-black">
+        <DropdownMenuContent className="mx-2 mb-2 mr-4  pr-4 bg-transparent sm:mx-0 sm:w-[30rem]">
           <div className="relative">
             <iframe
-              src="https://www.chatbase.co/chatbot-iframe/dDmgRnfL5zdFPyWQT0-q9"
+              src="https://www.chatbase.co/chatbot-iframe/bdBwJRZHvYIcIwrbEPI0-"
               width="100%"
               style={{ height: "100%", minHeight: "700px" }}
               frameBorder="0"
@@ -47,5 +45,5 @@ export default function MarketingLayout({
         </DropdownMenuContent>
       </DropdownMenu>
     </div>
-  )
+  );
 }

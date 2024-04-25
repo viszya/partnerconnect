@@ -1,7 +1,7 @@
 import { getServerAuthSession } from "@/server/auth";
 import { Icons } from "@/app/_components/icons"
 import { redirect } from "next/navigation"
-import TaskPage from "@/app/tasks/page";
+import TaskPage from "@/app/datatable/page";
 
 const data = {
 	val: 23,

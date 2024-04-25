@@ -8,7 +8,6 @@ datasource db {
   directUrl = env("POSTGRES_URL_NON_POOLING")
 }
 
-
 model Account {
   id                String  @id @default(cuid())
   userId            String
@@ -53,79 +52,84 @@ model User {
   department    String?
   accounts      Account[]
   sessions      Session[]
+  company     Company[]
   createdAt     DateTime  @default(now()) @map(name: "created_at")
   updatedAt     DateTime  @default(now()) @map(name: "updated_at")
 
   @@map(name: "users")
 }
 
-// model Company {
-//   id                       String                   @id @default(cuid())
-//   companyName              String
-//   image                    String?
-//   progress                 Int                      @default(0)
-//   industry                 String?
-//   description              String?
-//   partner                  Boolean                  @default(false)
-//   address                  String?
-//   phoneNumber              String?
-//   email                    String?
-//   website                  String?
-//   district                 String?
-//   createdAt                DateTime                 @default(now()) @map(name: "created_at")
-//   userId                   String?
-//   status                   String?
-//   typeOfOrganization       String?
-//   industryOrSector         String?
-//   sizeEmployees            String?
-//   historyBackground        String?
-//   missionStatementVision   String?
-//   targetMarketCustomerBase String?
-//   facebook                 String?
-//   twitter                  String?
-//   linkedin                 String?
-//   mainProduct              String?
-//   descriptionOfProducts    String?
-//   financialsRevenueModel   String?
-//   companyValuesCulture     String?
-//   award1Name               String?
-//   award1Description        String?
-//   award2Name               String?
-//   award2Description        String?
-//   testimonial1Name         String?
-//   testimonial1Description  String?
-//   testimonial2Name         String?
-//   testimonial2Description  String?
-//   name1                    String?
-//   position1                String?
-//   phoneNumber1             String?
-//   email1                   String?
-//   avatarImage1             String?
-//   name2                    String?
-//   position2                String?
-//   phoneNumber2             String?
-//   email2                   String?
-//   avatarImage2             String?
-//   name3                    String?
-//   position3                String?
-//   phoneNumber3             String?
-//   email3                   String?
-//   avatarImage3             String?
-//   listOfProductsServices   listOfProductsServices[]
-//   tags                     Tags[]
-//   user                     User?                    @relation(fields: [userId], references: [id], onDelete: Cascade)
-// }
+model Company {
+  id                        String                @id @default(cuid())
+  nID                       String?
+  name                      String?
+  avatar                    String?
+  status                    String?
+  partner                   String?
+  typeOfOrganization        String?
+  industry                  String?
+  size                      String?
+  historyBackground         String?
+  missionStatementVision    String?
+  targetMarketCustomerBase  String?
+  product                   String?
+  descriptionOfProducts     String?
+  financialsRevenueModel    String?
+  companyValuesCulture      String?
+  tags                      String[]
+  listOfProductsServices    String[]
+  companyContactInformation ContactInformation[]
+  keyPersonnel              KeyPersonnel[]
+  socialMediaProfiles       SocialMediaProfiles[]
+  awardsRecognitions        AwardsRecognition[]
+  customerTestimonials      CustomerTestimonial[]
+  User                   User?                @relation(fields: [userId], references: [id])
+  userId                 String?
+}
 
-// model Tags {
-//   id        String   @id @default(cuid())
-//   name      String
-//   companyId String?
-//   company   Company? @relation(fields: [companyId], references: [id])
-// }
+model ContactInformation {
+  id             Int          @id @default(autoincrement())
+  address        String?
+  phoneNumber    String?
+  email          String?
+  website        String?
+  district       String?
+  company    Company @relation(fields: [companyId], references: [id])
+  companyId  String
+}
 
-// model listOfProductsServices {
-//   id        String   @id @default(cuid())
-//   name      String
-//   companyId String?
-//   company   Company? @relation(fields: [companyId], references: [id])
-// }
+model KeyPersonnel {
+  id             Int          @id @default(autoincrement())
+  name           String?
+  position       String?
+  phoneNumber    String?
+  email          String?
+  avatarImage    String?
+  company    Company @relation(fields: [companyId], references: [id])
+  companyId  String
+}
+
+model SocialMediaProfiles {
+  id             Int          @id @default(autoincrement())
+  facebook       String?
+  twitter        String?
+  linkedin       String?
+  company    Company @relation(fields: [companyId], references: [id])
+  companyId  String
+}
+
+model AwardsRecognition {
+  id             Int          @id @default(autoincrement())
+  title          String?
+  description    String?
+ company    Company @relation(fields: [companyId], references: [id])
+  companyId  String
+}
+
+model CustomerTestimonial {
+  id             Int          @id @default(autoincrement())
+  clientName     String?
+  feedback       String?
+  company    Company @relation(fields: [companyId], references: [id])
+  companyId  String
+}

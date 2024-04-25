@@ -32,12 +32,14 @@ import {
 } from "@/components/ui/dialog";
 
 const newData = {
-  companyName: "Innovate Tech",
-  avatar: "/innovate_tech_logo.png",
-  status: "Active",
+  id: "3422",
+  name: "Innovate Tech",
+  avatar: "/",
+  status: "todo",
+  partner: "checkmark",
   typeOfOrganization: "For-Profit",
-  industryOrSector: "IT",
-  sizeEmployees: "5000+",
+  industry: "IT",
+  size: "5000+",
   historyBackground:
     "Founded in 2010, Innovate Tech has been a pioneer in delivering cutting-edge technology solutions.",
   missionStatementVision:
@@ -76,7 +78,7 @@ const newData = {
       avatarImage: "/bob-smith-avatar.png",
     },
   ],
-  mainProduct: "Tech Solutions",
+  product: "Tech Solutions",
   descriptionOfProducts:
     "Innovate Tech provides a wide range of technology solutions, including software development, cloud services, and digital transformation.",
   listOfProductsServices: [
@@ -141,14 +143,14 @@ export default function CompanyProfile() {
                 <Avatar>
                   <AvatarImage src={newData.avatar} />
                   <AvatarFallback className="uppercase">
-                    {newData.companyName.slice(0, 2)}
+                    {newData.name.slice(0, 2)}
                   </AvatarFallback>
                 </Avatar>
                 <h2 className="mb-4 ml-4 flex flex-col text-5xl font-bold tracking-tight">
                   <span className="text-sm uppercase tracking-widest text-primary/80">
                     Company Profile
                   </span>
-                  {newData.companyName}
+                  {newData.name}
                 </h2>
               </div>
               <Separator />
@@ -156,7 +158,7 @@ export default function CompanyProfile() {
             <CardContent className="mt-10 grid w-full grid-cols-5 gap-x-2 ">
               <Card className="px-4 py-2">
                 <div className="flex flex-col">
-                  <span className=" text-lg font-semibold">1982</span>
+                  <span className=" text-lg font-semibold">{newData.id}</span>
                   <span className="text-xs uppercase tracking-wide text-purple-500/80">
                     ID
                   </span>
@@ -175,7 +177,7 @@ export default function CompanyProfile() {
               <Card className="px-4 py-2">
                 <div className="flex flex-col">
                   <span className=" text-lg font-semibold">
-                    {newData.industryOrSector}
+                    {newData.industry}
                   </span>
                   <span className="text-xs uppercase  tracking-wide text-purple-500/80">
                     Industry
@@ -194,9 +196,7 @@ export default function CompanyProfile() {
               </Card>
               <Card className="px-4 py-2">
                 <div className="flex flex-col">
-                  <span className=" text-lg font-semibold">
-                    {newData.sizeEmployees}
-                  </span>
+                  <span className=" text-lg font-semibold">{newData.size}</span>
                   <span className="text-xs uppercase tracking-wide text-purple-500/80">
                     Size
                   </span>
@@ -240,6 +240,12 @@ export default function CompanyProfile() {
                         </Badge>
                       ))}
                     </div>
+                  </div>
+                  <div className="mb-4 flex flex-col text-base">
+                    <span className="text-sm font-semibold uppercase text-purple-500/80">
+                      Partner (Yes/No)
+                    </span>
+                    {newData.partner === "checkmark" ? "Yes" : "No"}
                   </div>
                 </CardContent>
               </Card>
@@ -391,7 +397,7 @@ export default function CompanyProfile() {
                     <span className="text-sm font-semibold uppercase text-purple-500/80">
                       Main Product
                     </span>
-                    {newData.mainProduct}
+                    {newData.product}
                   </div>
                   <div className="mb-4 flex flex-col text-base">
                     <span className="text-sm font-semibold uppercase text-purple-500/80">

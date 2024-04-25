@@ -1,4 +1,4 @@
-import TasksPage  from '@/app/tasks/page'
+import TasksPage  from '@/app/datatable/page'
 
 export default function Tasks() {
     <div className="flex flex-col px-8">
