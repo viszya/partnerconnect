@@ -22,12 +22,17 @@ export default function SupportForm() {
   }
 
   return (
-    <section className="flex flex-col justify-center items-center mt-10 ">
-      <h2 className="text-3xl font-bold tracking-tight">Support Ticket</h2>
-      <div className=" max-w-3xl w-full">
-        <div className="flex flex-col mt-5 p-5 border border-secondary rounded-xl border-dashed">
-          <div className="flex flex-col justify-center text-center md:flex-row md:text-left">
-            <div className="flex flex-col justify-center w-full max-w-3xl space-y-12">
+    <section className="bg-2 flex flex-col items-center justify-center bg-white pt-10">
+    <h1 className="movein mb-2 mt-12 text-center text-5xl font-bold text-black ">
+      Support Ticket
+    </h1>
+    <div className="mb-8 inline-flex max-w-4xl items-center justify-center text-center mx-2 ">
+      Submit a support ticket and we will get back to you as soon as possible.
+    </div>
+    <div className=" mb-20 sm:mb-40 w-full max-w-3xl ">
+      <div className="mx-4 mt-5 flex flex-col rounded-xl border border-dashed border-secondary bg-white p-10">
+        <div className="flex flex-col justify-center text-center md:flex-row md:text-left">
+          <div className="flex w-full max-w-3xl flex-col justify-center space-y-12">
               <form
                 className="flex flex-col gap-y-4 "
                 onSubmit={(e) => {

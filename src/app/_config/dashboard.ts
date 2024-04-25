@@ -18,39 +18,34 @@ export const dashboardConfig: DashboardConfig = {
       icon: "database",
     },
     {
+      title: "View Company",
+      href: "/dashboard/addcompany",
+      icon: "copyplus",
+    },
+    {
       title: "Add Company",
       href: "/dashboard/addcompany",
       icon: "copyplus",
     },
-    // {
-    //   title: "Reports",
-    //   href: "/dashboard/reports",
-    //   icon: "post",
-    // },
-    // {
-    //   title: "Upcoming",
-    //   href: "/dashboard/upcoming",
-    //   icon: "calendarclock",
-    // },
-    // {
-    //   title: "Calendar",
-    //   href: "/dashboard/calendar",
-    //   icon: "calendar",
-    // },
-    // {
-    //   title: "Tasks",
-    //   href: "/dashboard/tasks",
-    //   icon: "alarm",
-    // },
-    // {
-    //   title: "Emails",
-    //   href: "/dashboard/emails",
-    //   icon: "Mail",
-    // },
+    {
+      title: "Reports",
+      href: "/dashboard/reports",
+      icon: "post",
+    },
     {
       title: "Settings",
       href: "/dashboard/settings",
       icon: "settings",
+    },
+    {
+      title: "Support",
+      href: "/dashboard/addcompany",
+      icon: "copyplus",
+    },
+    {
+      title: "FAQ",
+      href: "/dashboard/addcompany",
+      icon: "copyplus",
     },
   ],
 }

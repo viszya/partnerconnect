@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 
 @layer base {
   :root {
@@ -26,7 +26,7 @@
     --ring: 240 5.9% 10%;
     --radius: 0.5rem;
   }
- 
+
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
@@ -49,7 +49,7 @@
     --ring: 240 4.9% 83.9%;
   }
 }
- 
+
 @layer base {
   * {
     @apply border-border;
@@ -61,4 +61,38 @@
 
 .upload > *[data-ut-element="button"] {
   color: var(--primary);
+}
+
+.gradient-bg-3 {
+  background-image: url("/gradient-p3.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100%;
+}
+
+.hero-image {
+  background-image: url("/hero-bg-2ndc.png");
+  background-size: 100% 1500px;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+.hero-image-2 {
+  background-image: url("/hero-bg-3.png");
+  background-size: 100% 1500px;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+.bg-2 {
+  background-image: url("/bg-2.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100%;
+}
+
+.gradient-bt {
+  background: linear-gradient(90deg,#cc00004d,#ff74374d,#ffe86d4d,#5bdcf94d,#2e73fc4d,#000aff4d);
 }

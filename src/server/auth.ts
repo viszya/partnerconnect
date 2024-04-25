@@ -22,6 +22,8 @@ declare module "next-auth" {
       name: string;
       image: string;
       email: string;
+      accountStatus: boolean;
+      accountType: string;
       // ...other properties
       // role: UserRole;
     } & DefaultSession["user"];
@@ -48,6 +50,8 @@ export const authOptions: NextAuthOptions = {
         name: user.name,
         image: user.image,
         email: user.email,
+        accountStatus: user.accountStatus,
+        accountType: user.accountType,
       },
     }),
   },
