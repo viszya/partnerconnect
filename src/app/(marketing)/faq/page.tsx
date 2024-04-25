@@ -20,8 +20,7 @@ export default function Page() {
           FAQ
         </h1>
         <div className="mx-2 mb-8 inline-flex max-w-4xl items-center justify-center text-center">
-          Submit a support ticket and we will get back to you as soon as
-          possible.
+          Look through here before reaching us on a support ticket.
         </div>
         <div className="mx-2">
           <Accordion
@@ -32,137 +31,139 @@ export default function Page() {
             {/* Question 1 */}
             <AccordionItem value="item-1">
               <AccordionTrigger className="text-left">
-                How can my company partner with Sparktup for hiring?
+                What is PartnerInsight?
               </AccordionTrigger>
               <AccordionContent>
-                To explore partnership opportunities with Sparktup for hiring,
-                please reach out to our partnership team through the
-                &quot;Contact Us&quot; section on the website. We&apos;ll guide
-                you through the process and discuss how we can tailor our
-                services to meet your company&apos;s hiring needs.
+                PartnerInsight is a powerful business intelligence tool that
+                helps companies unleash the full potential of their data. With
+                advanced analytics and intuitive visualization features,
+                PartnerInsight provides valuable insights to inform better
+                decision-making and drive growth.
               </AccordionContent>
             </AccordionItem>
 
             {/* Question 2 */}
             <AccordionItem value="item-2">
               <AccordionTrigger className="text-left">
-                Can Sparktup help my company find employees based on specific
-                filters or requirements?
+                What are the key features of PartnerInsight?
               </AccordionTrigger>
               <AccordionContent>
-                Yes, Sparktup specializes in connecting tech companies with
-                skilled professionals based on specific filters and
-                requirements. Our advanced matching algorithms and extensive
-                network of individuals allow us to tailor our search to match
-                your company&apos;s unique needs.
+                PartnerInsight offers an advanced datatable, report generation,
+                company insights, and auto emails. These features work together
+                to help you analyze and visualize data, gain valuable insights
+                into your company's performance, and stay informed through
+                regular updates.
               </AccordionContent>
             </AccordionItem>
 
             {/* Question 3 */}
             <AccordionItem value="item-3">
               <AccordionTrigger className="text-left">
-                How do individuals benefit from Sparktup?
+                How does the advanced datatable help me?
               </AccordionTrigger>
               <AccordionContent>
-                Individuals on Sparktup can explore job opportunities from tech
-                companies, apply to positions, and showcase their skills on
-                their profiles. It&apos;s a platform where professionals can
-                connect with companies, making the job search and application
-                process more efficient.
+                The advanced datatable in PartnerInsight is designed to help you
+                analyze and visualize data in a more efficient way. It includes
+                powerful filtering and sorting capabilities, allowing you to
+                quickly explore and uncover valuable insights from your
+                company's data.
               </AccordionContent>
             </AccordionItem>
 
             {/* Question 4 */}
             <AccordionItem value="item-4">
               <AccordionTrigger className="text-left">
-                How does Sparktup ensure the quality of candidates for my
-                company?
+                What is the benefit of automatic report generation?
               </AccordionTrigger>
               <AccordionContent>
-                Sparktup employs a rigorous screening process to ensure the
-                quality of candidates. We assess skills, experience, and
-                compatibility with your company&apos;s requirements, providing
-                you with candidates that match your expectations.
+                The automatic report generation feature in PartnerInsight saves
+                you time and effort by creating comprehensive reports on your
+                company's performance. These reports provide valuable insights
+                and analytics, enabling you to make informed decisions without
+                the need for manual data compilation.
               </AccordionContent>
             </AccordionItem>
 
             {/* Question 5 */}
             <AccordionItem value="item-5">
               <AccordionTrigger className="text-left">
-                Can my company post job listings on Sparktup?
+                How can company insights help my business?
               </AccordionTrigger>
               <AccordionContent>
-                Absolutely! Your company can post job openings on Sparktup by
-                logging into your account, navigating to the &quot;Post a
-                Job&quot; section, and filling out the necessary details. Reach
-                a wider pool of candidates through our platform.
+                PartnerInsight's company insights feature provides you with
+                actionable intelligence to help you make better decisions for
+                your company and business deals. By analyzing your data and
+                identifying trends and patterns, you can gain a competitive edge
+                and make informed strategic moves.
               </AccordionContent>
             </AccordionItem>
 
             {/* Question 6 */}
             <AccordionItem value="item-6">
               <AccordionTrigger className="text-left">
-                What makes Sparktup different from other hiring platforms?
+                What are auto emails, and how do they benefit me?
               </AccordionTrigger>
               <AccordionContent>
-                Sparktup stands out with its personalized approach to connecting
-                companies with top-tier tech talent. Our advanced algorithms,
-                coupled with a vast professional network, ensure efficient and
-                effective matches tailored to your company&apos;s needs.
+                Auto emails are regular updates sent to your inbox, keeping you
+                informed about your company's performance. These emails provide
+                a convenient way to stay up-to-date with the latest insights
+                and analytics, ensuring that you never miss important
+                developments.
               </AccordionContent>
             </AccordionItem>
 
             {/* Question 7 */}
             <AccordionItem value="item-7">
               <AccordionTrigger className="text-left">
-                Is there a fee for companies to use Sparktup for hiring?
+                How can I get started with PartnerInsight?
               </AccordionTrigger>
               <AccordionContent>
-                We offer flexible pricing plans for companies based on their
-                hiring needs. Please contact our sales team through the
-                &quot;Contact Us&quot; section for detailed information on
-                pricing and available plans.
+                Getting started with PartnerInsight is easy. Simply sign up for
+                an account and follow the onboarding process to connect your
+                company's data sources. Our support team is available to guide
+                you through the process and ensure a seamless setup.
               </AccordionContent>
             </AccordionItem>
 
             {/* Question 8 */}
             <AccordionItem value="item-8">
               <AccordionTrigger className="text-left">
-                How can individuals showcase their skills on Sparktup profiles?
+                Is there a free trial or demo available?
               </AccordionTrigger>
               <AccordionContent>
-                Individuals can highlight their skills by updating their
-                profiles with relevant information, including work experience,
-                projects, and technical expertise. This information helps them
-                stand out to potential employers browsing the platform.
+                Yes, we offer a free trial or demo of PartnerInsight to allow
+                you to experience the platform firsthand. During the trial
+                period, you can explore the full range of features and
+                functionality to determine if PartnerInsight is the right fit
+                for your company.
               </AccordionContent>
             </AccordionItem>
 
             {/* Question 9 */}
             <AccordionItem value="item-9">
               <AccordionTrigger className="text-left">
-                Can my company integrate Sparktup with our existing recruitment
-                processes?
+                Can PartnerInsight integrate with my existing data sources?
               </AccordionTrigger>
               <AccordionContent>
-                Yes, Sparktup supports seamless integration with various
-                recruitment processes. Our technical team can work with your
-                company to ensure a smooth integration that aligns with your
-                existing systems and workflows.
+                Absolutely! PartnerInsight is designed to seamlessly integrate
+                with a wide range of data sources, including databases, cloud
+                storage, and third-party applications. Our team will work with
+                you to ensure a smooth integration process, ensuring that your
+                data is easily accessible within the platform.
               </AccordionContent>
             </AccordionItem>
 
             {/* Question 10 */}
             <AccordionItem value="item-10">
               <AccordionTrigger className="text-left">
-                What industries does Sparktup specialize in?
+                How secure is my company's data with PartnerInsight?
               </AccordionTrigger>
               <AccordionContent>
-                Sparktup caters to a broad range of tech industries, including
-                but not limited to software development, cybersecurity, data
-                science, and IT infrastructure. Our diverse network allows us to
-                address the hiring needs of companies across various tech
-                sectors.
+                At PartnerInsight, we prioritize the security and privacy of
+                your company's data. We employ industry-standard encryption and
+                security protocols to ensure that your data is protected at all
+                times. Our strict data handling policies and practices are
+                designed to safeguard your sensitive information.
               </AccordionContent>
             </AccordionItem>
 

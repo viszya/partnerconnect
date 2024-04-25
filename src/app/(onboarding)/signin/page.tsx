@@ -17,15 +17,7 @@ export const metadata: Metadata = {
 export default async function LoginPage() {
     const session = await getServerAuthSession();
     if (session) {
-        if (session.user.accountStatus == false) {
-            redirect("/onboarding")
-        } else {
-            if (session.user.accountType == "applicant") {
-                redirect("/applicant-dashboard")
-            } else {
-                redirect("/company-dashboard")
-            }
-        }
+        redirect("/dashboard")
     }
 
     return (

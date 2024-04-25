@@ -23,7 +23,7 @@ export function Pricing({ className }: React.HTMLAttributes<HTMLElement>) {
                                 <span className="text-base font-medium text-gray-700"> /mo</span>
                             </p>
                             <p className="mt-6 text-sm text-gray-700">
-                                Interested in generating real-time resources from just your teacher&apos;s words? Create quizzes, notes, flashcards, in less than five seconds after class.
+                                Elevate Your Company Insights!
                             </p>
                             <p className="mt-4 text-lg font-medium text-black lg:text-2xl">
                                 Features
@@ -31,23 +31,15 @@ export function Pricing({ className }: React.HTMLAttributes<HTMLElement>) {
                             <ul className="gap-4 mt-6 space-y-3 list-none lg:gap-6" role="list">
                                 <li className="flex items-center">
                                     <Icons.badgeCheck />
-                                    <span className="ml-3 text-gray-700">Teachers create classes</span>
+                                    <span className="ml-3 text-gray-700">Advanced Datatable</span>
                                 </li>
                                 <li className="flex items-center">
                                     <Icons.badgeCheck />
-                                    <span className="ml-3 text-gray-700">Students join classes</span>
+                                    <span className="ml-3 text-gray-700">Company Insights</span>
                                 </li>
                                 <li className="flex items-center">
                                     <Icons.badgeCheck />
-                                    <span className="ml-3 text-gray-700">Upload lectures</span>
-                                </li>
-                                <li className="flex items-center">
-                                    <Icons.badgeCheck />
-                                    <span className="ml-3 text-gray-700">Distribute resources</span>
-                                </li>
-                                <li className="flex items-center">
-                                    <Icons.badgeCheck />
-                                    <span className="ml-3 text-gray-700">Instant resource generation</span>
+                                    <span className="ml-3 text-gray-700">Auto Emails</span>
                                 </li>
                             </ul>
                             <div className="mt-6">
@@ -72,7 +64,7 @@ export function Pricing({ className }: React.HTMLAttributes<HTMLElement>) {
                                 <span className="text-base font-medium text-gray-700"> /mo</span>
                             </p>
                             <p className="mt-6 text-sm text-gray-700">
-                                Unlock the full features of Podium and have unlimited credits to generate resources from your lectures.
+                                Unleash the power of data with PartnerInsight - Your Ultimate Business Companion.
                             </p>
                             <p className="mt-4 text-lg font-medium text-black lg:text-2xl">
                                 Features
@@ -80,19 +72,19 @@ export function Pricing({ className }: React.HTMLAttributes<HTMLElement>) {
                             <ul className="gap-4 mt-6 space-y-3 list-none lg:gap-6" role="list">
                                 <li className="flex items-center">
                                     <Icons.badgeCheck className="text-purple-300"/>
-                                    <span className="ml-3 text-gray-700">Enhanced project management</span>
+                                    <span className="ml-3 text-gray-700">Advanced Datatable</span>
                                 </li>
                                 <li className="flex items-center">
                                     <Icons.badgeCheck className="text-purple-300"/>
-                                    <span className="ml-3 text-gray-700">Extra token credits</span>
+                                    <span className="ml-3 text-gray-700">Report Generation</span>
                                 </li>
                                 <li className="flex items-center">
                                     <Icons.badgeCheck className="text-purple-300"/>
-                                    <span className="ml-3 text-gray-700">Larger lecture recordings</span>
+                                    <span className="ml-3 text-gray-700">Company Insights</span>
                                 </li>
                                 <li className="flex items-center">
                                     <Icons.badgeCheck className="text-purple-300"/>
-                                    <span className="ml-3 text-gray-700">More customizable quiz features</span>
+                                    <span className="ml-3 text-gray-700">Auto Emails</span>
                                 </li>
                             </ul>
                             <div className="mt-6">
