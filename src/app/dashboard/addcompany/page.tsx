@@ -49,7 +49,7 @@ export default function AddCompany() {
             </div>
             <div className="flex flex-col justify-center w-full max-w-5xl  ">
                 <Tabs value={activeTab} className="mt-5">
-                    <TabsList className="flex flex-row gap-x-6 overflow-x-auto">
+                    <TabsList className="hidden sm:flex flex-row gap-x-6 overflow-x-auto">
                         <TabsTrigger value="profile">Company Profile</TabsTrigger>
                         <Icons.chevronRight className="text-gray-300 h-5 w-5" />
                         <TabsTrigger value="contact">Contact Info</TabsTrigger>

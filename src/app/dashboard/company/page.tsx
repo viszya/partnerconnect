@@ -165,7 +165,7 @@ export default function CompanyProfile() {
     }
   }
   return (
-    <div className=" ml-10">
+    <div className="ml-0 sm:ml-10">
       <div>
         <Tabs defaultValue="model" className="my-4 w-full">
           <TabsList className="w-full">
@@ -177,7 +177,7 @@ export default function CompanyProfile() {
             </TabsTrigger>
           </TabsList>
           <TabsContent value="model">
-            <Card>
+            <Card className="p-2">
               <CardHeader>
                 <CardTitle className="mb-4">
                   <div className="flex flex-row ">
@@ -196,7 +196,7 @@ export default function CompanyProfile() {
                   </div>
                   <Separator />
                 </CardTitle>
-                <CardContent className="mt-10 grid w-full grid-cols-5 gap-x-2 ">
+                <CardContent className="mt-10 grid w-full grid-cols-2  sm:grid-cols-5 gap-x-2 ">
                   <Card className="px-4 py-2">
                     <div className="flex flex-col">
                       <span className=" text-lg font-semibold">
@@ -278,7 +278,7 @@ export default function CompanyProfile() {
                         <span className="text-sm font-semibold uppercase text-purple-500/80">
                           Tags
                         </span>
-                        <div className="mt-2 flex flex-row gap-x-2">
+                        <div className="mt-2 flex flex-col  sm:flex-row gap-x-2">
                           {newData.tags.map((tag, index) => (
                             <Badge key={index} className="mr-2">
                               {tag}
@@ -318,6 +318,7 @@ export default function CompanyProfile() {
                           </span>
                         </div>
                         <iframe
+                        className="hidden sm:block"
                           src="https://www.google.com/maps/embed/v1/place?q=San+Francisco,+CA,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                           width="600"
                           height="450"
@@ -375,7 +376,7 @@ export default function CompanyProfile() {
                     <CardHeader>
                       <CardTitle className="text-3xl">Key Personnel</CardTitle>
                     </CardHeader>
-                    <CardContent className="grid grid-cols-3 gap-x-2">
+                    <CardContent className="grid grid-cols-1 sm:grid-cols-3 gap-x-2">
                       {newData.keyPersonnel.map((person, index) => (
                         <Card
                           key={index}
@@ -454,7 +455,7 @@ export default function CompanyProfile() {
                         <span className="text-sm font-semibold uppercase text-purple-500/80">
                           List of Products & Services
                         </span>
-                        <div className="mt-2 flex flex-row gap-x-2">
+                        <div className="mt-2 flex flex-col sm:flex-row gap-x-2">
                           {newData.listOfProductsServices.map(
                             (product, index) => (
                               <Badge key={index} className="mr-2">
@@ -512,7 +513,7 @@ export default function CompanyProfile() {
                     <CardHeader>
                       <CardTitle className="text-3xl">Social Media</CardTitle>
                     </CardHeader>
-                    <CardContent className="grid grid-cols-3 gap-x-2">
+                    <CardContent className="grid grid-cols-1 sm:grid-cols-3 gap-x-2">
                       <div className="flex flex-col items-center justify-center rounded-xl border border-secondary p-2">
                         <div className="flex flex-row text-base">
                           <Icons.facebook className="h-10 w-10 text-purple-500" />
@@ -615,7 +616,7 @@ export default function CompanyProfile() {
               Send Email
             </button>
 
-            <div className="mt-10 bg-background p-10">
+            <div className="mt-10 bg-background p-4 sm:p-10">
               <Container className="mx-auto my-8 max-w-2xl rounded-lg border border-gray-200 bg-white p-6">
                 <Text className="text-3xl font-bold text-purple-600">
                   Company Profile
