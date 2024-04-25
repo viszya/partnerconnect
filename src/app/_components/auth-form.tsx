@@ -56,7 +56,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
 
         return toast({
             title: "Success in auth verification",
-            action: <Link href='/onboarding'>Login</Link>,
+            action: <Link href='/dashboard'>Login</Link>,
         })
     }
 
