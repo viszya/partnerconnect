@@ -1,6 +1,6 @@
-# Sparktup
+# PartnerConnect
 
-Sparktup is a job network hub designed specifically for tech startup companies. It provides a platform for these companies to post their job positions and for job applicants to find these opportunities.
+PartnerConnect is a job network hub designed specifically for tech startup companies. It provides a platform for these companies to post their job positions and for job applicants to find these opportunities.
 
 ## Features
 
