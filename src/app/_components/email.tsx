@@ -4,6 +4,7 @@ import { buttonVariants } from "@/app/_components/ui/button"
 import { cn } from "@/server/utils"
 import { useState } from "react";
 import { useToast } from "@/app/_components/ui/use-toast";
+import { Icons } from "@/app/_components/icons";
 
 interface EmailProps {
 	className?: string;
@@ -61,7 +62,12 @@ export function Email({ className, firstName, lastName, email, message, subject 
 			onClick={sendEmail}
 			disabled={loading}
 		>
-			{loading ? 'Sending...' : 'Send Message'}
+			{loading ? (
+                <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+              ) : (
+                <></>
+              )}{" "}
+              {loading ? "Sending..." : "Send Message"}
 		</button>
 	);
 }

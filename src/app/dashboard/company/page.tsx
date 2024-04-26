@@ -615,7 +615,12 @@ export default function CompanyProfile() {
                 "mt-5 w-full border-2 border-dashed border-purple-500 py-10 text-2xl font-semibold uppercase tracking-widest hover:border-solid",
               )}
             >
-              Send Email
+              {loading ? (
+                <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+              ) : (
+                <></>
+              )}{" "}
+              {loading ? "Sending..." : "Send Report"}
             </button>
 
             <div className="mt-10 bg-background p-4 sm:p-10">
