@@ -13,9 +13,7 @@ export default function Settings() {
       <div className="flex w-full max-w-5xl flex-col justify-center ">
         <SettingsForm />
       </div>
-      <div className="mt-5 rounded-xl border border-primary bg-secondary p-2">
-        <InputData />
-      </div>
+
     </div>
   );
 }
