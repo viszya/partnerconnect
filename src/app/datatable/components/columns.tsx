@@ -146,7 +146,7 @@ export const columns: ColumnDef<Task>[] = [
       <div className="w-[80px] block sm:hidden">
         <Dialog>
           <DialogTrigger>
-            <button className={buttonVariants()}>Open</button>
+            Open
           </DialogTrigger>
           <DialogContent className="overflow-scroll max-h-[90vh] w-full">
             <CompanyProfile/>
