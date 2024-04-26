@@ -17,7 +17,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="hero-image flex flex-col items-center justify-center text-center ">
         <h1 className="lg:text:8xl movein mb-2 mt-20 text-4xl font-semibold text-primary sm:mt-24 md:text-7xl">
-          Elevate Your Company Insights!
+          Elevate Your Company Connections!
         </h1>
         <p className="mb-2 mt-5 max-w-prose text-primary sm:text-lg">
           Unleash the power of data with PartnerInsight - Your Ultimate Business
