@@ -16,17 +16,10 @@ export const metadata = {
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  keywords: [
-    "Next.js",
-    "React",
-    "Tailwind CSS",
-    "Server Components",
-    "Radix UI",
-  ],
   authors: [
     {
-      name: "SparktUp",
-      url: "https://sparktup.vercel.app",
+      name: "PartnerConnect",
+      url: "https://partnerconnect.vercel.app",
     },
   ],
   creator: "viszya",
@@ -40,7 +33,8 @@ export const metadata = {
     apple: "/apple-touch-icon.png",
   },
   manifest: `${siteConfig.url}/site.webmanifest`,
-}
+};
+
 
 // App Root Layout
 export default function RootLayout({ children }: { children: React.ReactNode }) {

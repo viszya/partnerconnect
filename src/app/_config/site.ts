@@ -1,9 +1,9 @@
 import type { SiteConfig } from "@/server/types"
 
 export const siteConfig: SiteConfig = {
-  name: "PartnerInsight",
+  name: "PartnerConnect",
   description:
-    "PartnerInsight is a web app that helps you build a mindmap to gain insights of companies.",
+    "PartnerConnect is a web app that helps you build a mindmap to gain insights of companies.",
   url: "",
   ogImage: "",
 }
