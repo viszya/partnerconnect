@@ -92,7 +92,7 @@ export default function Home() {
                 <div>
                   <div>
                     <div className="flex items-center justify-center w-12 h-12 text-primary bg-purple-100 rounded-xl lg:mx-auto">
-                      <Icons.brain className="h-5 w-5 text-background" />
+                      <Icons.brain className="h-5 w-5 text-black" />
                     </div>
                     <p className="mt-4 text-lg font-medium leading-6 text-primary">
                       Advanced Datatable
@@ -105,7 +105,7 @@ export default function Home() {
                 <div>
                   <div>
                     <div className="flex items-center justify-center w-12 h-12 text-primary bg-blue-100 rounded-xl lg:mx-auto">
-                      <Icons.album className="h-5 w-5" />
+                      <Icons.album className="h-5 w-5 text-black" />
                     </div>
                     <p className="mt-4 text-lg font-medium leading-6 text-primary">
                      Report Generation
@@ -118,7 +118,7 @@ export default function Home() {
                 <div>
                   <div>
                     <div className="flex items-center justify-center w-12 h-12 text-primary bg-teal-100 rounded-xl lg:mx-auto">
-                      <Icons.blocks className="h-5 w-5" />
+                      <Icons.blocks className="h-5 w-5 text-black" />
                     </div>
                     <p className="mt-4 text-lg font-medium leading-6 text-primary">
                      Company Insights
@@ -131,7 +131,7 @@ export default function Home() {
                 <div>
                   <div>
                     <div className="flex items-center justify-center w-12 h-12 text-primary bg-purple-100 rounded-xl lg:mx-auto">
-                      <Icons.zap className="h-5 w-5" />
+                      <Icons.zap className="h-5 w-5 text-black" />
                     </div>
                     <p className="mt-4 text-lg font-medium leading-6 text-primary">
                      Auto Emails
@@ -161,7 +161,7 @@ export default function Home() {
                 <li>
                   <div>
                     <div className="flex items-center justify-center w-12 h-12 text-primary bg-purple-100 rounded-xl">
-                      <Icons.link className="h-5 w-5 text-background" />
+                      <Icons.link className="h-5 w-5 text-black" />
                     </div>
                     <p className="mt-5 text-lg font-medium leading-6 text-primary">
                       Advanced Filters
@@ -174,7 +174,7 @@ export default function Home() {
                 <li>
                   <div>
                     <div className="flex items-center justify-center w-12 h-12 text-primary bg-purple-100 rounded-xl">
-                      <Icons.boxes className="h-5 w-5 text-background" />
+                      <Icons.boxes className="h-5 w-5 text-black" />
                     </div>
                     <p className="mt-5 text-lg font-medium leading-6 text-primary">
                     Primary Info Prioritization
@@ -259,7 +259,7 @@ export default function Home() {
                 "ml-0 rounded-xl border-2 border-white bg-white text-primary duration-200 ease-in-out hover:border-purple-300 hover:bg-purple-300  hover:shadow-xl sm:ml-5 ",
             })}
           >
-            <span className="text-primary flex flex-row">Get Started <Icons.arrowRight className="ml-2 h-5 w-5" /></span>
+            <span className="text-black flex flex-row">Get Started <Icons.arrowRight className="ml-2 h-5 w-5" /></span>
           </Link>
         </div>
       </section>

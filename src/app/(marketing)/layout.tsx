@@ -37,6 +37,7 @@ export default function MarketingLayout({ children }: MarketingLayoutProps) {
               src="https://www.chatbase.co/chatbot-iframe/bdBwJRZHvYIcIwrbEPI0-"
               width="100%"
               style={{ height: "100%", minHeight: "700px" }}
+              className="rounded-xl"
               frameBorder="0"
               title="My Chatbot Iframe"
             ></iframe>

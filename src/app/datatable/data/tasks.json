@@ -1,16 +1,16 @@
 [
   {
-    "id": "3917",
+    "id": "3422",
     "avatar": "image_src_placeholder",
-    "name": "SmartGroup",
-    "industry": "Education",
-    "size": "1001-5000",
+    "name": "Innovate Tech",
+    "industry": "IT",
+    "size": "5000+",
     "partner": "checkmark",
     "tags": [
-      "innovation"
+      "Technology", "Innovation", "Digital Transformation"
     ],
     "status": "todo",
-    "product": "Tool for Healthcare"
+    "product": "Tech Solutions"
   },
   {
     "id": "9471",

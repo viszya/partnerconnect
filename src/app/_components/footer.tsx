@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
   return (
-    <footer className="">
+    <footer className="bg-background">
       <div className="mx-2 sm:mx-32 flex flex-col items-center  justify-between gap-4 py-10 sm:mx-2 md:mx-8 md:h-24 md:flex-row md:py-0 lg:mx-10">
         <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
           <div className="grid grid-cols-2 gap-4 gap-x-2 text-center text-sm leading-loose sm:flex sm:flex-row sm:items-center sm:justify-center md:text-left">

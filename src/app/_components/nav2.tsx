@@ -32,13 +32,14 @@ export function MainNav({ items, children }: MainNavProps) {
           height="38"
           viewBox="0 0 500.000000 480.000000"
           preserveAspectRatio="xMidYMid meet"
+          className="text-primary"
         >
           <metadata>
             Created by potrace 1.10, written by Peter Selinger 2001-2011
           </metadata>
           <g
             transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)"
-            fill="#000000"
+            fill="currentColor"
             stroke="none"
           >
             <path d="M1688 3875 c-90 -88 -352 -344 -583 -570 -231 -225 -515 -503 -631 -617 l-212 -208 797 0 796 1 655 640 c360 352 716 700 790 774 l135 135 -792 2 -792 3 -163 -160z" />

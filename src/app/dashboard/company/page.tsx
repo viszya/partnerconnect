@@ -12,7 +12,6 @@ import {
   Column,
   Img,
   Heading,
-
   Text,
 } from "@react-email/components";
 import * as React from "react";
@@ -167,8 +166,8 @@ export default function CompanyProfile() {
   return (
     <div className="ml-0 sm:ml-10">
       <div>
-        <Tabs defaultValue="model" className="my-4 w-full">
-          <TabsList className="w-full">
+        <Tabs defaultValue="model" className="my-4 w-full flex justify-center items-center flex-col">
+          <TabsList className="w-fill mx-6 flex items-center justify-center sm:w-full">
             <TabsTrigger value="model" className="w-full">
               Model View
             </TabsTrigger>
@@ -196,7 +195,7 @@ export default function CompanyProfile() {
                   </div>
                   <Separator />
                 </CardTitle>
-                <CardContent className="mt-10 grid w-full grid-cols-2  sm:grid-cols-5 gap-x-2 ">
+                <CardContent className="mt-10 grid w-full grid-cols-2 gap-x-2 px-0 py-2 sm:grid-cols-5  sm:px-6 sm:py-6 ">
                   <Card className="px-4 py-2">
                     <div className="flex flex-col">
                       <span className=" text-lg font-semibold">
@@ -250,7 +249,7 @@ export default function CompanyProfile() {
 
                   <Separator />
                 </CardContent>
-                <CardContent>
+                <CardContent className="px-0 py-2 sm:px-6 sm:py-6">
                   <Card>
                     <CardHeader>
                       <CardTitle className="text-3xl">Overview</CardTitle>
@@ -278,7 +277,7 @@ export default function CompanyProfile() {
                         <span className="text-sm font-semibold uppercase text-purple-500/80">
                           Tags
                         </span>
-                        <div className="mt-2 flex flex-col  sm:flex-row gap-x-2">
+                        <div className="mt-2 flex flex-col  gap-x-2 sm:flex-row">
                           {newData.tags.map((tag, index) => (
                             <Badge key={index} className="mr-2">
                               {tag}
@@ -295,7 +294,7 @@ export default function CompanyProfile() {
                     </CardContent>
                   </Card>
                 </CardContent>
-                <CardContent>
+                <CardContent className="px-0 py-2 sm:px-6 sm:py-6">
                   <Card>
                     <CardHeader>
                       <CardTitle className="text-3xl">Contact Info</CardTitle>
@@ -318,7 +317,7 @@ export default function CompanyProfile() {
                           </span>
                         </div>
                         <iframe
-                        className="hidden sm:block"
+                          className="hidden sm:block"
                           src="https://www.google.com/maps/embed/v1/place?q=San+Francisco,+CA,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                           width="600"
                           height="450"
@@ -371,12 +370,12 @@ export default function CompanyProfile() {
                     </CardContent>
                   </Card>
                 </CardContent>
-                <CardContent>
+                <CardContent className="px-0 py-2 sm:px-6 sm:py-6">
                   <Card>
                     <CardHeader>
                       <CardTitle className="text-3xl">Key Personnel</CardTitle>
                     </CardHeader>
-                    <CardContent className="grid grid-cols-1 sm:grid-cols-3 gap-x-2">
+                    <CardContent className="grid grid-cols-1 gap-x-2 sm:grid-cols-3">
                       {newData.keyPersonnel.map((person, index) => (
                         <Card
                           key={index}
@@ -433,7 +432,7 @@ export default function CompanyProfile() {
                     </CardContent>
                   </Card>
                 </CardContent>
-                <CardContent>
+                <CardContent className="px-0 py-2 sm:px-6 sm:py-6">
                   <Card>
                     <CardHeader>
                       <CardTitle className="text-3xl">Product Info</CardTitle>
@@ -455,7 +454,7 @@ export default function CompanyProfile() {
                         <span className="text-sm font-semibold uppercase text-purple-500/80">
                           List of Products & Services
                         </span>
-                        <div className="mt-2 flex flex-col sm:flex-row gap-x-2">
+                        <div className="mt-2 flex flex-col gap-x-2 sm:flex-row">
                           {newData.listOfProductsServices.map(
                             (product, index) => (
                               <Badge key={index} className="mr-2">
@@ -468,7 +467,7 @@ export default function CompanyProfile() {
                     </CardContent>
                   </Card>
                 </CardContent>
-                <CardContent>
+                <CardContent className="px-0 py-2 sm:px-6 sm:py-6">
                   <Card>
                     <CardHeader>
                       <CardTitle className="text-3xl">Financial Info</CardTitle>
@@ -483,7 +482,7 @@ export default function CompanyProfile() {
                     </CardContent>
                   </Card>
                 </CardContent>
-                <CardContent>
+                <CardContent className="px-0 py-2 sm:px-6 sm:py-6">
                   <Card>
                     <CardHeader>
                       <CardTitle className="text-3xl">
@@ -508,12 +507,12 @@ export default function CompanyProfile() {
                   </Card>
                 </CardContent>
 
-                <CardContent>
+                <CardContent className="px-0 py-2 sm:px-6 sm:py-6">
                   <Card>
                     <CardHeader>
                       <CardTitle className="text-3xl">Social Media</CardTitle>
                     </CardHeader>
-                    <CardContent className="grid grid-cols-1 sm:grid-cols-3 gap-x-2">
+                    <CardContent className="grid grid-cols-1 gap-x-2 sm:grid-cols-3">
                       <div className="flex flex-col items-center justify-center rounded-xl border border-secondary p-2">
                         <div className="flex flex-row text-base">
                           <Icons.facebook className="h-10 w-10 text-purple-500" />
@@ -568,7 +567,7 @@ export default function CompanyProfile() {
                     </CardContent>
                   </Card>
                 </CardContent>
-                <CardContent>
+                <CardContent className="px-0 py-2 sm:px-6 sm:py-6">
                   <Card>
                     <CardHeader>
                       <CardTitle className="text-3xl">
@@ -582,7 +581,7 @@ export default function CompanyProfile() {
                     </CardContent>
                   </Card>
                 </CardContent>
-                <CardContent>
+                <CardContent className="px-0 py-2 sm:px-6 sm:py-6">
                   <Card>
                     <CardHeader>
                       <CardTitle className="text-3xl">Award Info</CardTitle>
@@ -617,10 +616,10 @@ export default function CompanyProfile() {
             </button>
 
             <div className="mt-10 bg-background p-4 sm:p-10">
-              <Container className="mx-auto my-8 max-w-2xl rounded-lg border border-gray-200 bg-white p-6">
-                <Text className="text-3xl font-bold text-purple-600">
+              <Container className="mx-auto my-8 max-w-2xl rounded-lg  border-gray-200 bg-background p-2 sm:p-6">
+                <Heading className="text-2xl font-bold uppercase">
                   Company Profile
-                </Text>
+                </Heading>
                 <Text className="text-xl font-semibold">Innovate Tech</Text>
 
                 <Section className="mt-6">
@@ -733,14 +732,15 @@ export default function CompanyProfile() {
                   <Row>
                     {newData.keyPersonnel.map((person, index) => (
                       <Column key={index} className="w-1/3 px-2">
-                        <Container className="rounded-lg border border-gray-200 bg-gray-100 p-4">
+                        <Container className="rounded-lg border border-gray-200 bg-background p-4">
                           <Row>
                             <Column className="w-1/4">
-                              <Img
-                                src={person.avatarImage}
-                                className="h-12 w-12 rounded-full"
-                                alt={`${person.name} avatar`}
-                              />
+                              <Avatar className="px-2">
+                                <AvatarImage src={person.avatarImage} />
+                                <AvatarFallback className="uppercase">
+                                  {person.name.slice(0, 2)}
+                                </AvatarFallback>
+                              </Avatar>
                             </Column>
                             <Column className="w-3/4 pl-4">
                               <Text className="font-semibold">
@@ -805,7 +805,7 @@ export default function CompanyProfile() {
                   {newData.customerTestimonials.map((testimonial, index) => (
                     <Container
                       key={index}
-                      className="mt-4 rounded-lg border border-gray-200 bg-gray-100 p-4"
+                      className="mt-4 rounded-lg border border-gray-200 bg-background p-4"
                     >
                       <Text className="text-sm font-semibold uppercase text-purple-500">
                         {testimonial.clientName}
@@ -831,7 +831,7 @@ export default function CompanyProfile() {
                   {newData.awardsRecognitions.map((award, index) => (
                     <Container
                       key={index}
-                      className="mt-4 rounded-lg border border-gray-200 bg-gray-100 p-4"
+                      className="mt-4 rounded-lg border border-gray-200 bg-background p-4"
                     >
                       <Text className="text-sm font-semibold uppercase text-purple-500">
                         {award.title}

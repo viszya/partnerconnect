@@ -22,7 +22,7 @@ export default function SupportForm() {
   }
 
   return (
-    <section className="bg-2 flex flex-col items-center justify-center bg-white pt-10">
+    <section className="bg-2 flex flex-col items-center justify-center bg-background pt-10">
     <h1 className="movein mb-2 mt-12 text-center text-5xl font-bold text-black ">
       Support Ticket
     </h1>
@@ -30,7 +30,7 @@ export default function SupportForm() {
       Submit a support ticket and we will get back to you as soon as possible.
     </div>
     <div className=" mb-20 sm:mb-40 w-full max-w-3xl ">
-      <div className="mx-4 mt-5 flex flex-col rounded-xl border border-dashed border-secondary bg-white p-10">
+      <div className="mx-4 mt-5 flex flex-col rounded-xl border border-dashed border-secondary bg-background p-10">
         <div className="flex flex-col justify-center text-center md:flex-row md:text-left">
           <div className="flex w-full max-w-3xl flex-col justify-center space-y-12">
               <form

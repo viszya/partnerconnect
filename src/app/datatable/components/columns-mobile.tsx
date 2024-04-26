@@ -1,5 +1,6 @@
 "use client";
 
+import { ColumnDef } from "@tanstack/react-table";
 
 import { Badge } from "@/app/_components/ui/badge";
 import { Checkbox } from "@/app/_components/ui/checkbox";
@@ -10,7 +11,6 @@ import {
 } from "@/app/_components/ui/avatar";
 import { Icons } from "@/app/_components/icons";
 import { ScrollArea, ScrollBar } from "@/app/_components/ui/scroll-area";
-import { columnsMobile } from "./columns-mobile"
 import {
   Dialog,
   DialogContent,
@@ -24,72 +24,8 @@ import { Task } from "../data/schema";
 import { DataTableColumnHeader } from "./data-table-column-header";
 import { DataTableRowActions } from "./data-table-row-actions";
 import { buttonVariants } from "@/app/_components/ui/button";
-import * as React from "react"
-import {
-  ColumnDef,
-  ColumnFiltersState,
-  SortingState,
-  VisibilityState,
-  flexRender,
-  getCoreRowModel,
-  getFacetedRowModel,
-  getFacetedUniqueValues,
-  getFilteredRowModel,
-  getPaginationRowModel,
-  getSortedRowModel,
-  useReactTable,
-} from "@tanstack/react-table"
 
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/app/_components/ui/table"
-import CompanyProfile from "@/app/dashboard/company/page";
-
-import { DataTablePagination } from "./data-table-pagination"
-import { DataTableToolbar } from "./data-table-toolbar"
-
-
-// function MobileRow() {
-//   const [rowSelection, setRowSelection] = React.useState({})
-//   const [columnVisibility, setColumnVisibility] =
-//     React.useState<VisibilityState>({})
-//   const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
-//     []
-//   )
-//   const [sorting, setSorting] = React.useState<SortingState>([])
-
-//   const table = useReactTable({
-//     data,
-//     columns: columnsMobile,
-//     state: {
-//       sorting,
-//       columnVisibility,
-//       rowSelection,
-//       columnFilters,
-//     },
-//     enableRowSelection: true,
-//     onRowSelectionChange: setRowSelection,
-//     onSortingChange: setSorting,
-//     onColumnFiltersChange: setColumnFilters,
-//     onColumnVisibilityChange: setColumnVisibility,
-//     getCoreRowModel: getCoreRowModel(),
-//     getFilteredRowModel: getFilteredRowModel(),
-//     getPaginationRowModel: getPaginationRowModel(),
-//     getSortedRowModel: getSortedRowModel(),
-//     getFacetedRowModel: getFacetedRowModel(),
-//     getFacetedUniqueValues: getFacetedUniqueValues(),
-//   })
-//   return (
-//     <div></div>
-//   );
-// }
-
-export const columns: ColumnDef<Task>[] = [
+export const columnsMobile: ColumnDef<Task>[] = [
   // SELECT
   {
     id: "select",
@@ -101,7 +37,7 @@ export const columns: ColumnDef<Task>[] = [
         }
         onCheckedChange={(value) => table.toggleAllPageRowsSelected(!!value)}
         aria-label="Select all"
-        className="translate-y-[2px] hidden sm:block"
+        className="translate-y-[2px]"
       />
     ),
     cell: ({ row }) => (
@@ -109,7 +45,7 @@ export const columns: ColumnDef<Task>[] = [
         checked={row.getIsSelected()}
         onCheckedChange={(value) => row.toggleSelected(!!value)}
         aria-label="Select row"
-        className="translate-y-[2px] hidden sm:block"
+        className="translate-y-[2px]"
       />
     ),
     enableSorting: false,
@@ -120,7 +56,7 @@ export const columns: ColumnDef<Task>[] = [
   {
     accessorKey: "id",
     header: ({ column }) => (
-      <DataTableColumnHeader column={column} title="ID" className=""/>
+      <DataTableColumnHeader column={column} title="ID" />
     ),
     cell: ({ row }) => {
       const label = labels.find((label) => label.value === row.original.label);
@@ -136,35 +72,14 @@ export const columns: ColumnDef<Task>[] = [
     },
   },
 
-  // VIEW
-  {
-    accessorKey: "id",
-    header: ({ column }) => (
-      <DataTableColumnHeader column={column} title="View" className="block sm:hidden"/>
-    ),
-    cell: ({ row }) => (
-      <div className="w-[80px] block sm:hidden">
-        <Dialog>
-          <DialogTrigger>
-            <button className={buttonVariants()}>Open</button>
-          </DialogTrigger>
-          <DialogContent className="overflow-scroll max-h-[90vh] w-full">
-            <CompanyProfile/>
-          </DialogContent>
-        </Dialog>
-      </div>
-    ),
-    enableSorting: false,
-  },
-
   // AVATAR
   {
     accessorKey: "avatar",
     header: ({ column }) => (
-      <DataTableColumnHeader column={column} title="Avatar" className="hidden sm:block -ml-0 sm:-ml-10" />
+      <DataTableColumnHeader column={column} title="Avatar" />
     ),
     cell: ({ row }) => (
-      <div className="w-[80px] hidden sm:block -ml-0 sm:-ml-10">
+      <div className="w-[80px]">
         <Avatar>
           <AvatarImage src={row.getValue("id")} />
           <AvatarFallback className="uppercase">
@@ -180,13 +95,13 @@ export const columns: ColumnDef<Task>[] = [
   {
     accessorKey: "name",
     header: ({ column }) => (
-      <DataTableColumnHeader column={column} title="Name" className="-ml-10 sm:-ml-0"/>
+      <DataTableColumnHeader column={column} title="Name" />
     ),
     cell: ({ row }) => {
       const label = labels.find((label) => label.value === row.original.label);
 
       return (
-        <div className="-ml-10 sm:-ml-0 flex space-x-2">
+        <div className="flex space-x-2">
           {label && <Badge variant="outline">{label.label}</Badge>}
           <span className="max-w-[500px] truncate font-medium">
             {row.getValue("name")}

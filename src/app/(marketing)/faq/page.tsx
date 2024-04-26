@@ -26,7 +26,7 @@ export default function Page() {
           <Accordion
             type="single"
             collapsible
-            className="mb-20 mt-2 w-full rounded-xl  border border-dashed border-secondary bg-white p-4 px-6 text-left"
+            className="mb-20 mt-2 w-full rounded-xl  border border-dashed border-secondary bg-background p-4 px-6 text-left"
           >
             {/* Question 1 */}
             <AccordionItem value="item-1">

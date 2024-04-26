@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
-import { DotsHorizontalIcon } from "@radix-ui/react-icons"
-import { Row } from "@tanstack/react-table"
+import { DotsHorizontalIcon } from "@radix-ui/react-icons";
+import { Row } from "@tanstack/react-table";
 
-import { Button } from "@/app/_components/ui/button"
+import { Button } from "@/app/_components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -16,19 +16,20 @@ import {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from "@/app/_components/ui/dropdown-menu"
+} from "@/app/_components/ui/dropdown-menu";
 
-import { labels } from "../data/data"
-import { taskSchema } from "../data/schema"
+import { labels } from "../data/data";
+import { taskSchema } from "../data/schema";
+import Link from "next/link";
 
 interface DataTableRowActionsProps<TData> {
-  row: Row<TData>
+  row: Row<TData>;
 }
 
 export function DataTableRowActions<TData>({
   row,
 }: DataTableRowActionsProps<TData>) {
-  const task = taskSchema.parse(row.original)
+  const task = taskSchema.parse(row.original);
 
   return (
     <DropdownMenu>
@@ -42,8 +43,10 @@ export function DataTableRowActions<TData>({
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-[160px]">
-        <DropdownMenuItem>View Company Profile</DropdownMenuItem>
+        <DropdownMenuItem>
+          <Link href="/dashboard/company">View Company Profile</Link>
+        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
-  )
+  );
 }

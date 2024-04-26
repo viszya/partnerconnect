@@ -14,7 +14,7 @@ export default function Dashboard() {
   // }
   return (
     <div className="flex flex-col px-8">
-      <div>
+      <div className="mb-6">
         <h2 className="text-3xl font-bold tracking-tight">Company Database</h2>
         <p className="text-muted-foreground">
           View and filter the company database
