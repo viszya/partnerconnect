@@ -252,7 +252,7 @@ export default function Home() {
         </h1>
         <div className="mt-4 flex flex-col text-primary sm:flex-row">
           <Link
-            href="/signup"
+            href="/dashboard"
             className={buttonVariants({
               size: "lg",
               className:

@@ -7,7 +7,7 @@ import {
   DropdownMenuTrigger,
 } from "@/app/_components/ui/dropdown-menu";
 import Image from "next/image";
-import { Toaster } from "@/app/_components/ui/sonner";
+import { Toaster } from "@/app/_components/ui/toaster";
 
 interface MarketingLayoutProps {
   children: React.ReactNode;
