@@ -57,7 +57,7 @@ export default function Home() {
               <div className="-m-2 rounded-xl bg-primary/10 p-2 ring-1 ring-inset ring-secondary/10 lg:-m-4 lg:rounded-2xl lg:p-4">
                 <Image
                   priority={true}
-                  src="/connect.png"
+                  src="/preview.png"
                   alt="product preview"
                   width={1364}
                   height={866}
